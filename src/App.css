@@ -1,3 +1,59 @@
+/* 
+nav.navbar, .navbar-default{
+  background-color:#d01f3c!important;
+}
+span.navbartext {
+  color: white;
+  font-size: 1.1rem;
+} */
+
+
+/**    HEADER **/
+.navbar{
+  background-color:#d01f3c;
+}
+.navbar .navbar-collapse >div.mr-auto >div >a {
+    color: white;
+ }
+.navbar .navbar-collapse > div.mr-auto > div > a:hover {
+     background-color: #e6bac2;
+     color: #d01f3c;
+     padding: 10px 15px;
+     border-radius: 4px;
+ }
+
+.navbar .navbar-collapse > div.mr-auto > div > .active {
+   background-color: #e6bac2;
+   color: #d01f3c;
+   font-weight:bold;
+   padding: 10px 15px;
+   border-radius: 4px;
+}
+
+
+/**    HOME **/
+.row{
+  background-color:white; 
+  margin: 1%;
+}
+.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{
+  background-color: #ececec!important;
+}
+.content-md{
+  padding: .10%;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
 .App {
   text-align: center;
 }
