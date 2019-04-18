@@ -10,10 +10,10 @@ span.navbartext {
 
 /**    HEADER **/
 .navbar{
-  background-color:#d01f3c;
+  background-color:#e6bac2;
 }
 .navbar .navbar-collapse >div.mr-auto >div >a {
-    color: white;
+    color: #d01f3c;
  }
 .navbar .navbar-collapse > div.mr-auto > div > a:hover {
      background-color: #e6bac2;

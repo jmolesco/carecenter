@@ -83,7 +83,7 @@ class Home extends Component {
                                 <Card.Title>Food Allergy</Card.Title>
                                 <hr />
                                 <Card.Text>
-                                Food allergy, gluten sensitivity, nut allergy, aspirin allergy, smoke allergy,wheat allergy, spring allergy, mold allergy, dust mite allergy, animal dander allergy.
+                                Food allergy, gluten sensitivity, nut allergy, aspirin allergy, smoke allergy, wheat allergy, spring allergy, mold allergy, dust mite allergy, animal dander allergy.
                                 </Card.Text>
                                 </Card.Body>
                                 
