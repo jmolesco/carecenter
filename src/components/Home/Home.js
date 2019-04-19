@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Form, Button, Image, FormControl, Carousel, FormGroup } from 'react-bootstrap';
+import { Container, Row, Col, Form, Button, Image,  Carousel, Alert,Card,CardDeck,CardColumns } from 'react-bootstrap';
 import whatweoffer from '../../images/whatweoffer.png';
+import chest from '../../images/chest2.png';
+import eyes from '../../images/eye2.png';
+import food from '../../images/food.png';
+import generalsymptom from '../../images/generalsymptom.png';
+import gastro from '../../images/gastro.png'; 
 class Home extends Component {
 
     render() {
@@ -46,33 +51,89 @@ class Home extends Component {
                         </Carousel>
                     </Col>
                 </Row>
-
-                <Row className="justify-content-md-left">
-                    <Col md={12}>
-                        <h2 className="content-md">
-                            <Image src={whatweoffer} />  What We Offer!
-                </h2>
+                <Row className="justify-content-md-center">
+                    <Col md={11}>
+                        <Alert  variant={"danger"}>
+                            &raquo; Welcome to our new homepage!<br />
+                            &raquo; We provide management for the following symptoms for all ages  
+                        </Alert>
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
-                    <Col md={5}>
-                        <h3>
-                            Asthma/ Chest and lung problems
-                        </h3>
+                    <Col md={10}>
+                        <CardDeck>
+                            <Card>
+                                <center>
+                                    <Card.Img variant="top" className="card-img" src={eyes} />
+                                </center>
+                                <Card.Body>
+                                <Card.Title >Eyes Allergy</Card.Title>
+                                <hr />
+                                <Card.Text>
+                                Eyes sensitive to light, itchy eyes, red eyes, burning of eyes, blurring of eyes, crusting of eyes, pink eyes, under eye puffiness, dark circles under the eyes, swelling of the eyes, pain eye 
+                                </Card.Text>
+                                </Card.Body>
+                                
+                            </Card>
+                            <Card>
+                                <center>
+                                    <Card.Img variant="top" className="card-img" src={food} />
+                                </center>
+                                <Card.Body>
+                                <Card.Title>Food Allergy</Card.Title>
+                                <hr />
+                                <Card.Text>
+                                Food allergy, gluten sensitivity, nut allergy, aspirin allergy, smoke allergy,wheat allergy, spring allergy, mold allergy, dust mite allergy, animal dander allergy.
+                                </Card.Text>
+                                </Card.Body>
+                                
+                            </Card>
+                            <Card>
+                                <center>
+                                    <Card.Img variant="top" className="card-img" src={generalsymptom} />
+                                </center>
+                                <Card.Body>
+                                <Card.Title >General Symptoms</Card.Title>
+                                <hr/>
+                                <Card.Text>
+                                Malaise, flu like symptoms, fatigue, “mood in the cloud” feeling, sleepiness, not sleeping well, anaphylaxis, itching/swelling or tingling or itching of the mouth, swelling of the lips, face, tongue or other parts of the body
+                                </Card.Text>
+                                </Card.Body>
+                                
+                            </Card>
+                        </CardDeck>
                     </Col>
-                    <Col md={2}></Col>
-                    <Col md={5}>
-                        <h3>
-                            Eye Allergy
-                        </h3>
-                    </Col>
-                    {/* <Col md={3}>
-                        <h3>
-                            Food Allergy
-                        </h3>
-                    </Col> */}
                 </Row>
-
+                <Row className="justify-content-md-center">
+                <Col md={10}>
+                        <CardDeck>
+                            <Card>
+                                <center>
+                                    <Card.Img variant="top" className="card-img" src={chest} />
+                                </center>
+                                <Card.Body>
+                                <Card.Title>Chest and Lung Problem</Card.Title>
+                                <hr />
+                                <Card.Text>
+                                    Chronic bronchitis, wheezing, shortness of breath, difficulty breathing, hyperactive airways, nighttime cough, chest tightness, exercise intolerance, chest pain or pressure,failure to take full breath, rapid breathing, bronchitis, productive cough,cold air intolerance, exercise induced asthma, work related asthma, nighttime asthma, cough variant asthma,allergy induced asthma, animal dander induced asthma, coughing when laughing or talking, frequent wet cough, blood tinged cough, chest discomfort, discolored mucus from nose or cough</Card.Text>
+                                </Card.Body>
+                                
+                            </Card>
+                            <Card>
+                                <center>
+                                    <Card.Img variant="top" className="card-img" src={gastro} />
+                                </center>
+                                <Card.Body>
+                                <Card.Title >Gastro/Intestinal</Card.Title>
+                                <hr/>
+                                <Card.Text>
+                                Abdominal pain, diarrhea, nausea or vomiting,dizziness or lightheadedness, constriction of airway, rapid pulse, low bloodpressure, food intolerance, stomach cramp, rectal bleeding(in children) colic,constipation, bloating, abdominal cramps, gassiness,difficulty swallowing       </Card.Text>
+                                </Card.Body>
+                                
+                            </Card>
+                        </CardDeck>
+                    </Col>
+                </Row>
             </Container>);
     }
 }

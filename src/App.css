@@ -36,22 +36,41 @@ span.navbartext {
   background-color:white; 
   margin: 1%;
 }
-.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{
+/* .col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{
   background-color: #ececec!important;
-}
+} */
 .content-md{
   padding: .10%;
   text-align: center;
 }
+.home-header{
+  text-align: center;
+  padding: 2%;
+}
+
+.home-content{
+  text-align: justify;
+}
+.card-img{
+  height: 100px;
+  width: 100px;
+  display: block;
+  padding:2%;
+}
+p.card-text{
+  text-align: justify;
+}
+div.card-title{
+  text-align: center;
+}
+.card-body {
+  padding: .65rem;
+}
 
 
 
 
-
-
-
-
-
+/***** Contact Us******/
 
 
 .App {
