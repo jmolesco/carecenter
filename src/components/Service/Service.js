@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Form, Button, Image,  Carousel, Alert,Card,CardDeck,CardColumns } from 'react-bootstrap';
+import { Container, Row, Col,  Alert,Card,CardDeck } from 'react-bootstrap';
 import medical from  '../../images/medical.png';
 import detailedcons from  '../../images/detailedcons.png';
 import skin from  '../../images/skin.png';

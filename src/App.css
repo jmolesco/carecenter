@@ -10,10 +10,10 @@ span.navbartext {
 
 /**    HEADER **/
 .navbar{
-  background-color:#e6bac2;
+  background-color:#d01f3c;
 }
 .navbar .navbar-collapse >div.mr-auto >div >a {
-    color: #d01f3c;
+    color: white;
  }
 .navbar .navbar-collapse > div.mr-auto > div > a:hover {
      background-color: #e6bac2;
@@ -59,6 +59,7 @@ span.navbartext {
 }
 p.card-text{
   text-align: justify;
+  word-spacing:-1px;
 }
 div.card-title{
   text-align: center;
@@ -66,12 +67,19 @@ div.card-title{
 .card-body {
   padding: .65rem;
 }
+span.filler{
+  color:white;
+}
+.remove-border{
+  border-radius: 0rem;
+}
 
 
-
-
-/***** Contact Us******/
-
+/***** Insurance ******/
+.image-patient{
+width:220px;
+height:180px;
+}
 
 .App {
   text-align: center;

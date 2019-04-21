@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, ListGroup, ListGroupItem, Image,  Carousel, Alert,Card,CardDeck,CardColumns,Form,Button } from 'react-bootstrap';
+import { Container, Row, Col, ListGroup, Card,Form,Button } from 'react-bootstrap';
 class Contact extends Component {
 
     render() 
@@ -79,7 +79,7 @@ class Contact extends Component {
 
                                 </Card.Body>
                                 <Card.Footer className="text-left">
-                                    <Button variant="outline-danger">Send Message</Button>
+                                    <Button variant="outline-danger" style={{width:'100%'}}>Send Message</Button>
                                 </Card.Footer>
                             </Card>
                         </Col>
@@ -103,8 +103,8 @@ class Contact extends Component {
                         <Card>
                             <Card.Header>Office Hours - Algonquin</Card.Header>
                             <ListGroup variant="flush">
-                                <ListGroup.Item>Thursday - 03:00PM - 07:00PM</ListGroup.Item>
-                                <ListGroup.Item>Every Other Saturday - 08:00AM - 12:00PM</ListGroup.Item>
+                                <ListGroup.Item>Thursday - 02:00PM - 07:00PM</ListGroup.Item>
+                                <ListGroup.Item>Every Other Saturday - 09:00AM - 12:00PM</ListGroup.Item>
                             </ListGroup>
                             <Card.Footer className="text-left">
                             </Card.Footer>
