@@ -24,6 +24,7 @@ class Home extends Component {
                                     className="d-block w-100"
                                     src={A5}
                                     alt="First slide"
+                                    fluid
                                 />
                                 <Carousel.Caption>
                                     <h3>Care Center for Allergy and Asthma</h3>
@@ -36,6 +37,7 @@ class Home extends Component {
                                     className="d-block w-100"
                                     src={A2}
                                     alt="Third slide"
+                                    fluid
                                 />
 
                                 <Carousel.Caption>
@@ -47,6 +49,7 @@ class Home extends Component {
                                 <img
                                     className="d-block w-100"
                                     src={A3}
+                                    fluid
                                      />
 
                                 <Carousel.Caption>
@@ -58,6 +61,7 @@ class Home extends Component {
                                 <img
                                     className="d-block w-100"
                                     src={A4}
+                                    fluid
                                      />
 
                                 <Carousel.Caption>
@@ -69,7 +73,7 @@ class Home extends Component {
                                 <img
                                     className="d-block w-100"
                                     src={A1}
-                                     />
+                   />
 
                                 <Carousel.Caption>
                                     <h3>Fifth slide label</h3>
