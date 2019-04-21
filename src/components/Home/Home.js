@@ -93,8 +93,7 @@ class Home extends Component {
                             </h4>
                             <hr></hr>
                             <p>
-                            We provide high quality, compassionate, and competent care to all patients, aimed at awareness, prevention and management of allergic, asthmatic and immunologic diseases for all ages.Check them out below! 
-                    
+                            We provide high quality, compassionate, and competent care to all patients, aimed at awareness, prevention and management of allergic, asthmatic and immunologic diseases for all ages. Check them out below!
                             </p>
                        </Alert>
                     </Col>
