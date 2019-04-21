@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, ListGroup, Card,Form,Button } from 'react-bootstrap';
+import { Container, Row, Col, ListGroup, Card,Form,Button,Image } from 'react-bootstrap';
+import telephone from '../../images/telephone.png'; 
 class Contact extends Component {
 
     render() 
@@ -10,7 +11,10 @@ class Contact extends Component {
                     <Col md={4}>
                         <Col md={12}>
                             <Card style={{ width: '18rem' }}>
-                                <Card.Header>Contact Number - Buffalo Grove</Card.Header>
+                                <Card.Header>
+                                <i className="fa fa-phone-square">
+                                    &nbsp;Contact Number - Buffalo Grove</i>
+                                    </Card.Header>
                                 <ListGroup variant="flush">
                                     <ListGroup.Item>Phone: 847-821-1071</ListGroup.Item>
                                     <ListGroup.Item>Fax: 847-821-1077</ListGroup.Item>
@@ -22,7 +26,10 @@ class Contact extends Component {
                         <br></br>
                         <Col md={12}>
                             <Card style={{ width: '18rem' }}>
-                                <Card.Header>Contact Number - Algonquin</Card.Header>
+                                <Card.Header>
+                                <i className="fa fa-phone-square">
+                                    &nbsp;Contact Number - Algonquin</i>
+                                    </Card.Header>
                                 <ListGroup variant="flush">
                                     <ListGroup.Item>Phone: 847-821-7073</ListGroup.Item>
                                     <ListGroup.Item>Fax: 847-821-1077 <br /></ListGroup.Item>
@@ -34,7 +41,10 @@ class Contact extends Component {
                         <br></br>
                         <Col md={12}>
                             <Card style={{ width: '18rem' }}>
-                                <Card.Header>Contact Number - Billing Office</Card.Header>
+                                <Card.Header>
+                                <i className="fa fa-phone-square">
+                                    &nbsp;Contact Number - Billing Office</i>
+                                    </Card.Header>
                                 <ListGroup variant="flush">
                                     <ListGroup.Item>Phone:  815-312-8074</ListGroup.Item>
                                     <ListGroup.Item>Fax: 847-613-1044</ListGroup.Item>
@@ -48,7 +58,10 @@ class Contact extends Component {
                     <Row className="justify-content-md-right">
                         <Col md={12}>
                             <Card>
-                                <Card.Header>Send Us An Inquiry</Card.Header>
+                                <Card.Header>
+                                <i className="fa fa-check-circle">
+                                         &nbsp;Send Us An Inquiry </i> 
+                                    </Card.Header>
                                 <Card.Body>
                                 <Form>
                                         <Form.Group as={Row} controlId="formHorizontalEmail">
@@ -87,7 +100,7 @@ class Contact extends Component {
                      <Row className="justify-content-md-right">
                        <Col md={6}>
                         <Card>
-                            <Card.Header>Office Hours - Buffalo Grove</Card.Header>
+                            <Card.Header><i className="fa  fa-home">&nbsp;Office Hours - Buffalo Grove</i></Card.Header>
                             <ListGroup variant="flush">
                                 <ListGroup.Item>Monday - 11:00AM - 07:00PM</ListGroup.Item>
                                 <ListGroup.Item>Wednesday -  11:00AM - 08:00PM</ListGroup.Item>
@@ -101,7 +114,7 @@ class Contact extends Component {
                         <br />
                         <Col md={6}>
                         <Card>
-                            <Card.Header>Office Hours - Algonquin</Card.Header>
+                            <Card.Header><i className="fa  fa-home">&nbsp;Office Hours - Algonquin</i></Card.Header>
                             <ListGroup variant="flush">
                                 <ListGroup.Item>Thursday - 02:00PM - 07:00PM</ListGroup.Item>
                                 <ListGroup.Item>Every Other Saturday - 09:00AM - 12:00PM</ListGroup.Item>
