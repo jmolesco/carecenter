@@ -25,11 +25,11 @@ class Header extends Component {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
-              <div className="nav-link" ><Link  to="/home" activeClassName="active"><i className="fa  fa-home">&nbsp;Home</i></Link></div>   
-              <div className="nav-link" ><Link  to="/about" activeClassName="active"><i className="fa fa-file"> &nbsp;About Us</i></Link></div> 
-              <div className="nav-link"><Link  to="/service" activeClassName="active"><i className="fa fa-file"> &nbsp;Service</i></Link></div> 
-              <div className="nav-link"><Link   to="/contact" activeClassName="active"><i className="fa fa-phone-square"> &nbsp;Contact Us</i></Link></div>  
-              <div className="nav-link"><Link   to="/insurance" activeClassName="active"><i className="fa fa-phone-square"> &nbsp;Insurance & Forms</i></Link></div>
+              <div className="nav-link" ><Link  to="/home" activeclassname="active"><i className="fa  fa-home">&nbsp;Home</i></Link></div>   
+              <div className="nav-link" ><Link  to="/about" activeclassname="active"><i className="fa fa-file"> &nbsp;About Us</i></Link></div> 
+              <div className="nav-link"><Link  to="/service" activeclassname="active"><i className="fa fa-file"> &nbsp;Service</i></Link></div> 
+              <div className="nav-link"><Link   to="/contact" activeclassname="active"><i className="fa fa-phone-square"> &nbsp;Contact Us</i></Link></div>  
+              <div className="nav-link"><Link   to="/insurance" activeclassname="active"><i className="fa fa-phone-square"> &nbsp;Insurance & Forms</i></Link></div>
 
            </Nav>
           </Navbar.Collapse>

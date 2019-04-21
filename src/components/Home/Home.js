@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col,  Carousel, Alert,Card,CardDeck } from 'react-bootstrap';
-// import whatweoffer from '../../images/whatweoffer.png';
+// import Marquee from 'react-text-marquee';
 import chest from '../../images/chest2.png';
 import eyes from '../../images/eye2.png';
 import food from '../../images/food.png';
@@ -24,12 +24,13 @@ class Home extends Component {
                                     className="d-block w-100"
                                     src={A5}
                                     alt="First slide"
-                                    fluid
+                                    
                                 />
                                 <Carousel.Caption>
                                     <h3>Care Center for Allergy and Asthma</h3>
                                     <h4>Dr. Cynthia Yango-Eugenio</h4>
-                                     <p>We provide high quality, compassionate, and competent care to all patients, aimed at awareness, prevention and management of allergic, asthmatic and immunologic diseases.</p> 
+                                     {/* <p>We provide high quality, compassionate, and competent care to all patients, aimed at awareness, prevention and management of allergic, asthmatic and immunologic diseases.</p> 
+                              */}
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
@@ -37,7 +38,7 @@ class Home extends Component {
                                     className="d-block w-100"
                                     src={A2}
                                     alt="Third slide"
-                                    fluid
+                                    
                                 />
 
                                 <Carousel.Caption>
@@ -49,7 +50,7 @@ class Home extends Component {
                                 <img
                                     className="d-block w-100"
                                     src={A3}
-                                    fluid
+                                    
                                      />
 
                                 <Carousel.Caption>
@@ -61,7 +62,7 @@ class Home extends Component {
                                 <img
                                     className="d-block w-100"
                                     src={A4}
-                                    fluid
+                                    
                                      />
 
                                 <Carousel.Caption>
@@ -72,8 +73,8 @@ class Home extends Component {
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src={A5}
-                                    fluid
+                                    src={A1}
+                                    
                                      />
 
                                 <Carousel.Caption>
@@ -87,15 +88,26 @@ class Home extends Component {
                 <Row className="justify-content-md-center">
                     <Col md={12}>
                         <Alert  variant={"danger"} className={"text-center remove-border"} >
-                            <h4>&raquo; Welcome to our new homepage!</h4>
+                        <hr></hr>
+                            <h4>   <marquee> Welcome to our new homepage! </marquee>
+                            </h4>
+                            <hr></hr>
+                            <p>
+                            We provide high quality, compassionate, and competent care to all patients, aimed at awareness, prevention and management of allergic, asthmatic and immunologic diseases for all ages.Check them out below! 
+                    
+                            </p>
                        </Alert>
                     </Col>
-                    <Col md={11}>
+                    {/* <Col md={11}>
+                    
                     <Alert  variant={"danger"}>
-                            &raquo; We provide management for the following symptoms for all ages  
+                    <hr></hr>
+                            &raquo;We provide high quality, compassionate, and competent care to all patients, aimed at awareness, prevention and management of allergic, asthmatic and immunologic diseases for all ages.Check them out below! 
+                    
+                            <hr></hr>
+                    
                         </Alert>
-
-                    </Col>
+                    </Col> */}
                 </Row>
                 <Row className="justify-content-md-center">
                     <Col md={10}>
