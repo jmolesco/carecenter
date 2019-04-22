@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import { Navbar, Nav, Container,Image } from 'react-bootstrap';
 import {Link} from 'react-router-dom';
-import logos from '../../images/logos.png';
+// import logos from '../../images/logos.png';
+// import fb from '../../images/fb.png';
+// import ig from '../../images/ig.png';
+// import twitter from '../../images/twitter.png';
 class Header extends Component {
   constructor(props) {
     super(props);
@@ -26,13 +29,30 @@ class Header extends Component {
               <div className="nav-link" ><Link  to="/about" activeClassName="active"><i className="fa fa-file"> &nbsp;About Us</i></Link></div> 
               <div className="nav-link"><Link  to="/service" activeClassName="active"><i className="fa fa-file"> &nbsp;Service</i></Link></div> 
               <div className="nav-link"><Link   to="/contact" activeClassName="active"><i className="fa fa-phone-square"> &nbsp;Contact Us</i></Link></div>  
-              <div className="nav-link"><Link   to="/contact" activeClassName="active"><i className="fa fa-phone-square"> &nbsp;Insurance & Forms</i></Link></div>
+              <div className="nav-link"><Link   to="/insurance" activeClassName="active"><i className="fa fa-phone-square"> &nbsp;Insurance & Forms</i></Link></div>
+
            </Nav>
           </Navbar.Collapse>
           <Navbar.Collapse className="justify-content-end">
             {/* <Navbar.Text>
                 <span clas="navbartext" style={{color:"white"}}>&raquo; Care Center for Allergy & Asthma</span>
-            </Navbar.Text> */}
+            </Navbar.Text> 
+             <Nav className="mr-auto">
+              <div className="nav-link">
+                  <a href="">
+                   <Image src={fb} />
+                   </a>
+              </div>  
+              <div className="nav-link">
+                <a href=""><Image src={ig} />
+                </a>
+              </div>
+              <div className="nav-link">
+                <a href=""><Image src={twitter} />
+                </a>
+              </div>
+              
+           </Nav> */}
           </Navbar.Collapse>
           {this.props.children}
         </Container>

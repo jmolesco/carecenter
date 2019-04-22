@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Form, Button, Image,  Carousel, Alert,Card,CardDeck,CardColumns } from 'react-bootstrap';
+import { Container, Row, Col, Card} from 'react-bootstrap';
 import doc from '../../images/doc.jpg'; 
 class AboutUs extends Component {
 
@@ -36,7 +36,7 @@ class AboutUs extends Component {
                             <Card.Header>About her</Card.Header>
                                 <Card.Body>
                                     <Card.Text>
-                                    Dr. Cynthia Yango-Eugenio is certified by the American Board of Allergy, Asthma and Immunology.   She is a solo Allergy, Asthma and Immunology practitioner for the past 21 years in Buffalo Grove, Illinois.  Dr. Yango-Eugenio recently opened up another Allergy & Asthma specialty office in Algonquin, Illinois.  
+                                    Dr. Cynthia Yango-Eugenio is certified by the American Board of Allergy, Asthma and Immunology.   She is a solo Allergy, Asthma and Immunology practitioner for the past 30 years in Buffalo Grove, Illinois.  Dr. Yango-Eugenio recently opened up another Allergy & Asthma specialty office in Algonquin, Illinois.  
                                     <br /> <br />
                                     Cynthia Yango-Eugenio grew up in Manila and attended High School at FEU Girls High School where she was a consistent scholar.  She completed Bachelor of Science major in Zoology at the University of the Philippines College of Arts and Sciences.  Several times she made it to the Dean’s list and completed the four year course in three years and one semester. 
                                     <br /> <br />
@@ -44,7 +44,7 @@ class AboutUs extends Component {
                                     <br /> <br />
                                     She was named one of the outstanding women of Style and Achievement (Prism Award) by the Philippine Times in 1997.  She has been an active member of the Chicago-Northwestern Indiana chapter of the University of the Philippines Medical Alumni Society and Academic (UPMASA) for the past 17 years.  She has served as the chapter’s PRO and most recently the chapter’s President.  
                                     <br /> <br />
-                                    Cynthia Yango-Eugenio resides in South Barrington, Illinois with her husband Rene Eugenio.  The couple has two sons, Ryneal and Roelle graduates of Northwestern University, Ryneal attending Kansas City University of Medicine and Biosciences.    </Card.Text>
+                                    Cynthia Yango-Eugenio resides in South Barrington, Illinois with her husband Rene Eugenio.  The couple has two sons, Ryneal and Roelle graduates of Northwestern University, Ryneal is training to be a surgeon and Roelle is anesthesiologist.    </Card.Text>
                                     <br />
                                 </Card.Body>
                         </Card>

@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Form, Button, Image,  Carousel, Alert,Card,CardDeck,CardColumns } from 'react-bootstrap';
-import whatweoffer from '../../images/whatweoffer.png';
+import { Container, Row, Col,  Carousel, Alert,Card,CardDeck } from 'react-bootstrap';
+// import whatweoffer from '../../images/whatweoffer.png';
 import chest from '../../images/chest2.png';
 import eyes from '../../images/eye2.png';
 import food from '../../images/food.png';
 import generalsymptom from '../../images/generalsymptom.png';
 import gastro from '../../images/gastro.png'; 
+import A1 from '../../images/1.jpg'; 
+import A2 from '../../images/2.jpg'; 
+import A3 from '../../images/3.jpg'; 
+import A4 from '../../images/4.jpg'; 
+import A5 from '../../images/5.jpg'; 
 class Home extends Component {
 
     render() {
@@ -17,46 +22,74 @@ class Home extends Component {
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_16a297a68a3%20text%20%7B%20fill%3A%23ffffff%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_16a297a68a3%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23373940%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22285.921875%22%20y%3D%22217.7%22%3EFirst%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                                    src={A5}
                                     alt="First slide"
                                 />
                                 <Carousel.Caption>
-                                    <h3>First slide label</h3>
-                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                    <h3>Care Center for Allergy and Asthma</h3>
+                                    <h4>Dr. Cynthia Yango-Eugenio</h4>
+                                     <p>We provide high quality, compassionate, and competent care to all patients, aimed at awareness, prevention and management of allergic, asthmatic and immunologic diseases.</p> 
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_16a297a68a6%20text%20%7B%20fill%3A%23ffffff%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_16a297a68a6%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23282c34%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22247.3203125%22%20y%3D%22217.7%22%3ESecond%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                                    src={A2}
                                     alt="Third slide"
                                 />
 
                                 <Carousel.Caption>
                                     <h3>Second slide label</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_16a297a68a9%20text%20%7B%20fill%3A%23ffffff%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_16a297a68a9%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%2320232a%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22277%22%20y%3D%22217.7%22%3EThird%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Third slide"
-                                />
+                                    src={A3}
+                                     />
 
                                 <Carousel.Caption>
                                     <h3>Third slide label</h3>
-                                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                    {/* //<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                    className="d-block w-100"
+                                    src={A4}
+                                     />
+
+                                <Carousel.Caption>
+                                    <h3>Fourth slide label</h3>
+                                    {/* //<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
+                                </Carousel.Caption>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                    className="d-block w-100"
+                                    src={A5}
+                                     />
+
+                                <Carousel.Caption>
+                                    <h3>Fifth slide label</h3>
+                                    {/* //<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
                                 </Carousel.Caption>
                             </Carousel.Item>
                         </Carousel>
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
+                    <Col md={12}>
+                        <Alert  variant={"danger"} className={"text-center remove-border"} >
+                            <h4>&raquo; Welcome to our new homepage!</h4>
+                       </Alert>
+                    </Col>
                     <Col md={11}>
-                        <Alert  variant={"danger"}>
-                            &raquo; Welcome to our new homepage!<br />
+                    <Alert  variant={"danger"}>
                             &raquo; We provide management for the following symptoms for all ages  
                         </Alert>
+
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
@@ -83,7 +116,7 @@ class Home extends Component {
                                 <Card.Title>Food Allergy</Card.Title>
                                 <hr />
                                 <Card.Text>
-                                Food allergy, gluten sensitivity, nut allergy, aspirin allergy, smoke allergy, wheat allergy, spring allergy, mold allergy, dust mite allergy, animal dander allergy.
+                                Food allergy, gluten sensitivity, nut allergy,<span className="filler">-</span>aspirin<span className="filler">-</span>allergy,<span className="filler">-</span>smoke<span className="filler">-</span>al-lergy,wheat allergy, spring allergy, mold allergy, dust mite allergy, animal dander allergy.
                                 </Card.Text>
                                 </Card.Body>
                                 
