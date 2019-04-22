@@ -68,7 +68,7 @@ class Home extends Component {
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src={A5}
+                                    src={A1}
                                      />
 
                                 <Carousel.Caption>
@@ -87,7 +87,7 @@ class Home extends Component {
                     </Col>
                     <Col md={11}>
                     <Alert  variant={"danger"}>
-                            &raquo; We provide management for the following symptoms for all ages  
+                            &raquo; We provide high quality, compassionate, and competent care to all patients, aimed at awareness, prevention and management of allergic, asthmatic and immunologic diseases  
                         </Alert>
 
                     </Col>
