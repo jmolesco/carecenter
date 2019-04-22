@@ -81,6 +81,15 @@ width:220px;
 height:180px;
 }
 
+
+.card-img-insurance{
+    display: block;
+    padding:15%;
+    width: 340px;
+    height: 160px;
+}
+
+
 .App {
   text-align: center;
 }

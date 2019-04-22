@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Form, Button, Image,  Carousel, Alert,Card,ListGroup,CardColumns } from 'react-bootstrap';
-import patient1 from '../../images/patient1.jpg';
-import patient2 from '../../images/patient2.jpg';
-import patient3 from '../../images/patient3.jpg';
-import patient4 from '../../images/patient4.jpg';
+import { Container, Row, Col, CardDeck, Button, Image,  Carousel, Alert,Card,ListGroup,CardColumns } from 'react-bootstrap';
 
 class Insurance extends Component {
 
@@ -11,101 +7,82 @@ class Insurance extends Component {
     {
         return (
             <Container>
-                <Row className="justify-content-md-left">
-                   <Col md={7}>
-                        <Row className="justify-content-md-left">
-                                <Col md={6}>
-                                    <Card >
-                                        <Card.Header>&raquo; Patient History 1</Card.Header>
-                                        <Card.Body>
-                                            <Image src={patient1} className="image-patient"/>
-                                        </Card.Body>
-                                        <Card.Footer className="text-left">
-                                                {/* <p> */}
-                                                    <Button variant="outline-danger" style={{ width: '100%' }}>View</Button>
-                                                {/* </p> */}
-                                                {/* <p>
-                                                    <Button variant="outline-info" style={{ width: '100%' }}>Fill Up Online</Button>
-                                                </p> */}
-                                        </Card.Footer>
-                                    </Card>
-                                </Col>
-                                <Col md={6}>
-                                    <Card >
-                                        <Card.Header>&raquo; Patient History 2</Card.Header>
-                                        <Card.Body>
-                                            <Image src={patient2} className="image-patient"/>
-                                        </Card.Body>
-                                        <Card.Footer className="text-left">
-                                                <Button variant="outline-danger" style={{ width: '100%' }}>View</Button>
-                                        </Card.Footer>
-                                    </Card>
-                                </Col> 
-                        </Row>
-                        <Row className="justify-content-md-left">
-                                <Col md={6}>
-                                    <Card >
-                                        <Card.Header>&raquo; Patient History 3</Card.Header>
-                                        <Card.Body>
-                                             <Image src={patient3} className="image-patient"/>
-                                        </Card.Body>
-                                        <Card.Footer className="text-left">
-                                                <Button variant="outline-danger" style={{ width: '100%' }}>View</Button>
-                                        </Card.Footer>
-                                    </Card>
-                                </Col>
-                                <Col md={6}>
-                                    <Card >
-                                        <Card.Header>&raquo; Patient History 4</Card.Header>
-                                        <Card.Body>
-                                             <Image src={patient4} className="image-patient"/>
-                                        </Card.Body>
-                                        <Card.Footer className="text-left">
-                                                <Button variant="outline-danger" style={{ width: '100%' }}>View</Button>
-                                        </Card.Footer>
-                                    </Card>
-                                </Col> 
-                        </Row>
-                        <Row className="justify-content-md-left">
-                                <Col md={12}>
-                                    <Card >
-                                        <Card.Header>&raquo; New Patient Information</Card.Header>
-                                        <Card.Body>
-                                            <Button variant="outline-danger" style={{ width: '100%' }}>Download PDF File</Button>
-                                        </Card.Body>
-                                       
-                                    </Card>
-                                </Col>
-                        </Row>
-                   </Col>
-                   <Col md={5}>
-                        <Row className="justify-content-md-right">
-                             <Card >
-                                <Card.Header>Insurance</Card.Header>
-                                <ListGroup variant="flush">
-                                    <ListGroup.Item>Aetna</ListGroup.Item>
-                                    <ListGroup.Item>Aetna Better Health</ListGroup.Item>
-                                    <ListGroup.Item>Allied</ListGroup.Item>
-                                    <ListGroup.Item>Ascension Smarthealth Assurant</ListGroup.Item>
-                                    <ListGroup.Item>Blue Cross Blue Shield</ListGroup.Item>
-                                    <ListGroup.Item>Blue Cross Community Family Health Plan Cigna</ListGroup.Item>
-                                    <ListGroup.Item>Coresource</ListGroup.Item>
-                                    <ListGroup.Item>Coventry Geha</ListGroup.Item>
-                                    <ListGroup.Item>Great West</ListGroup.Item>
-                                    <ListGroup.Item>Group Administrators</ListGroup.Item>
-                                    <ListGroup.Item>Guardian Harken Health</ListGroup.Item>
-                                    <ListGroup.Item>Health Partners</ListGroup.Item>
-                                    <ListGroup.Item>HealthSpring Humana Illinicare Land of Lincoln </ListGroup.Item>
-                                    <ListGroup.Item>Medicare</ListGroup.Item>
-                                    <ListGroup.Item>Medicare Advantage</ListGroup.Item>
-                                    <ListGroup.Item>Medicaid Medical Mutua</ListGroup.Item>
-                                </ListGroup>
-                                <Card.Footer className="text-left">
+                    <Row className="justify-content-md-center">
+                        <Col md={12}>
+                        <Alert  variant={"danger"} className={"remove-border"} >
+                            <hr></hr>
+                                <h4>  
+                                    <marquee> Insurance </marquee>
+                                </h4>
+                            <hr></hr>
+                            <p> Our business has partners with different insurance agency.</p>
+                        </Alert>
+                    </Col>
+                </Row>
+                    <Row className="justify-content-md-center 1st-col">
+                   <Col md={12}>
+                   <CardDeck>
+                            <Card>
+                                <center>
+                                    <Card.Img variant="top" className="card-img-insurance" src={"https://www.aetna.com/content/dam/aetna/images/logos/1_Heart_Aetna_logo_sm_rgb_violet.png"} />
+                                </center>
+                                <Card.Footer className="text-center">
+                                    <small className="text-muted text-center">Aetna</small>
                                 </Card.Footer>
                             </Card>
-                        </Row>
-                   </Col>  
+                            <Card>
+                                <center>
+                                    <Card.Img variant="top" className="card-img-insurance" src={"https://www.aetna.com/content/dam/aetna/images/logos/1_Heart_Aetna_logo_sm_rgb_violet.png"} />
+                                </center>
+                                <Card.Footer className="text-center">
+                                    <small className="text-muted text-center">Aetna Better Health</small>
+                                </Card.Footer>                                
+                            </Card>
+                            <Card>
+                                <center>
+                                    <Card.Img variant="top" className="card-img-insurance" src={"https://www.mysmarthealth.org/resources/images/Ascension_SmartHealth_graphic_fc_rgb_300.png"} />
+                                </center>
+                                <Card.Footer className="text-center">
+                                    <small className="text-muted text-center">Ascension Smarthealth Assurant</small>
+                                </Card.Footer>
+                            </Card>
+                        </CardDeck>
+             
+                   </Col>
                 </Row>
+                <Row className="justify-content-md-center 2nd-col">
+                   <Col md={12}>
+                   <CardDeck>
+                            <Card>
+                                <center>
+                                    <Card.Img variant="top" className="card-img-insurance" src={"https://www.bcbs.com/themes/custom/bcbs/img/full-logo.svg"} />
+                                </center>
+                                <Card.Footer className="text-center">
+                                    <small className="text-muted text-center">Blue Cross Blue Shield</small>
+                                </Card.Footer>
+                            </Card>
+                            <Card>
+                                <center>
+                                    <Card.Img variant="top" className="card-img-insurance" src={"https://www.bcbsil.com/bcchp/img/bcbsil-logo.png"} />
+                                </center>
+                                <Card.Footer className="text-center">
+                                    <small className="text-muted text-center">Blue Cross Community Family Health Plan Cigna</small>
+                                </Card.Footer>                                
+                            </Card>
+                            <Card>
+                                <center>
+                                    <Card.Img variant="top" className="card-img-insurance" src={"https://www.geha.com/images/default-source/geha-logos/geha.png?sfvrsn=bcf8cb8b_2"} />
+                                </center>
+                                <Card.Footer className="text-center">
+                                    <small className="text-muted text-center">Coventry Geha</small>
+                                </Card.Footer>
+                            </Card>
+                        </CardDeck>
+             
+                   </Col>
+                </Row>
+               
+               
           </Container>
         );
     }

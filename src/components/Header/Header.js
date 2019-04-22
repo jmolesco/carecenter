@@ -29,8 +29,8 @@ class Header extends Component {
               <div className="nav-link" ><Link  to="/about" activeclassname="active"><i className="fa fa-file"> &nbsp;About Us</i></Link></div> 
               <div className="nav-link"><Link  to="/service" activeclassname="active"><i className="fa fa-file"> &nbsp;Service</i></Link></div> 
               <div className="nav-link"><Link   to="/contact" activeclassname="active"><i className="fa fa-phone-square"> &nbsp;Contact Us</i></Link></div>  
-              <div className="nav-link"><Link   to="/insurance" activeclassname="active"><i className="fa fa-phone-square"> &nbsp;Insurance & Forms</i></Link></div>
-
+              <div className="nav-link"><Link   to="/insurance" activeclassname="active"><i className="fa fa-phone-square"> &nbsp;Insurance</i></Link></div>
+              <div className="nav-link"><Link   to="/forms" activeclassname="active"><i className="fa fa-edit"> &nbsp;Forms</i></Link></div>
            </Nav>
           </Navbar.Collapse>
           <Navbar.Collapse className="justify-content-end">
