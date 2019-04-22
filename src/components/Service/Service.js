@@ -26,13 +26,18 @@ class Service extends Component {
             <Container>
                 <Row className="justify-content-md-center">
                     <Col md={12}>
-                    <Alert  variant={"danger"}>
-                            &raquo; Our business offers different kind of services. Check them out!<br />
-                    </Alert>
+                    <Alert  variant={"danger"} className={"remove-border"} >
+                            <hr></hr>
+                                <h4>  
+                                    <marquee> Services </marquee>
+                                </h4>
+                            <hr></hr>
+                            <p> Our business offers different kind of services. Check them out!</p>
+                        </Alert>
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center 1st-col">
-                   <Col md={10}>
+                   <Col md={11}>
                    <CardDeck>
                             <Card>
                                 <center>
@@ -63,7 +68,7 @@ class Service extends Component {
                    </Col>
                 </Row>
                 <Row className="justify-content-md-center 2nd-col">
-                   <Col md={10}>
+                   <Col md={11}>
                    <CardDeck>
                             <Card>
                                 <center>
@@ -97,7 +102,7 @@ class Service extends Component {
                    </Col>
                 </Row>
                 <Row className="justify-content-md-center 3rd-col">
-                   <Col md={10}>
+                   <Col md={11}>
                    <CardDeck>
                             <Card>
                                 <center>
@@ -112,7 +117,7 @@ class Service extends Component {
                                     <Card.Img variant="top" className="card-img" src={contact} />
                                 </center>
                                 <Card.Footer className="text-center">
-                                    <small className="text-muted text-center">Contact Sensitive Evaluation and Treatment</small>
+                                    <small className="text-muted text-center">Contact Sensitive Evaluation and Treatment&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>
                                 </Card.Footer>                                
                             </Card>
                             <Card>
@@ -128,14 +133,15 @@ class Service extends Component {
                    </Col>
                 </Row>
                 <Row className="justify-content-md-center 4th-col">
-                   <Col md={10}>
+                   <Col md={11}>
                    <CardDeck>
                             <Card>
                                 <center>
                                     <Card.Img variant="top" className="card-img" src={ask} />
                                 </center>
                                 <Card.Footer className="text-center">
-                                    <small className="text-muted text-center">Preventive Approach to Allergic Problems</small>
+                                    <small className="text-muted text-center">Preventive Approach to Allergic 
+                                    Problems&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>
                                 </Card.Footer>
                             </Card>
                             <Card>
@@ -159,7 +165,7 @@ class Service extends Component {
                    </Col>
                 </Row>
                 <Row className="justify-content-md-center 5th-col">
-                   <Col md={10}>
+                   <Col md={11}>
                    <CardDeck>
                             <Card>
                                 <center>
@@ -190,14 +196,15 @@ class Service extends Component {
                    </Col>
                 </Row>
                 <Row className="justify-content-md-center 6th-col">
-                   <Col md={10}>
+                   <Col md={11}>
                    <CardDeck>
                             <Card>
                                 <center>
                                     <Card.Img variant="top" className="card-img" src={phonecall} />
                                 </center>
                                 <Card.Footer className="text-center">
-                                    <small className="text-muted text-center">24 hour physician phone call coverage&nbsp;&nbsp;&nbsp;&nbsp;</small>
+                                    <small className="text-muted text-center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;24 hour physician phone call coverage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>
                                 </Card.Footer>
                             </Card>
                             <Card>

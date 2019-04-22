@@ -88,7 +88,7 @@ class Home extends Component {
                 <Row className="justify-content-md-center">
                     <Col md={12}>
                         <Alert  variant={"danger"} className={"text-center remove-border"} >
-                        <hr></hr>
+                          <hr></hr>
                             <h4>   <marquee> Welcome to our new homepage! </marquee>
                             </h4>
                             <hr></hr>
