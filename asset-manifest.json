@@ -1,13 +1,13 @@
 {
   "main.css": "/carecenter/static/css/main.4dfa2a2d.chunk.css",
-  "main.js": "/carecenter/static/js/main.c5da834e.chunk.js",
-  "main.js.map": "/carecenter/static/js/main.c5da834e.chunk.js.map",
+  "main.js": "/carecenter/static/js/main.86c1a758.chunk.js",
+  "main.js.map": "/carecenter/static/js/main.86c1a758.chunk.js.map",
   "runtime~main.js": "/carecenter/static/js/runtime~main.0896087a.js",
   "runtime~main.js.map": "/carecenter/static/js/runtime~main.0896087a.js.map",
-  "static/js/2.39f837e7.chunk.js": "/carecenter/static/js/2.39f837e7.chunk.js",
-  "static/js/2.39f837e7.chunk.js.map": "/carecenter/static/js/2.39f837e7.chunk.js.map",
+  "static/js/2.780c4810.chunk.js": "/carecenter/static/js/2.780c4810.chunk.js",
+  "static/js/2.780c4810.chunk.js.map": "/carecenter/static/js/2.780c4810.chunk.js.map",
   "index.html": "/carecenter/index.html",
-  "precache-manifest.640cfa908760cc1dde2c1991c56b9117.js": "/carecenter/precache-manifest.640cfa908760cc1dde2c1991c56b9117.js",
+  "precache-manifest.6907ae1d6d1e2136214d60bd8b946326.js": "/carecenter/precache-manifest.6907ae1d6d1e2136214d60bd8b946326.js",
   "service-worker.js": "/carecenter/service-worker.js",
   "static/css/main.4dfa2a2d.chunk.css.map": "/carecenter/static/css/main.4dfa2a2d.chunk.css.map",
   "static/media/1.jpg": "/carecenter/static/media/1.60257f5b.jpg",
@@ -16,8 +16,8 @@
   "static/media/4.jpg": "/carecenter/static/media/4.2da6a782.jpg",
   "static/media/5.jpg": "/carecenter/static/media/5.3f4d54f2.jpg",
   "static/media/doc.jpg": "/carecenter/static/media/doc.6b414605.jpg",
-  "static/media/patient1.jpg": "/carecenter/static/media/patient1.7a3264bd.jpg",
-  "static/media/patient2.jpg": "/carecenter/static/media/patient2.32193d67.jpg",
-  "static/media/patient3.jpg": "/carecenter/static/media/patient3.a938f4fd.jpg",
-  "static/media/patient4.jpg": "/carecenter/static/media/patient4.40d32775.jpg"
+  "static/media/newpatientform.pdf": "/carecenter/static/media/newpatientform.c51f60e6.pdf",
+  "static/media/patient-history-1.pdf": "/carecenter/static/media/patient-history-1.7cd79efd.pdf",
+  "static/media/patient-history-2.pdf": "/carecenter/static/media/patient-history-2.66c8642f.pdf",
+  "static/media/patient-history-3.pdf": "/carecenter/static/media/patient-history-3.ca332d00.pdf"
 }
