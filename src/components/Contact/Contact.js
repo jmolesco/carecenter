@@ -1,8 +1,31 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, ListGroup, Card,Form,Button,Image,Alert } from 'react-bootstrap';
 import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
+import axios from 'axios';
 class Contact extends Component {
-
+    constructor(props){
+        super(props);
+        this.state = {
+            Name:'',
+            EmailAddress:'',
+            Message:''
+        };
+        this.handleChange = this.handleChange.bind(this);
+    }
+    handleChange= (e)=>{
+        this.setState({
+            [e.target.name]:e.target.value
+        });
+    }
+    async SendEmail(e){
+        e.preventDefault();
+        const {Name,EmailAddress,Message} = this.state;
+        const form = await axios.post('/api/form',{
+            Name,
+            EmailAddress,
+            Message
+        })
+    }
     render() 
     {
         return (
@@ -109,7 +132,10 @@ class Contact extends Component {
                                             Name
                                             </Form.Label>
                                             <Col sm={9}>
-                                            <Form.Control type="text" placeholder="Enter your Name" />
+                                            <Form.Control type="text" placeholder="Enter your Name" 
+                                                name="Name"
+                                                onChange={this.handleChange}
+                                            />
                                             </Col>
                                         </Form.Group>
                                         <Form.Group as={Row} controlId="formHorizontalEmail">
@@ -117,7 +143,10 @@ class Contact extends Component {
                                             Email Address
                                             </Form.Label>
                                             <Col sm={9}>
-                                            <Form.Control type="email" placeholder="Enter your Email Address" />
+                                            <Form.Control type="email" placeholder="Enter your Email Address" 
+                                                name="EmailAddress"
+                                                onChange={this.handleChange}
+                                            />
                                             </Col>
                                         </Form.Group>
                                         <Form.Group as={Row} controlId="formHorizontalEmail">
@@ -125,14 +154,17 @@ class Contact extends Component {
                                             Message
                                             </Form.Label>
                                             <Col sm={9}>
-                                            <Form.Control as="textarea" rows="3" placeholder="Enter your Message" />
+                                            <Form.Control as="textarea" rows="3" placeholder="Enter your Message"
+                                                 name="Message"
+                                                 onChange={this.handleChange}
+                                            />
                                             </Col>
                                         </Form.Group>
                                         </Form>
 
                                 </Card.Body>
                                 <Card.Footer className="text-left">
-                                    <Button variant="outline-danger" style={{width:'100%'}}>Send Message</Button>
+                                    <Button variant="outline-danger" style={{width:'100%'}} onClick={this.SendEmail.bind(this)}>Send Message</Button>
                                 </Card.Footer>
                             </Card>
                         </Col>
@@ -147,10 +179,10 @@ class Contact extends Component {
                                         <Card.Body >
                                              <Map google={this.props.google} 
                                                 style={{width:'97%',height:'76%'}}
-                                                initialCenter={{
-                                                    lat: 40.854885,
-                                                    lng: -88.081807
-                                                  }}
+                                                // initialCenter={{
+                                                //     lat: 40.854885,
+                                                //     lng: -88.081807
+                                                //   }}
                                              zoom={14}>
                                                 <Marker onClick={this.onMarkerClick}
                                                         name={'1411 North McHenry Rd Ste Buffalo Grove, IL 60089'} />
@@ -177,17 +209,14 @@ class Contact extends Component {
                                         <Card.Body >
                                              <Map google={this.props.google} 
                                                 style={{width:'97%',height:'76%'}}
-                                                initialCenter={{
-                                                    lat: 40.854885,
-                                                    lng: -88.081807
-                                                  }}
+                                                // initialCenter={{
+                                                //     lat: 40.854885,
+                                                //     lng: -88.081807
+                                                //   }}
                                              zoom={14}>
                                                 <Marker onClick={this.onMarkerClick}
                                                         name={'600 S Randall Rd Ste 230 Algonquin, IL 60102'} />
                                                 <InfoWindow onClose={this.onInfoWindowClose}>
-                                                    <div>
-                                                   
-                                                    </div>
                                                 </InfoWindow>
                                             </Map>
                                         </Card.Body>

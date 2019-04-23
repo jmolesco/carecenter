@@ -32,7 +32,7 @@ class Service extends Component {
                                     <marquee> Services </marquee>
                                 </h4>
                             <hr></hr>
-                            <p> Our business offers different kind of services. Check them out!</p>
+                            <p> Services offered.</p>
                         </Alert>
                     </Col>
                 </Row>
