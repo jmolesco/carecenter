@@ -15,7 +15,7 @@ class Insurance extends Component {
                                     <marquee> Insurance </marquee>
                                 </h4>
                             <hr></hr>
-                            <p> Our business has partners with different insurance agency.</p>
+                            <p> Network Insurance Plans.</p>
                         </Alert>
                     </Col>
                 </Row>
