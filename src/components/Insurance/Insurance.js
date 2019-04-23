@@ -12,10 +12,11 @@ class Insurance extends Component {
                         <Alert  variant={"danger"} className={"remove-border"} >
                             <hr></hr>
                                 <h4>  
-                                    <marquee> Insurance </marquee>
+                                    <marquee> Network Insurance Plans </marquee>
                                 </h4>
                             <hr></hr>
-                            <p> Network Insurance Plans.</p>
+                            <p>This list is not inclusive of all insurance plans. Our practice accepts almost all major
+insurance plans. </p>
                         </Alert>
                     </Col>
                 </Row>
