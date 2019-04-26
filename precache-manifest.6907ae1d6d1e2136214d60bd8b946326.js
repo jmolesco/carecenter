@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/carecenter/static/media/4.2da6a782.jpg"
   },
   {
-    "revision": "fd78d9c5708f0deafe4a",
+    "revision": "18906657c12c69b42413",
     "url": "/carecenter/static/css/main.4dfa2a2d.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/carecenter/static/media/3.6aff924a.jpg"
   },
   {
-    "revision": "fd78d9c5708f0deafe4a",
-    "url": "/carecenter/static/js/main.8a9c1736.chunk.js"
+    "revision": "18906657c12c69b42413",
+    "url": "/carecenter/static/js/main.86c1a758.chunk.js"
   },
   {
     "revision": "3f4d54f2d13354de7012ffae8d317d0f",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/carecenter/static/media/patient-history-3.ca332d00.pdf"
   },
   {
-    "revision": "735779d36a8778aa59f974d60d7cc4b7",
+    "revision": "9d06e0ce9d2f8edc5bc6350bd3d3ebe5",
     "url": "/carecenter/index.html"
   }
 ];
