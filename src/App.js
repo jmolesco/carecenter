@@ -8,6 +8,8 @@ import Service from './components/Service/Service';
 import Contact from './components/Contact/Contact';
 import Insurance from './components/Insurance/Insurance';
 import Forms from './components/Forms/Forms';
+import Staff from './components/Staff/Staff';
+//import Map from './components/MapSample/Map';
 class App extends Component {
   render() {
     return (
@@ -17,10 +19,12 @@ class App extends Component {
              {/* <Route path="/" component={Header}>              */}
               <Route exact={true} path="/home" component={Home}/>
               <Route path="/about" component={AboutUs}/>
+              <Route path="/staff" component={Staff}/>
               <Route path="/service" component={Service}/>
               <Route path="/contact" component={Contact}/>
               <Route path="/insurance" component={Insurance}/>
               <Route path="/forms" component={Forms}/>
+              {/* <Route path="/map" component={Map}/> */}
             {/* </Route> */}
         </div>
       </Router>

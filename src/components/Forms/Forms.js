@@ -4,7 +4,7 @@ import { Container, Row, Col, Form, Button, Image,  Carousel, Alert,Card,ListGro
 // import patient2 from '../../images/patient2.jpg';
 // import patient3 from '../../images/patient3.jpg';
 // import patient4 from '../../images/patient4.jpg';
-import patientinfo from '../../forms/newpatientform.pdf';
+import patientinfo from '../../forms/new-patient-form.pdf';
 import patienthist1 from '../../forms/patient-history-1.pdf';
 import patienthist2 from '../../forms/patient-history-2.pdf';
 import patienthist3 from '../../forms/patient-history-3.pdf';

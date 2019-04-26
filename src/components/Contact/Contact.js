@@ -179,18 +179,22 @@ class Contact extends Component {
                                         <Card.Body >
                                              <Map google={this.props.google} 
                                                 style={{width:'97%',height:'76%'}}
-                                                // initialCenter={{
-                                                //     lat: 40.854885,
-                                                //     lng: -88.081807
-                                                //   }}
-                                             zoom={14}>
+                                                zoom={17}
+                                                initialCenter={{
+                                                    lat: 42.175343,
+                                                    lng: -87.985829
+                                                }}>
                                                 <Marker onClick={this.onMarkerClick}
-                                                        name={'1411 North McHenry Rd Ste Buffalo Grove, IL 60089'} />
-                                                <InfoWindow onClose={this.onInfoWindowClose}>
+                                                     name={'SM Megamall'}
+                                                     position={{lat: 42.175343, lng: -87.985829}}
+                                                     initialCenter={{lat: 42.175343, lng: -87.985829}}
+
+                                                />
+                                                 <InfoWindow onClose={this.onInfoWindowClose}>
                                                     <div>
-                                                    {/* <h1>{this.state.selectedPlace.name}</h1> */}
+                                                   
                                                     </div>
-                                                </InfoWindow>
+                                                </InfoWindow> 
                                             </Map>
                                         </Card.Body>
                                         <Card.Footer className="text-left">
@@ -207,25 +211,35 @@ class Contact extends Component {
                                             &nbsp;Location - 600 Randall Rd Ste 230 IL 60089 Alongonquin, IL 60102</i>
                                             </Card.Header>
                                         <Card.Body >
-                                             <Map google={this.props.google} 
+                                        <Map google={this.props.google} 
                                                 style={{width:'97%',height:'76%'}}
-                                                // initialCenter={{
-                                                //     lat: 40.854885,
-                                                //     lng: -88.081807
-                                                //   }}
-                                             zoom={14}>
+                                                zoom={17}
+                                                initialCenter={{
+                                                    lat: 42.167983, 
+                                                    lng: -88.336326
+                                                }}>
                                                 <Marker onClick={this.onMarkerClick}
-                                                        name={'600 S Randall Rd Ste 230 Algonquin, IL 60102'} />
-                                                <InfoWindow onClose={this.onInfoWindowClose}>
-                                                </InfoWindow>
+                                                     name={'SM Megamall'}
+                                                     position={{
+                                                        lat: 42.167983, 
+                                                        lng: -88.336326
+                                                    }}
+                                                    
+
+                                                />
+                                                 <InfoWindow onClose={this.onInfoWindowClose}>
+                                                    <div>
+                                                   
+                                                    </div>
+                                                </InfoWindow> 
                                             </Map>
                                         </Card.Body>
                                         <Card.Footer className="text-left">
 
                                         </Card.Footer>
                                 </Card>
-                            </Col>
-                         </Row>
+                             </Col>
+                         </Row> 
                     </Col>
                  </Row>
                 
