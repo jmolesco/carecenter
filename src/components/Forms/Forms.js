@@ -8,7 +8,7 @@ import patientinfo from '../../forms/new-patient-form.pdf';
 import patienthist1 from '../../forms/patient-history-1.pdf';
 import patienthist2 from '../../forms/patient-history-2.pdf';
 import patienthist3 from '../../forms/patient-history-3.pdf';
-//import patienthist4 from '../../forms/newpatientform.pdf';
+import patienthist4 from '../../forms/patient-history-4.pdf';
 
 class Forms extends Component {
 
@@ -101,9 +101,11 @@ class Forms extends Component {
                                         </Card.Body> */}
                                         <Card.Footer className="text-left">
                                         <p>
-                                                    <Button variant="outline-danger" style={{ width: '100%' }}>Download PDF File</Button>
+                                                     <a target="_blank" rel="noopener noreferrer" href={patienthist4} download="patient-history-4.pdf">
+                                                        <Button variant="outline-danger" style={{ width: '100%' }}>Download PDF File</Button>
+                                                    </a>
                                                     <br></br>      <br></br>
-                                                    <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1nmWs1fipoTMmKz2Z48f71vUfZikJFq0dpLybFJRKJGM/edit?usp=sharing">
+                                                    <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1Zqw-CvY6c58vlArljvFOKFs8y9pZseZ99qiqYGhOEgo/edit?usp=sharing">
                                                         <Button variant="outline-info" style={{ width: '100%' }} >Fill Up Online</Button>
                                                     </a>
                                                 </p>

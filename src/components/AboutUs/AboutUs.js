@@ -23,21 +23,15 @@ class AboutUs extends Component {
                             <Card.Header>About the Doctor</Card.Header>
                                 <Card.Body>
                                     <Card.Text>
-                                    Dr. Cynthia Yango-Eugenio is certified by the American Board of Allergy, Asthma and Immunology.   She is a solo Allergy, Asthma and Immunology practitioner for the past 30 years in Buffalo Grove, Illinois.She has been an active member of the Chicago-Northwestern Indiana chapter of the
-University of the Philippines Medical Alumni Society and Academic (UPMASA) for
-the past 24 years
-The couple has two sons, Ryneal and Roelle, both graduates of Northwestern
-University. Ryneal is a doctor training in General Surgery. Roelle is also a physician
-training in Anesthesiology.  Dr. Yango-Eugenio recently opened up another Allergy & Asthma specialty office in Algonquin, Illinois.  
+                                    Dr. Cynthia Yango-Eugenio is certified by the American Board of Allergy, Asthma and Immunology. She is a solo Allergy, Asthma and Immunology practitioner for the past 30 years in Buffalo Grove, Illinois.Dr. Yango-Eugenio recently opened up another Allergy & Asthma specialty office in Algonquin, Illinois.
                                     <br /> <br />
-                                    Cynthia Yango-Eugenio grew up in Manila and attended High School at FEU Girls High School where she was a consistent scholar.  She completed Bachelor of Science major in Zoology at the University of the Philippines College of Arts and Sciences.  Several times she made it to the Dean’s list and completed the four year course in three years and one semester. 
+                                    Cynthia Yango-Eugenio grew up in Manila and attended High School at FEU Girls High School where she was a consistent scholar. She completed Bachelor of Science major in Zoology at the University of the Philippines College of Arts and Sciences. Several times she made it to the Dean’s list and completed the four year course in three years and one semester.
+                                   <br /> <br />
+                                   Prior to joining the Class of 1979 University of The Philippines College of Medicine, Dr. Yango-Eugenio worked at the Biomedical Division of the Philippine Atomic Energy Commission as a research scientist. She finished Pediatric residency at UP-PGH and had to retrain in the same field at Lincoln Hospital in Bronx, New York and Cook County Medical Center in Illinois. Dr. Yango-Eugenio was a fellow in Allergy, Asthma and Immunology at Cornell University. She finished her fellowship at Northwestern University-Feinberg Medical Center.
+                                   <br /> <br />
+                                   She was named one of the outstanding women of Style and Achievement (Prism Award) by the Philippine Times in 1997. She has been an active member of the Chicago-Northwestern Indiana chapter of the University of the Philippines Medical Alumni Society and Academic (UPMASA) for the past 24 years. She has served as the chapter’s PRO and most recently the chapter’s President.
                                     <br /> <br />
-                                    Prior to joining the Class of 1979 University of The Philippines College of Medicine, Dr. Yango-Eugenio worked at the Biomedical Division of the Philippine Atomic Energy Commission as a research scientist.  She finished Pediatric residency at UP-PGH and had to retrain in the same field at Lincoln Hospital in Bronx, New York and Cook County Medical Center in Illinois.  Dr. Yango-Eugenio was a fellow in Allergy, Asthma and Immunology at Cornell University.   She finished her fellowship at Northwestern University-Feinberg Medical Center. 
-                                    <br /> <br />
-                                    She was named one of the outstanding women of Style and Achievement (Prism Award) by the Philippine Times in 1997.  She has been an active member of the Chicago-Northwestern Indiana chapter of the University of the Philippines Medical Alumni Society and Academic (UPMASA) for the past 17 years.  She has served as the chapter’s PRO and most recently the chapter’s President.  
-                                    <br /> <br />
-                                    Cynthia Yango-Eugenio resides in South Barrington, Illinois with her husband Rene Eugenio.  The couple has two sons, Ryneal and Roelle graduates of Northwestern University,  Ryneal is a doctor training in General Surgery. Roelle is also a physician
-training in Anesthesiology.    </Card.Text>
+                                    Cynthia Yango-Eugenio resides in South Barrington, Illinois with her husband Rene Eugenio. The couple has two sons, Ryneal and Roelle graduates of Northwestern University, Ryneal is a doctor training in General Surgery. Roelle is also a physician training in Anesthesiology.    </Card.Text>
                                     <br />
                                 </Card.Body>
                         </Card>
