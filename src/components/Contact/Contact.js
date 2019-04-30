@@ -1,14 +1,34 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, ListGroup, Card,Form,Button,Image,Alert } from 'react-bootstrap';
 import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
-import axios from 'axios';
+import './Contact.css';
+import * as emailjs from 'emailjs-com';
 class Contact extends Component {
     constructor(props){
         super(props);
         this.state = {
             Name:'',
             EmailAddress:'',
-            Message:''
+            Message:'',
+            EmailSentSuccessful:true,
+            SenderEmail:'olescojohnmark@gmail.com',
+            TemplateID:'carecenterforallergy',
+            TemplateUserID:'usercarecenterforallergy',
+            UserID:'user_LECJPVdzpYOS1hL1S7P3p',
+            ServiceID:'gmail',
+            error:{
+                Name:'',
+                EmailAddress:'',
+                Message:''
+            },
+            validationClass:{
+                Name:'',
+                EmailAddress:'',
+                Message:''
+            },
+            EmailMsgUponSending:'',
+            EmailTypeVariant:'',
+            Sent:false
         };
         this.handleChange = this.handleChange.bind(this);
     }
@@ -17,14 +37,107 @@ class Contact extends Component {
             [e.target.name]:e.target.value
         });
     }
-    async SendEmail(e){
+    validateEmailContent(){
+        //console.log('open');
+        let errors = {};
+        let validationClass ={}
+        let formIsValid = true;
+        var msg_input = 'Minimum of 3 symbols or characters';
+        let pattern = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
+        let classerror = 'invalid-feedback-error';
+        if(!this.state.Name||this.state.Name.length < 3){
+            errors.Name = msg_input;
+            validationClass.Name=classerror;
+            formIsValid = false;
+        }
+
+        if(!this.state.Message||this.state.Message.length < 3){
+            errors.Message = msg_input;
+            validationClass.Message=classerror;
+            formIsValid = false;
+        }
+
+        if(!this.state.EmailAddress||this.state.EmailAddress.length < 3){
+            errors.EmailAddress = msg_input;        
+            validationClass.EmailAddress=classerror;
+            formIsValid = false;
+        }
+        else if(!pattern.test(this.state.EmailAddress)){
+            errors.EmailAddress = 'This is not a valid email address';
+            validationClass.EmailAddress=classerror;
+            formIsValid=false;
+        }
+        this.setState({
+            error:errors,
+            validationClass:validationClass
+        });
+        console.log(this.state.error);
+        return formIsValid;
+        
+    }
+    SendEmail(e)
+    {
         e.preventDefault();
-        const {Name,EmailAddress,Message} = this.state;
-        const form = await axios.post('/api/form',{
-            Name,
-            EmailAddress,
-            Message
-        })
+        if(!this.validateEmailContent()){
+            console.log(this.state.error);
+            return;
+        }
+
+
+        var template_params = {
+            "Name": this.state.Name,
+            "feedback": this.state.Message,
+            "from_email":this.state.SenderEmail,
+            "to_email":this.state.SenderEmail,
+            "subject":'Email Inquiry',
+            "EmailAddress":this.state.EmailAddress
+        }; 
+
+         emailjs.send(this.state.ServiceID, this.state.TemplateID, template_params,this.state.UserID).then(res => 
+         {
+            this.setState({
+                Name:'',
+                EmailAddress:'',
+                Message:'',
+                EmailSentSuccessful:false,
+                EmailMsgUponSending:'You have successfully sent an email.',
+                EmailTypeVariant:'success',
+            });
+        }).catch(err => this.setState({        
+                EmailMsgUponSending:'Failed to send feedback. Error: '+err,
+                EmailTypeVariant:'danger',
+                Sent:false
+        }));
+
+        var template_user_params = {
+                "Name": this.state.Name,
+                "feedback": this.state.Message,
+                "to_email_user":this.state.EmailAddress,
+                "from_email_user":this.state.SenderEmail,
+                "subject_user":'Email Receipt',
+                "EmailAddress":this.state.EmailAddress,
+        };
+        emailjs.send(this.state.ServiceID, this.state.TemplateUserID, template_user_params,this.state.UserID).then(res => 
+            {
+                this.setState({
+                    Name:'',
+                    EmailAddress:'',
+                    Message:'',
+                    EmailSentSuccessful:false,
+                    EmailMsgUponSending:'You have successfully sent an email.',
+                    EmailTypeVariant:'success',
+                });
+           }).catch(err => this.setState({        
+                   EmailMsgUponSending:'Failed to send feedback. Error: '+err,
+                   EmailTypeVariant:'danger',
+                   Sent:false
+           }));
+
+           this.setState({
+            Name:'',
+            EmailAddress:'',
+            Message:'',
+        });
     }
     render() 
     {
@@ -127,38 +240,58 @@ class Contact extends Component {
                                     </Card.Header>
                                 <Card.Body>
                                 <Form>
-                                        <Form.Group as={Row} controlId="formHorizontalEmail">
-                                            <Form.Label column sm={3}>
+                                        <Form.Group as={Row} controlId="formHorizontalName">
+                                             <Form.Label column sm={12} hidden={this.state.EmailSentSuccessful}>
+                                                <Alert  variant={this.state.EmailTypeVariant} className={"remove-border text-center"} >
+                                                    {this.state.EmailMsgUponSending}
+                                                </Alert>
+                                             </Form.Label>
+                                        </Form.Group>
+                                        <Form.Group as={Row} controlId="formHorizontalName">
+                                            <Form.Label column sm={3} className={'label-'+this.state.validationClass.Name}>
                                             Name
                                             </Form.Label>
                                             <Col sm={9}>
-                                            <Form.Control type="text" placeholder="Enter your Name" 
-                                                name="Name"
-                                                onChange={this.handleChange}
-                                            />
+                                                <Form.Control type="text" placeholder="Enter your Name" 
+                                                    name="Name"
+                                                    className={'has-error-'+this.state.validationClass.Name}
+                                                    onChange={this.handleChange}
+                                                />
+                                                 <div className={this.state.validationClass.Name}>
+                                                     {this.state.error.Name}
+                                                 </div>
                                             </Col>
                                         </Form.Group>
-                                        <Form.Group as={Row} controlId="formHorizontalEmail">
-                                            <Form.Label column sm={3}>
+                                        <Form.Group as={Row} controlId="formHorizontalEmailAddress">
+                                            <Form.Label column sm={3} className={'label-'+this.state.validationClass.EmailAddress}>
                                             Email Address
                                             </Form.Label>
                                             <Col sm={9}>
-                                            <Form.Control type="email" placeholder="Enter your Email Address" 
-                                                name="EmailAddress"
-                                                onChange={this.handleChange}
-                                            />
+                                                <Form.Control type="email" placeholder="Enter your Email Address" 
+                                                    name="EmailAddress"
+                                                    className={'has-error-'+this.state.validationClass.EmailAddress}
+                                                    onChange={this.handleChange}
+                                                />
+                                                 <div className={this.state.validationClass.EmailAddress}>
+                                                     {this.state.error.EmailAddress}
+                                                 </div>
                                             </Col>
                                         </Form.Group>
-                                        <Form.Group as={Row} controlId="formHorizontalEmail">
-                                            <Form.Label column sm={3}>
+                                        <Form.Group as={Row} controlId="formHorizontalMessage">
+                                            <Form.Label column sm={3} className={'label-'+this.state.validationClass.Message}>
                                             Message
                                             </Form.Label>
                                             <Col sm={9}>
-                                            <Form.Control as="textarea" rows="3" placeholder="Enter your Message"
-                                                 name="Message"
-                                                 onChange={this.handleChange}
-                                            />
+                                                <Form.Control as="textarea" rows="3" placeholder="Enter your Message"
+                                                    name="Message"
+                                                    className={'has-error-'+this.state.validationClass.Message}
+                                                    onChange={this.handleChange}
+                                                />
+                                                 <div className={this.state.validationClass.Message}>
+                                                     {this.state.error.Message}
+                                                 </div>
                                             </Col>
+                                           
                                         </Form.Group>
                                         </Form>
 
@@ -239,8 +372,8 @@ class Contact extends Component {
                                         </Card.Footer>
                                 </Card>
                              </Col>
-                         </Row> 
-                    </Col>
+                         </Row>
+                    </Col> 
                  </Row>
                 
           </Container>

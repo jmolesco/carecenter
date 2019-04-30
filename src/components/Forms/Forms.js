@@ -119,9 +119,16 @@ class Forms extends Component {
                                     <Card >
                                         <Card.Header>&raquo; New Patient Information</Card.Header>
                                         <Card.Body>
+                                            <p>
+
                                              <a target="_blank" rel="noopener noreferrer" href={patientinfo} download="newpatientform.pdf">
                                                  <Button variant="outline-danger" style={{ width: '100%' }}>Download PDF File</Button>
-                                            </a>                                     
+                                            </a>    
+                                            <br></br>      <br></br>
+                                                    <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1dRa8vtUwqSeONwI8JH54K7G5ZB7s8YvkrB0P3EDF5-A/edit">
+                                                        <Button variant="outline-info" style={{ width: '100%' }} >Fill Up Online</Button>
+                                                    </a>  
+                                            </p>                               
                                         </Card.Body>
                                        
                                     </Card>
