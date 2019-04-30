@@ -27,7 +27,7 @@ class Header extends Component {
             <Nav className="mr-auto">
               <div className="nav-link" ><Link  to="/home" activeclassname="active"><i className="fa  fa-home">&nbsp;Home</i></Link></div>   
               <div className="nav-link" ><Link  to="/about" activeclassname="active"><i className="fa fa-file"> &nbsp;About Us</i></Link></div> 
-              <div className="nav-link" ><Link  to="/staff" activeclassname="active"><i className="fa fa-user"> &nbsp;Staff</i></Link></div> 
+              {/* <div className="nav-link" ><Link  to="/staff" activeclassname="active"><i className="fa fa-user"> &nbsp;Staff</i></Link></div>  */}
               <div className="nav-link"><Link  to="/service" activeclassname="active"><i className="fa fa-file"> &nbsp;Service</i></Link></div> 
               <div className="nav-link"><Link   to="/contact" activeclassname="active"><i className="fa fa-phone-square"> &nbsp;Contact Us</i></Link></div>  
               <div className="nav-link"><Link   to="/insurance" activeclassname="active"><i className="fa fa-phone-square"> &nbsp;Insurance</i></Link></div>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Card} from 'react-bootstrap';
+import { Container, Row, Col, Card,Button} from 'react-bootstrap';
 import doc from '../../images/doc.jpg'; 
+import {Link} from 'react-router-dom';
 class AboutUs extends Component {
 
     render() 
@@ -34,6 +35,11 @@ class AboutUs extends Component {
                                     Cynthia Yango-Eugenio resides in South Barrington, Illinois with her husband Rene Eugenio. The couple has two sons, Ryneal and Roelle graduates of Northwestern University, Ryneal is a doctor training in General Surgery. Roelle is also a physician training in Anesthesiology.    </Card.Text>
                                     <br />
                                 </Card.Body>
+                                <Card.Footer>
+                                                    <Link  to="/staff">
+                                                        <Button variant="outline-danger" style={{ width: '100%' }} ><i className="fa fa-users"> &nbsp;Check our Staff</i></Button>
+                                                    </Link>
+                                </Card.Footer>
                         </Card>
                     </Col>
                 </Row>
