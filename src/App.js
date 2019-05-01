@@ -9,6 +9,7 @@ import Contact from './components/Contact/Contact';
 import Insurance from './components/Insurance/Insurance';
 import Forms from './components/Forms/Forms';
 import Staff from './components/Staff/Staff';
+import Footer from './components/Footer/Footer';
 //import Map from './components/MapSample/Map';
 class App extends Component {
   render() {
@@ -24,8 +25,10 @@ class App extends Component {
               <Route path="/contact" component={Contact}/>
               <Route path="/insurance" component={Insurance}/>
               <Route path="/forms" component={Forms}/>
+              <Footer></Footer> 
               {/* <Route path="/map" component={Map}/> */}
             {/* </Route> */}
+
         </div>
       </Router>
     );
