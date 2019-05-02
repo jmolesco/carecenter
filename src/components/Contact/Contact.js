@@ -145,7 +145,7 @@ class Contact extends Component {
             <Container>
                  <Row className="justify-content-md-center">
                     <Col md={12}>
-                    <Alert  variant={"danger"} className={"remove-border"} >
+                    <Alert  variant={"primary"} className={"remove-border"} >
                             <hr></hr>
                                 <h4>  
                                     <marquee> Contact Us </marquee>
