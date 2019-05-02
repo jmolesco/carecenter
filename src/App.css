@@ -90,6 +90,27 @@ height:180px;
 }
 
 
+
+/*****Footer ****/
+.footerRow
+{
+    background-color: transparent;
+}
+
+.footer-menu2 > .list-group-item,.footer-menu > .list-group-item  {
+  background-color: transparent;
+  color:white;
+}
+.list-group-item {
+  background-color: transparent;
+}
+.footer-menu > .list-group-item > a > i{
+  color: white;
+}
+
+
+
+
 .App {
   text-align: center;
 }

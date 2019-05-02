@@ -1,0 +1,87 @@
+import React, { Component } from 'react';
+import { Navbar, Nav, Container, Row, Col, CardDeck,  ListGroup,   Card,Image } from 'react-bootstrap';
+import {Link} from 'react-router-dom';
+import followus from  '../../images/followus1.png';
+import fb from  '../../images/fb.png';
+import ig from  '../../images/ig.png';
+class Header extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      pagename: "home"
+    }
+  }
+
+  render() {
+    return (
+      <Navbar collapseOnSelect expand="lg" sticky="bottom">
+        <Container>
+
+              <Row className="justify-content-md-center footerRow"  style={{  width:'98%'}}>
+                   <Row style={{  width:'100%'}} className="footerRow">
+                   
+                        <Col md={4}>
+                                    <ListGroup variant="flush footer-menu">
+                                            <ListGroup.Item className="text-center">
+                                                Explore
+                                        </ListGroup.Item>
+                                        <ListGroup.Item>
+                                                <Link  to="/home"><i className="fa  fa-home">&nbsp;Home</i></Link>
+                                        </ListGroup.Item>
+                                        <ListGroup.Item>
+                                                <Link  to="/about" ><i className="fa fa-file"> &nbsp;About Us</i></Link>
+                                            </ListGroup.Item>
+                                            <ListGroup.Item>
+                                                <Link  to="/service" ><i className="fa fa-file">&nbsp;Service</i></Link>
+                                            </ListGroup.Item>
+                                            <ListGroup.Item>
+                                                <Link   to="/contact" ><i className="fa fa-phone-square">&nbsp;Contact Us</i></Link> 
+                                            </ListGroup.Item>
+                                            <ListGroup.Item>
+                                                <Link   to="/insurance" ><i className="fa fa-bookmark-o">&nbsp;Insurance</i></Link>
+                                            </ListGroup.Item>
+                                            <ListGroup.Item>
+                                                <Link   to="/forms" ><i className="fa fa-edit">&nbsp;Forms</i></Link>
+                                            </ListGroup.Item>
+                                        </ListGroup>
+                        </Col>
+                        <Col md={4}>
+                        <ListGroup variant="flush footer-menu2">
+                                            <ListGroup.Item className="text-center">
+                                                Visit us
+                                        </ListGroup.Item>
+                                        <ListGroup.Item>
+                                                <i className="fa fa-location-arrow"></i> 1411 North McHenry Rd Ste Buffalo Grove, IL 60089
+                                        </ListGroup.Item>
+                                        <ListGroup.Item>
+                                                <i className="fa fa-location-arrow"></i> 600 Randall Rd Ste 230 IL 60089 Alongonquin, IL 60102
+                                            </ListGroup.Item>
+                                            
+                                </ListGroup>
+                        </Col>
+                        <Col md={4}>
+                                    
+                                    <ListGroup variant="flush footer-menu2">
+                                        <ListGroup.Item className="text-center"> Follow Us</ListGroup.Item>
+                                        <ListGroup.Item>
+                                           <a target="_blank" href="https://www.facebook.com/DrCynthiaYangoEugenio/" style={{color:'white'}}><i className="fa fa-facebook-square"></i> Facebook</a>                                   
+                                         </ListGroup.Item>
+                                        <ListGroup.Item>
+                                            <a target="_blank" href="https://www.instagram.com/carecenterforallergyandasthma/?hl=en" style={{color:'white'}}><i className="fa fa-instagram"></i> Instagram</a>
+                                         </ListGroup.Item>
+                                        {/* <ListGroup.Item></ListGroup.Item> */}
+                                    </ListGroup>
+                    </Col>
+                    </Row>
+                    <Row className="justify-content-md-center footerRow" style={{  width:'100%',color:'white'}}>
+                        All Right Reserved. &copy; 2019
+                    </Row>
+                </Row>
+         </Container>
+
+      </Navbar>
+
+    );
+  }
+}
+export default Header;
