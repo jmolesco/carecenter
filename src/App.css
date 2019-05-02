@@ -10,21 +10,21 @@ span.navbartext {
 
 /**    HEADER **/
 .navbar{
-  background-color:#d01f3c;
+  background-color:#007bff;
 }
 .navbar .navbar-collapse >div.mr-auto >div >a {
     color: white;
  }
 .navbar .navbar-collapse > div.mr-auto > div > a:hover {
-     background-color: #e6bac2;
-     color: #d01f3c;
+     background-color: #cce5ff;
+     color: #007bff;
      padding: 10px 15px;
      border-radius: 4px;
  }
 
 .navbar .navbar-collapse > div.mr-auto > div > .active {
-   background-color: #e6bac2;
-   color: #d01f3c;
+   background-color: #cce5ff;
+   color: #007bff;
    font-weight:bold;
    padding: 10px 15px;
    border-radius: 4px;
