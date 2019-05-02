@@ -67,7 +67,7 @@ class Header extends Component {
                                            <a target="_blank" href="https://www.facebook.com/DrCynthiaYangoEugenio/" style={{color:'white'}}><i className="fa fa-facebook-square"></i> Facebook</a>                                   
                                          </ListGroup.Item>
                                         <ListGroup.Item>
-                                            <a target="_blank" href="https://www.instagram.com/carecenterforallergyandasthma/?hl=en" style={{color:'white'}}><i className="fa fa-instagram"></i> Instagram</a>
+                                            <a target="_blank" href="https://www.instagram.com/carecenter4allergyandasthma/" style={{color:'white'}}><i className="fa fa-instagram"></i> Instagram</a>
                                          </ListGroup.Item>
                                         {/* <ListGroup.Item></ListGroup.Item> */}
                                     </ListGroup>
