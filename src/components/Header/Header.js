@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Navbar, Nav, Container,Image } from 'react-bootstrap';
 import {Link} from 'react-router-dom';
-// import logos from '../../images/logos.png';
+import logos from '../../images/logo2.png';
 // import fb from '../../images/fb.png';
 // import ig from '../../images/ig.png';
 // import twitter from '../../images/twitter.png';
@@ -19,7 +19,7 @@ class Header extends Component {
         <Container>
           <Navbar.Brand>
               <Link  to="/home">
-                 {/* <Image src={logos} />  */}
+                <Image src={logos} className="logo" />  
               </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

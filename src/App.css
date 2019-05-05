@@ -29,7 +29,10 @@ span.navbartext {
    padding: 10px 15px;
    border-radius: 4px;
 }
-
+.logo{
+  width:220px;
+  height:90px;
+}
 
 /**    HOME **/
 .row{
