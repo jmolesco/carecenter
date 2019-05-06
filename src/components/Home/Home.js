@@ -29,7 +29,7 @@ class Home extends Component {
                                 />
                                 <Carousel.Caption>
                                     <h5>Care Center for Allergy and Asthma</h5>
-                                    <h6>Dr. Cynthia Yango-Eugenio</h6>
+                                    <h6>Dr. Cynthia Yango-Eugenio, MD </h6>
                                      {/* <p>We provide high quality, compassionate, and competent care to all patients, aimed at awareness, prevention and management of allergic, asthmatic and immunologic diseases.</p> 
                               */}
                                 </Carousel.Caption>
@@ -123,7 +123,9 @@ class Home extends Component {
                                 <Card.Title>Food Allergy</Card.Title>
                                 <hr />
                                 <Card.Text>
-                                Food allergy, gluten sensitivity, nut allergy,<span className="filler">-</span>aspirin<span className="filler">-</span>allergy,<span className="filler">-</span>smoke<span className="filler">-</span>al-lergy,wheat allergy, spring allergy, mold allergy, dust mite allergy, animal dander allergy.
+                                Food allergy, gluten sensitivity, nut allergy, aspirin allergy, vomiting and/or stomach cramps, diarrhea, hives, shortness of breath, wheezing, repetitive cough, shock or circulatory collapse, tight, 
+                                
+                                hoarse throat, trouble swallowing, swelling of the tongue, affecting the ability to talk or breathe, weak pulse, pale or blue coloring of skin, dizziness or feeling faint, turning blue,drop in blood pressure (feeling faint, confused, weak, passing out), loss of consciousness, chest pain, a weak or “thready” pulse, sense of “impending doom”, itching or eczema and nasal congestion.
                                 </Card.Text>
                                 </Card.Body>
                                 
