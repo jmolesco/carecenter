@@ -10,14 +10,14 @@ span.navbartext {
 
 /**    HEADER **/
 .navbar{
-  background-color:#007bff;
+  background-color:aqua/*#007bff;*/
 }
 .navbar .navbar-collapse >div.mr-auto >div >a {
-    color: white;
+    color: #6610f2;
  }
 .navbar .navbar-collapse > div.mr-auto > div > a:hover {
      background-color: #cce5ff;
-     color: #007bff;
+     color: #6610f2;
      padding: 10px 15px;
      border-radius: 4px;
  }
@@ -102,13 +102,13 @@ height:180px;
 
 .footer-menu2 > .list-group-item,.footer-menu > .list-group-item  {
   background-color: transparent;
-  color:white;
+  color:#6610f2;
 }
 .list-group-item {
   background-color: transparent;
 }
 .footer-menu > .list-group-item > a > i{
-  color: white;
+  color: #6610f2;
 }
 
 

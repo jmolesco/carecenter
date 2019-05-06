@@ -64,15 +64,15 @@ class Header extends Component {
                                     <ListGroup variant="flush footer-menu2">
                                         <ListGroup.Item className="text-center"> Follow Us</ListGroup.Item>
                                         <ListGroup.Item>
-                                           <a target="_blank" href="https://www.facebook.com/DrCynthiaYangoEugenio/" style={{color:'white'}}><i className="fa fa-facebook-square"></i> Facebook</a>                                   
+                                           <a target="_blank" href="https://www.facebook.com/DrCynthiaYangoEugenio/" style={{color:'#6610f2'}}><i className="fa fa-facebook-square"></i> Facebook</a>                                   
                                          </ListGroup.Item>
                                         <ListGroup.Item>
-                                            <a target="_blank" href="https://www.instagram.com/carecenter4allergyandasthma/" style={{color:'white'}}><i className="fa fa-instagram"></i> Instagram</a>
+                                            <a target="_blank" href="https://www.instagram.com/carecenter4allergyandasthma/" style={{color:'#6610f2'}}><i className="fa fa-instagram"></i> Instagram</a>
                                          </ListGroup.Item>
                                     </ListGroup>
                     </Col>
                     </Row>
-                    <Row className="justify-content-md-center footerRow" style={{  width:'100%',color:'white'}}>
+                    <Row className="justify-content-md-center footerRow" style={{  width:'100%',color:'#6610f2'}}>
                         All Right Reserved. &copy; 2019
                     </Row>
                 </Row>
