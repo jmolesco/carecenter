@@ -75,6 +75,9 @@ span.filler{
 }
 .remove-border{
   border-radius: 0rem;
+  color: #6610f2;
+  background-color: aqua;
+  border-color: #b8daff;
 }
 
 
