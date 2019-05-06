@@ -7,6 +7,16 @@ span.navbartext {
   font-size: 1.1rem;
 } */
 
+.bg{
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url('./images/bg.jpeg');
+}
+
 
 /**    HEADER **/
 .navbar{
@@ -36,7 +46,7 @@ span.navbartext {
 
 /**    HOME **/
 .row{
-  background-color:white; 
+background-color:transparent; 
   margin: 1%;
 }
 /* .col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{
