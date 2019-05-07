@@ -15,7 +15,7 @@ class Header extends Component {
 
   render() {
     return (
-      <Navbar collapseOnSelect expand="lg" sticky="top">
+      <Navbar collapseOnSelect expand="lg" sticky="top" className="bg">
         <Container>
           <Navbar.Brand>
               <Link  to="/home">

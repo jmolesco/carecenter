@@ -5,11 +5,12 @@ import { Container, Row, Col, Form, Button, Image,  Carousel, Alert,Card,ListGro
 // import patient3 from '../../images/patient3.jpg';
 // import patient4 from '../../images/patient4.jpg';
 import patientinfo from '../../forms/new-patient-form.pdf';
-import patienthist1 from '../../forms/patient-history-1.pdf';
-import patienthist2 from '../../forms/patient-history-2.pdf';
-import patienthist3 from '../../forms/patient-history-3.pdf';
-import patienthist4 from '../../forms/patient-history-4.pdf';
-
+import patienthist1 from '../../forms/all.pdf';
+// import patienthist2 from '../../forms/patient-history-2.pdf';
+// import patienthist3 from '../../forms/patient-history-3.pdf';
+// import patienthist4 from '../../forms/patient-history-4.pdf';
+import patientrecords from '../../images/medical-history.png'; 
+import patientforms from '../../images/patient-forms.png'; 
 class Forms extends Component {
 
     render() 
@@ -33,30 +34,51 @@ class Forms extends Component {
                         <Row className="justify-content-md-left">
                                 <Col md={6}>
                                     <Card >
-                                        <Card.Header>&raquo; Patient History 1</Card.Header>
-                                        {/* <Card.Body>
-                                            <Image src={patient1} className="image-patient"/>
-                                        </Card.Body> */}
-                                        <Card.Footer className="text-left">
-                                                <p>
-                                                    <a target="_blank" rel="noopener noreferrer" href={patienthist1} download="patient-history-1.pdf">
+                                        <Card.Header>&raquo; Patient History 1 - 4</Card.Header>
+                                        <center>
+                                            <Card.Img variant="top" className="img-forms"  src={patientrecords} />
+                                        </center>
+                                        <Card.Body>
+
+
+                                            <p>
+                                                    <a target="_blank" rel="noopener noreferrer" href={patienthist1} download="patient-all.pdf">
                                                         <Button variant="outline-danger" style={{ width: '100%' }}>Download PDF File</Button>
                                                     </a>
                                                     <br></br>      <br></br>
-                                                    <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1PJlVHcy_yjGdL572WlXuC5a1oZK8Z7Mjo6912EMe44U/edit">
+                                                    <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1QtZGx8E9BgHy3nygZJbPqmGrAOcp2olC3J7zinoVq8g/edit?usp=sharing">
                                                         <Button variant="outline-info" style={{ width: '100%' }} >Fill Up Online</Button>
                                                     </a>
-                                                </p>
-                                                
-                                        </Card.Footer>
+                                                </p>                   
+                                        </Card.Body>
+                                        
                                     </Card>
                                 </Col>
                                 <Col md={6}>
                                     <Card >
+                                        <Card.Header>&raquo; New Patient Information</Card.Header>
+                                        <center>
+                                            <Card.Img variant="top" className="img-forms"  src={patientforms} />
+                                        </center>
+                                        <Card.Body>
+                                            <p>
+
+                                             <a target="_blank" rel="noopener noreferrer" href={patientinfo} download="newpatientform.pdf">
+                                                 <Button variant="outline-danger" style={{ width: '100%' }}>Download PDF File</Button>
+                                            </a>    
+                                            <br></br>      <br></br>
+                                                    <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1dRa8vtUwqSeONwI8JH54K7G5ZB7s8YvkrB0P3EDF5-A/edit">
+                                                        <Button variant="outline-info" style={{ width: '100%' }} >Fill Up Online</Button>
+                                                    </a>  
+                                            </p>                               
+                                        </Card.Body>
+                                       
+                                    </Card>
+                                </Col>
+                                
+                                {/* <Col md={6}>
+                                    <Card >
                                         <Card.Header>&raquo; Patient History 2</Card.Header>
-                                        {/* <Card.Body>
-                                            <Image src={patient2} className="image-patient"/>
-                                        </Card.Body> */}
                                         <Card.Footer className="text-left">
                                                 <p>
                                                     <a target="_blank" rel="noopener noreferrer" href={patienthist2} download="patient-history-2.pdf">
@@ -70,15 +92,12 @@ class Forms extends Component {
                                        
                                         </Card.Footer>
                                     </Card>
-                                </Col> 
-                        </Row>
-                        <Row className="justify-content-md-left">
+                                </Col> */}
+                        </Row> 
+                        {/* <Row className="justify-content-md-left">
                                 <Col md={6}>
                                     <Card >
                                         <Card.Header>&raquo; Patient History 3</Card.Header>
-                                        {/* <Card.Body>
-                                             <Image src={patient3} className="image-patient"/>
-                                        </Card.Body> */}
                                         <Card.Footer className="text-left">
                                                 <p>
                                                     <a target="_blank" rel="noopener noreferrer" href={patienthist3} download="patient-history-3.pdf">
@@ -96,9 +115,7 @@ class Forms extends Component {
                                 <Col md={6}>
                                     <Card >
                                         <Card.Header>&raquo; Patient History 4</Card.Header>
-                                        {/* <Card.Body>
-                                             <Image src={patient4} className="image-patient"/>
-                                        </Card.Body> */}
+                                       
                                         <Card.Footer className="text-left">
                                         <p>
                                                      <a target="_blank" rel="noopener noreferrer" href={patienthist4} download="patient-history-4.pdf">
@@ -113,8 +130,8 @@ class Forms extends Component {
                                         </Card.Footer>
                                     </Card>
                                 </Col> 
-                        </Row>
-                        <Row className="justify-content-md-left">
+                        </Row>*/}
+                        {/* <Row className="justify-content-md-left"> 
                                 <Col md={12}>
                                     <Card >
                                         <Card.Header>&raquo; New Patient Information</Card.Header>
@@ -134,6 +151,7 @@ class Forms extends Component {
                                     </Card>
                                 </Col>
                         </Row>
+                */}
                    </Col>
                 </Row>
           </Container>
