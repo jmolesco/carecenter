@@ -307,7 +307,7 @@ class Contact extends Component {
                                 <Card style={{height:'398px'}}>
                                         <Card.Header>
                                         <i className="fa fa-location-arrow">
-                                            &nbsp;Location - 1411 North McHenry Rd Ste Buffalo Grove, IL 60089</i>
+                                            &nbsp;Location - 1411 North McHenry Rd Ste 126 Buffalo Grove, IL 60089</i>
                                             </Card.Header>
                                         <Card.Body >
                                              <Map google={this.props.google} 
@@ -341,7 +341,7 @@ class Contact extends Component {
                                 <Card style={{height:'398px'}}>
                                         <Card.Header>
                                         <i className="fa fa-location-arrow">
-                                            &nbsp;Location - 600 Randall Rd Ste 230 IL 60089 Alongonquin, IL 60102</i>
+                                            &nbsp;Location - 600 Randall Rd Ste 230  Alongonquin, IL 60102</i>
                                             </Card.Header>
                                         <Card.Body >
                                         <Map google={this.props.google} 

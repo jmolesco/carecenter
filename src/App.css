@@ -6,14 +6,18 @@ span.navbartext {
   color: white;
   font-size: 1.1rem;
 } */
-
-/* .bg{
+/* .bg-body{
+  top: 0;
+  left: 0;
+  background-image: url('./images/backgroundbody.jpg');
+}
+.bg{
   min-height: 100%;
   min-width: 1024px;
   background-size: 100% 150px;
   top: 0;
   left: 0;
-  background-image: url('./images/bg-header1.jpg');
+  background-image: url('./images/headerImg.jpg');
 } */
 
 
