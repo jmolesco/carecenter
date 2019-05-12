@@ -6,24 +6,34 @@ span.navbartext {
   color: white;
   font-size: 1.1rem;
 } */
-/* .bg-body{
+
+/* .bg-bodies{
   top: 0;
   left: 0;
-  background-image: url('./images/backgroundbody.jpg');
-}
+  background-size: 100% 100%;
+  background-image: url('./images/newbody.jpg');
+} */
 .bg{
   min-height: 100%;
   min-width: 1024px;
   background-size: 100% 150px;
   top: 0;
   left: 0;
-  background-image: url('./images/headerImg.jpg');
-} */
+  background-image: url('./images/headerbanner.jpg');
+} 
+.footer-bg{
+  min-height: 100%;
+  min-width: 1024px;
+  background-size: 100% 100%;
+  top: 0;
+  left: 0;
+  background-image: url('./images/bogyimaga.jpg');
+}
 
 
 /**    HEADER **/
 .navbar{
-  background-color:aqua;/*#007bff;*/
+  background-color:transparent;/*#007bff;*/
 }
 .navbar .navbar-collapse >div.mr-auto >div >a {
     color: #6610f2;

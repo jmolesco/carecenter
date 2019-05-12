@@ -14,7 +14,7 @@ class Header extends Component {
 
   render() {
     return (
-      <Navbar collapseOnSelect expand="lg" sticky="bottom">
+      <Navbar collapseOnSelect expand="lg" sticky="bottom" className="footer-bg">
         <Container>
 
               <Row className="justify-content-md-center footerRow"  style={{  width:'98%'}}>
