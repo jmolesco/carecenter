@@ -51,10 +51,10 @@ class Header extends Component {
                                                 Visit us
                                         </ListGroup.Item>
                                         <ListGroup.Item>
-                                                <i className="fa fa-location-arrow"></i> 1411 North McHenry Rd Ste Buffalo Grove, IL 60089
+                                                <i className="fa fa-location-arrow"></i> 1411 North McHenry Rd Ste 126 Buffalo Grove, IL 60089
                                         </ListGroup.Item>
                                         <ListGroup.Item>
-                                                <i className="fa fa-location-arrow"></i> 600 Randall Rd Ste 230 IL 60089 Alongonquin, IL 60102
+                                                <i className="fa fa-location-arrow"></i> 600 Randall Rd Ste 230 Alongonquin, IL 60102
                                             </ListGroup.Item>
                                             
                                 </ListGroup>
