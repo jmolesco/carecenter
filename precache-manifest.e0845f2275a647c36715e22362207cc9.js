@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/carecenter/static/media/5.3f4d54f2.jpg"
   },
   {
-    "revision": "447b2bd32186491af23c",
+    "revision": "d95d9ab510f9b60848f1",
     "url": "/carecenter/static/css/main.5de098b0.chunk.css"
   },
   {
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/carecenter/static/media/4.2da6a782.jpg"
   },
   {
-    "revision": "447b2bd32186491af23c",
-    "url": "/carecenter/static/js/main.09aea8de.chunk.js"
+    "revision": "d95d9ab510f9b60848f1",
+    "url": "/carecenter/static/js/main.097d9a05.chunk.js"
   },
   {
     "revision": "d08b095a70386f3dc493814eb58b72da",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/carecenter/static/media/bogyimaga.ee45fb53.jpg"
   },
   {
-    "revision": "7759c80020b9409ee3f1bd1c3da88eb8",
+    "revision": "104e6a3c653bf2350a3391e7a1fda976",
     "url": "/carecenter/index.html"
   }
 ];
