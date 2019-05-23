@@ -4,7 +4,7 @@ import { Container, Row, Col, Form, Button, Image, Carousel, Alert, Card, ListGr
 // import patient2 from '../../images/patient2.jpg';
 // import patient3 from '../../images/patient3.jpg';
 // import patient4 from '../../images/patient4.jpg';
-import patientinfo from '../../forms/new-patient-form.pdf';
+import patientinfo from '../../forms/new-patient.pdf';
 import patienthist1 from '../../forms/patient-history-1.pdf';
 import patienthist2 from '../../forms/patient-history-2.pdf';
 import patienthist3 from '../../forms/patient-history-3.pdf';
@@ -125,7 +125,7 @@ class Forms extends Component {
                                                 <Button variant="outline-danger" style={{ width: '100%' }}>Download PDF File</Button>
                                             </a>
                                             <br></br>      <br></br>
-                                            <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1dRa8vtUwqSeONwI8JH54K7G5ZB7s8YvkrB0P3EDF5-A/edit">
+                                            <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1mozeK-fiJuc3kjgMjHbiEtsXxFQRMSOZ/edit">
                                                 <Button variant="outline-info" style={{ width: '100%' }} >Fill Up Online</Button>
                                             </a>
                                         </p>

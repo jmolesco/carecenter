@@ -10,7 +10,7 @@ import A1 from '../../images/1.jpg';
 import A2 from '../../images/2.jpg'; 
 import A3 from '../../images/3.jpg'; 
 import A4 from '../../images/4.jpg'; 
-import A5 from '../../images/5.jpg'; 
+import A5 from '../../images/5.png'; 
 import skin from  '../../images/skin.png';
 class Home extends Component {
 

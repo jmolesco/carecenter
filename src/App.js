@@ -7,6 +7,8 @@ import AboutUs from './components/AboutUs/AboutUs';
 import Service from './components/Service/Service';
 import Contact from './components/Contact/Contact';
 import Insurance from './components/Insurance/Insurance';
+import OtherInsurance from './components/Insurance/OtherInsurance';
+import Insurance1 from './components/Insurance/Insurance1';
 import Forms from './components/Forms/Forms';
 import Staff from './components/Staff/Staff';
 import Footer from './components/Footer/Footer';
@@ -23,7 +25,9 @@ class App extends Component {
               <Route path="/staff" component={Staff}/>
               <Route path="/service" component={Service}/>
               <Route path="/contact" component={Contact}/>
-              <Route path="/insurance" component={Insurance}/>
+              <Route path="/insurance" component={Insurance}/>        
+              <Route path="/otherinsurance" component={OtherInsurance}/>
+              <Route path="/insurance1" component={Insurance1}/>
               <Route path="/forms" component={Forms}/>
               <Footer></Footer> 
               {/* <Route path="/map" component={Map}/> */}
