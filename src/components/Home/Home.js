@@ -28,8 +28,8 @@ class Home extends Component {
                                     
                                 />
                                 <Carousel.Caption>
-                                    <h5>Care Center for Allergy and Asthma</h5>
-                                    <h6>Dr. Cynthia Yango-Eugenio, MD </h6>
+                                    <h5><b>Care Center for Allergy and Asthma</b></h5>
+                                    <h6><b>Dr. Cynthia Yango-Eugenio, MD </b></h6>
                                      {/* <p>We provide high quality, compassionate, and competent care to all patients, aimed at awareness, prevention and management of allergic, asthmatic and immunologic diseases.</p> 
                               */}
                                 </Carousel.Caption>

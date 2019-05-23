@@ -69,11 +69,14 @@ class Header extends Component {
                                         <ListGroup.Item>
                                             <a target="_blank" href="https://www.instagram.com/carecenter4allergyandasthma/" style={{color:'#6610f2'}}><i className="fa fa-instagram"></i> Instagram</a>
                                          </ListGroup.Item>
+                                         <ListGroup.Item>
+                                            <a target="_blank" href="https://twitter.com/@DrYangoEugenio?fbclid=IwAR1jLhwWGKH_UEcxpshPFm8sBVEDKIodtuJrC0Jei_SgV_jzJBCpS-oclZ4" style={{color:'#6610f2'}}><i className="fa fa-twitter"></i> Twitter</a>
+                                         </ListGroup.Item>
                                     </ListGroup>
                     </Col>
                     </Row>
                     <Row className="justify-content-md-center footerRow" style={{  width:'100%',color:'#6610f2'}}>
-                        All Right Reserved. &copy; 2019
+                        All Rights Reserved. &copy; 2019
                     </Row>
                 </Row>
          </Container>
