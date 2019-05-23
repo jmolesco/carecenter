@@ -109,15 +109,22 @@ span.filler{
 width:220px;
 height:180px;
 }
-
-
+.text-black
+{
+  color:black;
+}
+.text-white{
+  color:transparent;
+}
 .card-img-insurance{
     display: block;
     padding:15%;
     width: 360px;
     height: 170px;
 }
-
+.image > img.card-img-top{
+  padding:10%;
+}
 /** FORMS**/
 .img-forms{
 width: 256px;
