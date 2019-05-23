@@ -7,6 +7,14 @@ import multiplan from '../../images/mutltiplan.png';
 import beech from '../../images/beech.png';
 import ufc from '../../images/ufc.png';
 import first from '../../images/first.png';
+import aarp from '../../images/aarp.jpg';
+import adventist from '../../images/adventist.jpg';
+import phcs from '../../images/phcs.jpg';
+import blueprecision from '../../images/blueprecision.jpg';
+import greatwest from '../../images/greatwest.png';
+import coventry from '../../images/coventry.png';
+import meridian from '../../images/meridian.png';
+
 import {Link} from 'react-router-dom';
 
 class Insurance extends Component {
@@ -31,22 +39,7 @@ insurance plans. </p>
                 <Row className="justify-content-md-center 2nd-col-BlueCross">
                    <Col md={12}>
                    <CardDeck>
-                             <Card>
-                                <center>
-                                    <Card.Img variant="top" className="card-img-insurance" />
-                                </center>
-                                <Card.Body className="text-center">
-                                <ListGroup variant="flush">
-                                        <ListGroup.Item></ListGroup.Item>
-                                        <ListGroup.Item>
-                                            <small className="text-center text-black" >AARP MedicareComplete Plus HMO-POS</small>
-                                        </ListGroup.Item>
-                                   </ListGroup>
-                                </Card.Body>
-                                <Card.Footer>
-
-                                </Card.Footer>
-                            </Card>
+                 
                             <Card>
                                 <center>
                                     <Card.Img variant="top" className="card-img-insurance" src={beech} />
@@ -79,6 +72,19 @@ insurance plans. </p>
                                     
                                     </Card.Footer>
                             </Card>
+                            <Card>
+                                    <center>
+                                        <Card.Img variant="top" className="card-img-insurance" src={ufc} />
+                                    </center>
+                                    <Card.Body className="text-center">
+                                    <ListGroup variant="flush">
+                                            <ListGroup.Item></ListGroup.Item>
+                                            <ListGroup.Item><small className="text-center text-black" >UFCW Local 1546 Health and Welfare Fund</small></ListGroup.Item>
+                                    </ListGroup>
+                                    </Card.Body>
+                                    <Card.Footer>
+                                                                           </Card.Footer>
+                                </Card>
                         </CardDeck>
              
                    </Col>
@@ -154,7 +160,7 @@ insurance plans. </p>
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance" />
+                                    <Card.Img variant="top" className="card-img-insurance" src={meridian} />
                                 </center>
                                 <Card.Body className="text-center">
                                      <ListGroup variant="flush">
@@ -239,24 +245,33 @@ insurance plans. </p>
                 <Row className="justify-content-md-center 2nd-col-BlueCross">
                     <Col md={12}>
                     <CardDeck>
-                            
-                                <Card>
-                                    <center>
-                                        <Card.Img variant="top" className="card-img-insurance" src={ufc} />
-                                    </center>
-                                    <Card.Body className="text-center">
+                    <Card>
+                                <center>
+                                    <Card.Img variant="top" className="card-img-insurance" src={"https://www.humana.com/dist/hcom/static/icons/humana-logo.svg"}  />
+                                </center>
+                                <Card.Body>
                                     <ListGroup variant="flush">
-                                            <ListGroup.Item></ListGroup.Item>
-                                            <ListGroup.Item><small className="text-center text-black" >UFCW Local 1546 Health and Welfare Fund</small></ListGroup.Item>
-                                    </ListGroup>
-                                    </Card.Body>
-                                    <Card.Footer>
-                                            <Card.Link href="#" className="text-center" ><small className="text-center text-white"><center>Check More Insurance</center></small></Card.Link>
+                                        <ListGroup.Item></ListGroup.Item>
+                                        <ListGroup.Item>Humana Advocate Health Care PPO</ListGroup.Item>
+                             </ListGroup>
+                                </Card.Body>
+                                <Card.Footer>
+                                            <Link to={{
+                                                    pathname:'/otherinsurance',
+                                                    data:['Humana Advocate Health Care PPO', 'Humana Choice POS','Humana DuPage Medical Group HMO',
+                                                    'Humana DuPage Medical Group HMO - HMO Select','Humana EPO - Advocate Associate Medical Plan','Humana HMO - Advocate Associate Medical Plan',
+                                                    'Humana HMO Select','Humana Illinois Platinum HMO','Humana Integrated Care Program of Illinois','Humana Medicaid Managed Care Plan',
+                                                    'Humana National EPO','Humana National PPO','Humana POS','Humana PPO','Humana PPO - Advocate Associate Medical Plan'
+                                                ],
+                                                    logo:"https://www.humana.com/dist/hcom/static/icons/humana-logo.svg"
+                                                }}><small className="text-center"><center>Check More Insurance</center></small>
+                                                </Link>
                                 </Card.Footer>
-                                </Card>
+                            </Card>
+                                
                                 <Card>
                                     <center>
-                                        <Card.Img variant="top" className="card-img-insurance" />
+                                        <Card.Img variant="top" className="card-img-insurance" src={phcs} />
                                     </center>
                                     <Card.Body className="text-center">
                                         <ListGroup variant="flush">
@@ -269,7 +284,7 @@ insurance plans. </p>
                                                 <Link to={{
                                                     pathname:'/otherinsurance',
                                                     data:['PHCS PPO', 'PHCS Savility PPO'],
-                                                    logo:''
+                                                    logo:phcs
                                                 }}>
                                                     
                                                         <small className="text-center"><center>Check More Insurance</center></small>
@@ -279,7 +294,7 @@ insurance plans. </p>
                                 </Card>
                                 <Card>
                                     <center>
-                                        <Card.Img variant="top" className="card-img-insurance"  />
+                                        <Card.Img variant="top" className="card-img-insurance" src={aarp}  />
                                     </center>
                                     <Card.Body className="text-center">
 
@@ -292,8 +307,8 @@ insurance plans. </p>
                                     <Card.Footer>
                                         <Link to={{
                                                     pathname:'/otherinsurance',
-                                                    data:['UHC/AARP MedicareComplete Focus HMO', 'UHC/AARP MedicareComplete (Secure Horizons) HMO'],
-                                                    logo:''
+                                                    data:['UHC/AARP MedicareComplete Focus HMO', 'UHC/AARP MedicareComplete (Secure Horizons) HMO','AARP Medicar complete Plus HMO-POS '],
+                                                    logo:aarp
                                                 }}>
                                                     <small className="text-center"><center>Check More Insurance</center></small>
                                         </Link>
@@ -329,7 +344,7 @@ insurance plans. </p>
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance" />
+                                    <Card.Img variant="top" className="card-img-insurance" src={greatwest} />
                                 </center>
                                 <Card.Body className="text-center">
                                      <ListGroup variant="flush">
@@ -343,7 +358,7 @@ insurance plans. </p>
                                 <Link to={{
                                                     pathname:'/otherinsurance',
                                                     data:['Great West Healthcare - Cigna HMO', 'Great West Healthcare - Cigna Open Access Plus HMO','Great West Healthcare - Cigna PPO'],
-                                                    logo:''
+                                                    logo:greatwest
                                                 }}>
                                                 <small className="text-center"><center>Check More Insurance</center></small>
                                 </Link>
@@ -351,7 +366,7 @@ insurance plans. </p>
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance"  />
+                                    <Card.Img variant="top" className="card-img-insurance" src={coventry}  />
                                 </center>
                                 <Card.Body className="text-center">
 
@@ -366,7 +381,7 @@ insurance plans. </p>
                                 <Link to={{
                                                     pathname:'/otherinsurance',
                                                     data:['Coventry HMO', 'Coventry One Select PPO','Coventry PPO'],
-                                                    logo:first
+                                                    logo:coventry
                                                 }}><small className="text-center"><center>Check More Insurance</center></small>
                                 </Link>
                                 </Card.Footer>
@@ -400,7 +415,7 @@ insurance plans. </p>
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance" />
+                                    <Card.Img variant="top" className="card-img-insurance" src={adventist}/>
                                 </center>
                                 <Card.Body className="text-center">
                                      <ListGroup variant="flush">
@@ -414,13 +429,13 @@ insurance plans. </p>
                                 <Link to={{
                                                     pathname:'/otherinsurance',
                                                     data:['LLH Adventist Silver PPO 3000', 'LLH Family Health Network Silver PPO 3100','LLH Swedish Covenant Silver PPO'],
-                                                    logo:""
+                                                    logo:adventist
                                                 }}><small className="text-center"><center>Check More Insurance</center></small></Link>
                                 </Card.Footer>
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance"  />
+                                    <Card.Img variant="top" className="card-img-insurance" src={blueprecision} />
                                 </center>
                                 <Card.Body className="text-center">
 
@@ -437,7 +452,7 @@ insurance plans. </p>
                                 <Link to={{
                                                     pathname:'/otherinsurance',
                                                     data:['Blue Precision Bronze HMO', 'Blue Precision Gold HMO','Blue Precision HMO','Blue Precision Silver HMO'],
-                                                    logo:""
+                                                    logo:blueprecision
                                                 }}><small className="text-center"><center>Check More Insurance</center></small></Link>
                                 </Card.Footer>
                             </Card>
@@ -540,45 +555,7 @@ insurance plans. </p>
                    <Col md={12}>
                    <CardDeck>
                             
-                            <Card>
-                                <center>
-                                    <Card.Img variant="top" className="card-img-insurance" src={"https://www.humana.com/dist/hcom/static/icons/humana-logo.svg"}  />
-                                </center>
-                                <Card.Body>
-                                    <ListGroup variant="flush">
-                                        <ListGroup.Item></ListGroup.Item>
-                                        <ListGroup.Item>Humana Advocate Health Care PPO</ListGroup.Item>
-                                        {/* <ListGroup.Item>Humana Choice POS</ListGroup.Item>
-                                        <ListGroup.Item>Humana DuPage Medical Group HMO</ListGroup.Item>
-                                        <ListGroup.Item>Humana DuPage Medical Group HMO - HMO Select</ListGroup.Item>
-                                        <ListGroup.Item>Humana EPO - Advocate Associate Medical Plan</ListGroup.Item>
-                                        <ListGroup.Item>Humana HMO - Advocate Associate Medical Plan</ListGroup.Item>
-                                        <ListGroup.Item>Humana HMO Select</ListGroup.Item>
-                                        <ListGroup.Item>Humana Illinois Platinum HMO</ListGroup.Item>
-                                        <ListGroup.Item>Humana Integrated Care Program of Illinois</ListGroup.Item>
-                                        <ListGroup.Item>Humana Medicaid Managed Care Plan</ListGroup.Item>
-                                        <ListGroup.Item>Humana National EPO</ListGroup.Item>
-                                        <ListGroup.Item>Humana National HMO</ListGroup.Item>
-                                        <ListGroup.Item>Humana National POS - Open Access</ListGroup.Item>
-                                        <ListGroup.Item>Humana National PPO</ListGroup.Item>
-                                        <ListGroup.Item>Humana POS</ListGroup.Item>
-                                        <ListGroup.Item>Humana PPO</ListGroup.Item>
-                                        <ListGroup.Item>Humana PPO - Advocate Associate Medical Plan</ListGroup.Item> */}
-                                   </ListGroup>
-                                </Card.Body>
-                                <Card.Footer>
-                                            <Link to={{
-                                                    pathname:'/otherinsurance',
-                                                    data:['Humana Advocate Health Care PPO', 'Humana Choice POS','Humana DuPage Medical Group HMO',
-                                                    'Humana DuPage Medical Group HMO - HMO Select','Humana EPO - Advocate Associate Medical Plan','Humana HMO - Advocate Associate Medical Plan',
-                                                    'Humana HMO Select','Humana Illinois Platinum HMO','Humana Integrated Care Program of Illinois','Humana Medicaid Managed Care Plan',
-                                                    'Humana National EPO','Humana National PPO','Humana POS','Humana PPO','Humana PPO - Advocate Associate Medical Plan'
-                                                ],
-                                                    logo:"https://www.humana.com/dist/hcom/static/icons/humana-logo.svg"
-                                                }}><small className="text-center"><center>Check More Insurance</center></small>
-                                                </Link>
-                                </Card.Footer>
-                            </Card>
+                 
                             <Card>
                                 <center>
                                     <Card.Img variant="top" className="card-img-insurance"  src={"https://www.uhc.com/content/dam/uhcdotcom/en/responsive/header-logo.png"}/>
@@ -615,6 +592,20 @@ insurance plans. </p>
                                                     logo:"https://www.uhc.com/content/dam/uhcdotcom/en/responsive/header-logo.png"
                                                 }}><small className="text-center"><center>Check More Insurance</center></small></Link>
                                 </Card.Footer>
+                            </Card><Card style={{visibility:'hidden'}}>
+                                <center>
+                                    <Card.Img variant="top" className="card-img-insurance"  src={cigna}/>
+                                </center>
+                                <Card.Body className="text-center">
+                                    <ListGroup variant="flush">
+                                        <ListGroup.Item></ListGroup.Item>
+                                        <ListGroup.Item>Cigna C - 5 POS</ListGroup.Item>
+                                     
+                                </ListGroup>
+                                </Card.Body>       
+                                <Card.Footer>
+                                            <Card.Link href="#" ><small className="text-center"><center>Check More Insurance</center></small></Card.Link>
+                                </Card.Footer>                       
                             </Card>
                             <Card style={{visibility:'hidden'}}>
                                 <center>
@@ -624,13 +615,7 @@ insurance plans. </p>
                                     <ListGroup variant="flush">
                                         <ListGroup.Item></ListGroup.Item>
                                         <ListGroup.Item>Cigna C - 5 POS</ListGroup.Item>
-                                        {/* <ListGroup.Item>Cigna Health Partners POS</ListGroup.Item>
-                                        <ListGroup.Item>Cigna Health Partners PPO</ListGroup.Item>
-                                        <ListGroup.Item>Cigna Open Access Plus POS</ListGroup.Item>
-                                        <ListGroup.Item>Cigna Open Access Plus State of Illinois POS</ListGroup.Item>
-                                        <ListGroup.Item>CIGNA Open Access POS</ListGroup.Item>
-                                        <ListGroup.Item>Cigna POS</ListGroup.Item>
-                                        <ListGroup.Item>Cigna PPO</ListGroup.Item> */}
+                                     
                                 </ListGroup>
                                 </Card.Body>       
                                 <Card.Footer>

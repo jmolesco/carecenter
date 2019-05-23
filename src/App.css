@@ -103,6 +103,10 @@ span.filler{
   border-color: #b8daff;
 }
 
+.carousel-caption {
+  color: aqua;
+}
+
 
 /***** Insurance ******/
 .image-patient{
