@@ -34,21 +34,20 @@ class Forms extends Component {
                             <Col md={6}>
                                 <Card >
                                     <Card.Header>&raquo; Patient History 1</Card.Header>
-                                    {/* <Card.Body>
-                                            <Image src={patient1} className="image-patient"/>
-                                        </Card.Body> */}
                                     <Card.Footer className="text-left">
                                         <p>
-                                            <a target="_blank" rel="noopener noreferrer" href={patienthist1} download="patient-history-1.pdf">
+                                            <a target="_blank" rel="noopener noreferrer" href={patienthist4} download="patient-history-1.pdf">
                                                 <Button variant="outline-danger" style={{ width: '100%' }}>Download PDF File</Button>
                                             </a>
                                             <br></br>      <br></br>
-                                            <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/13T2Z_e4viZlTCI5Xzinow6JYtMGsnBkE67AchIIuhP8/edit?usp=sharing">
+                                            <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1timXgxE0zv9MeZpcgevWxiU9dftxQ4d6IYcOYipHyyY/edit?usp=sharing">
                                                 <Button variant="outline-info" style={{ width: '100%' }} >Fill Up Online</Button>
                                             </a>
                                         </p>
 
                                     </Card.Footer>
+
+                                   
                                 </Card>
                             </Col>
                             <Col md={6}>
@@ -76,12 +75,28 @@ class Forms extends Component {
                             <Col md={6}>
                                 <Card >
                                     <Card.Header>&raquo; Patient History 3</Card.Header>
-                                    {/* <Card.Body>
-                                             <Image src={patient3} className="image-patient"/>
-                                        </Card.Body> */}
                                     <Card.Footer className="text-left">
                                         <p>
-                                            <a target="_blank" rel="noopener noreferrer" href={patienthist3} download="patient-history-3.pdf">
+                                            <a target="_blank" rel="noopener noreferrer" href={patienthist1} download="patient-history-3.pdf">
+                                                <Button variant="outline-danger" style={{ width: '100%' }}>Download PDF File</Button>
+                                            </a>
+                                            <br></br>      <br></br>
+                                            <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/13T2Z_e4viZlTCI5Xzinow6JYtMGsnBkE67AchIIuhP8/edit?usp=sharing">
+                                                <Button variant="outline-info" style={{ width: '100%' }} >Fill Up Online</Button>
+                                            </a>
+                                        </p>
+
+                                    </Card.Footer>
+
+                                   
+                                </Card>
+                            </Col>
+                            <Col md={6}>
+                                <Card >
+                                    <Card.Header>&raquo; Patient History 4</Card.Header>
+                                    <Card.Footer className="text-left">
+                                        <p>
+                                            <a target="_blank" rel="noopener noreferrer" href={patienthist3} download="patient-history-4.pdf">
                                                 <Button variant="outline-danger" style={{ width: '100%' }}>Download PDF File</Button>
                                             </a>
                                             <br></br>      <br></br>
@@ -91,26 +106,7 @@ class Forms extends Component {
                                         </p>
 
                                     </Card.Footer>
-                                </Card>
-                            </Col>
-                            <Col md={6}>
-                                <Card >
-                                    <Card.Header>&raquo; Patient History 4</Card.Header>
-                                    {/* <Card.Body>
-                                             <Image src={patient4} className="image-patient"/>
-                                        </Card.Body> */}
-                                    <Card.Footer className="text-left">
-                                        <p>
-                                            <a target="_blank" rel="noopener noreferrer" href={patienthist4} download="patient-history-4.pdf">
-                                                <Button variant="outline-danger" style={{ width: '100%' }}>Download PDF File</Button>
-                                            </a>
-                                            <br></br>      <br></br>
-                                            <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1timXgxE0zv9MeZpcgevWxiU9dftxQ4d6IYcOYipHyyY/edit?usp=sharing">
-                                                <Button variant="outline-info" style={{ width: '100%' }} >Fill Up Online</Button>
-                                            </a>
-                                        </p>
-
-                                    </Card.Footer>
+                                    
                                 </Card>
                             </Col>
                         </Row>
