@@ -106,7 +106,9 @@ span.filler{
 .carousel-caption {
   color: aqua;
 }
-
+.fillers{
+  color:white;
+}
 
 /***** Insurance ******/
 .image-patient{

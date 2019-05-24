@@ -28,10 +28,16 @@ class Home extends Component {
                                     
                                 />
                                 <Carousel.Caption>
-                                    <h5><b>Care Center for Allergy and Asthma</b></h5>
-                                    <h6><b>Dr. Cynthia Yango-Eugenio, MD </b></h6>
-                                     {/* <p>We provide high quality, compassionate, and competent care to all patients, aimed at awareness, prevention and management of allergic, asthmatic and immunologic diseases.</p> 
-                              */}
+                                    <h4>
+                                        <b>
+                                            Care Center for Allergy and Asthma
+                                        </b>
+                                    </h4>
+                                    <h5>
+                                        <b>
+                                            Dr. Cynthia Yango-Eugenio, MD 
+                                        </b>
+                                    </h5>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
@@ -42,10 +48,6 @@ class Home extends Component {
                                     
                                 />
 
-                                <Carousel.Caption>
-                                    <h3>Second slide label</h3>
-                                    {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
-                                </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
@@ -53,23 +55,13 @@ class Home extends Component {
                                     src={A3}
                                     
                                      />
-
-                                <Carousel.Caption>
-                                    <h3>Third slide label</h3>
-                                    {/* //<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
-                                </Carousel.Caption>
-                            </Carousel.Item>
+                          </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
                                     src={A4}
                                     
                                      />
-
-                                <Carousel.Caption>
-                                    <h3>Fourth slide label</h3>
-                                    {/* //<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
-                                </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
@@ -77,11 +69,6 @@ class Home extends Component {
                                     src={A1}
                                     
                                      />
-
-                                <Carousel.Caption>
-                                    <h3>Fifth slide label</h3>
-                                    {/* //<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
-                                </Carousel.Caption>
                             </Carousel.Item>
                         </Carousel>
                     </Col>
@@ -111,7 +98,11 @@ class Home extends Component {
                                 <Card.Title>Asthma/Chest & Lung Problem</Card.Title>
                                 <hr />
                                 <Card.Text>
-                                    Chronic bronchitis, wheezing, shortness of breath, difficulty breathing, hyperactive airways, nighttime cough, chest tightness, exercise intolerance, chest pain or pressure,failure to take full breath, rapid breathing, bronchitis, productive cough,cold air intolerance, exercise induced asthma, work related asthma, nighttime asthma, cough variant asthma,allergy induced asthma, animal dander induced asthma, coughing when laughing or talking, frequent wet cough, blood tinged cough, chest discomfort, discolored mucus from nose or cough</Card.Text>
+                                    Chronic bronchitis, wheezing, shortness of breath, difficulty breathing, hyperactive air-ways, nighttime cough, chest tightness,
+                                    ex-ercise intolerance, chest pain or pressure, failure to take full breath, rapid breathing, bronchitis, productive cough,
+                                     cold air into-lerance, exercise induced asthma, work rela-ted asthma, nighttime asthma, cough variant asthma, allergy induced asthma,
+                                     animal dander induced asthma, coughing when laughing or talking, frequent wet cough, blood tinged cough, chest dis-comfort,
+                                    discolored mucus from nose or cough</Card.Text>
                                 </Card.Body>
                                 
                             </Card>
@@ -123,7 +114,7 @@ class Home extends Component {
                                 <Card.Title>Food Allergy</Card.Title>
                                 <hr />
                                 <Card.Text>
-                                Food allergy, gluten sensitivity, nut allergy, aspirin allergy, vomiting and/or stomach cramps, diarrhea, hives, shortness of breath, wheezing, repetitive cough, shock or circulatory collapse, tight, 
+                                Food allergy, gluten sensitivity, nut allergy, aspirin allergy, vomiting and / or stomach cramps, diarrhea, hives, shortness of breath, wheezing,<span className="fillers">-</span>repetitive<span className="fillers">-</span>cough,<span className="fillers">-</span>shock or circu-latory collapse, tight, 
                                 
                                 hoarse throat, trouble swallowing, swelling of the tongue, affecting the ability to talk or breathe, weak pulse, pale or blue coloring of skin, dizziness or feeling faint, turning blue,drop in blood pressure (feeling faint, confused, weak, passing out), loss of consciousness, chest pain, a weak or “thready” pulse, sense of “impending doom”, itching or eczema and nasal congestion.
                                 </Card.Text>
@@ -138,7 +129,7 @@ class Home extends Component {
                                 <Card.Title >Gastro/Intestinal</Card.Title>
                                 <hr/>
                                 <Card.Text>
-                                Abdominal pain, diarrhea, nausea or vomiting,dizziness or lightheadedness, constriction of airway, rapid pulse, low bloodpressure, food intolerance, stomach cramp, rectal bleeding(in children) colic,constipation, bloating, abdominal cramps, gassiness,difficulty swallowing       </Card.Text>
+                                Abdominal pain, diarrhea, nausea or vomit-ing,dizziness or lightheadedness, constrict-ion of airway, rapid pulse, low blood-pressure, food intolerance, stomach cramp, rectal bleeding(in children) colic,constipat-ion, bloating, abdominal cramps, gas-siness,difficulty swallowing       </Card.Text>
                                 </Card.Body>
                                 
                             </Card>
