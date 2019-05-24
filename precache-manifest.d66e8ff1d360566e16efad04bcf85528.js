@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/carecenter/static/media/adventist.4281642d.jpg"
   },
   {
-    "revision": "050ac08b966d6c210a87",
-    "url": "/carecenter/static/css/main.53eb8fbf.chunk.css"
+    "revision": "d51aab114186eddd4f81",
+    "url": "/carecenter/static/css/main.82bb68e3.chunk.css"
   },
   {
     "revision": "a7ec9448e79cc1bca479",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/carecenter/static/media/5.6de717f7.png"
   },
   {
-    "revision": "050ac08b966d6c210a87",
+    "revision": "d51aab114186eddd4f81",
     "url": "/carecenter/static/js/main.f30c2410.chunk.js"
   },
   {
@@ -108,7 +108,7 @@ self.__precacheManifest = [
     "url": "/carecenter/static/media/bogyimaga.ee45fb53.jpg"
   },
   {
-    "revision": "a07e664e56bca9b4294bace09867ffe0",
+    "revision": "0282fa5f4401586730c20765d37c4b5f",
     "url": "/carecenter/index.html"
   }
 ];
