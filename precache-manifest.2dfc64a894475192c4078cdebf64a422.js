@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/carecenter/static/media/adventist.4281642d.jpg"
   },
   {
-    "revision": "d87ad97a845f2d084d87",
+    "revision": "e7571b478d05815407c2",
     "url": "/carecenter/static/css/main.53eb8fbf.chunk.css"
   },
   {
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "/carecenter/static/media/5.6de717f7.png"
   },
   {
-    "revision": "d87ad97a845f2d084d87",
-    "url": "/carecenter/static/js/main.293682be.chunk.js"
+    "revision": "e7571b478d05815407c2",
+    "url": "/carecenter/static/js/main.042e1f1d.chunk.js"
   },
   {
     "revision": "80833e01ccdd372b80539fe172953093",
@@ -100,15 +100,15 @@ self.__precacheManifest = [
     "url": "/carecenter/static/media/patient-history-4.c9db470a.pdf"
   },
   {
-    "revision": "ee45fb5319e2d3064c63baeb195d5ef4",
-    "url": "/carecenter/static/media/bogyimaga.ee45fb53.jpg"
-  },
-  {
     "revision": "8e0efcb0a8a92d0d088dcd36b549e385",
     "url": "/carecenter/static/media/headerbanner.8e0efcb0.jpg"
   },
   {
-    "revision": "7c8e39767e7ddaadb5c885c46a8e361b",
+    "revision": "ee45fb5319e2d3064c63baeb195d5ef4",
+    "url": "/carecenter/static/media/bogyimaga.ee45fb53.jpg"
+  },
+  {
+    "revision": "09cbed06c3176c67d2cf066d21d947c4",
     "url": "/carecenter/index.html"
   }
 ];
