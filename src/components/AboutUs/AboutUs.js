@@ -53,8 +53,8 @@ class AboutUs extends Component {
                                     Center, Northwest Community Hospital, Advocate Condell Medical Center, Advocate
                                     Sherman Medical Center <br /> <br />
                                     Cynthia Yango-Eugenio resides in South Barrington, Illinois with her husband
-Rene Eugenio. The couple has two sons, Ryneal and Roelle graduates of
-Northwestern University, Ryneal is a doctor training in General Surgery. Roelle is
+Rene Eugenio. The couple has two sons, Ryneal and Roelle both graduates of
+Northwestern University. Ryneal is a doctor training in General Surgery. Roelle is
 also a physician training in Anesthesiology.
                                     </Card.Text>
                                     <br />
