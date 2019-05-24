@@ -148,11 +148,11 @@ class Home extends Component {
                                 <Card.Title>Skin Allergy</Card.Title>
                                 <hr />
                                 <Card.Text>
-                                Eczema, Hives, Urticaria, Angioedema, Contact Dermatitis, Food reaction, Drug
-                                reaction, Photosensitivity, itchy, scaly, red, dry rash, weeps clear fluid, raised bumps
+                                Eczema, Hives, Urticaria, Angioedema, Con-tact Dermatitis, Food reaction, Drug
+                                react-ion, Photosensitivity, itchy, scaly, red, dry rash, weeps clear fluid, raised bumps
                                 and blisters, raised, flat, itchy bumps that may also be tender
-                                Skin allergy due to Latex, pet dander or poison ivy, Cold or hot temperatures, Pollen,
-                                Sunlight, Water, Food, Insects, Drugs                                </Card.Text>
+                                Skin allergy due to Latex, pet dander or poison ivy, Cold or hot tempe-ratures, Pollen,
+                                Sunlight, Water, Food, In-sects, Drugs                                </Card.Text>
                                 </Card.Body>
                                 
                             </Card>
