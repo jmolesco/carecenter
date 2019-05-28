@@ -98,15 +98,22 @@ class Home extends Component {
                                 <Card.Title>Asthma/Chest & Lung Problem</Card.Title>
                                 <hr />
                                 <Card.Text>
-                                    Chronic bronchitis, wheezing, shortness of breath, difficulty breathing, hyperactive air-ways, nighttime cough, chest tightness,
-                                    ex-ercise intolerance, chest pain or pressure, failure to take full breath, rapid breathing, bronchitis, productive cough,
-                                     cold air into-lerance, exercise induced asthma, work rela-ted asthma, nighttime asthma, cough variant asthma, allergy induced asthma,
-                                     animal dander induced asthma, coughing when laughing or talking, frequent wet cough, blood tinged cough, chest dis-comfort,
+                                    Chronic bronchitis, wheezing, shortness of breath, difficulty breathing, hyperactive airways, nighttime cough, chest tightness,
+                                    exercise intolerance, chest pain or pressure, failure to take full breath, rapid breathing, bronchitis, productive cough,
+                                     cold air intolerance, exercise induced asthma, work related asthma, nighttime asthma, cough variant asthma, allergy induced asthma,
+                                     animal dander induced asthma, coughing when laughing or talking, frequent wet cough, blood tinged cough, chest discomfort,
                                     discolored mucus from nose or cough</Card.Text>
                                 </Card.Body>
                                 
                             </Card>
-                            <Card>
+                            
+                        </CardDeck>
+                    </Col>
+                </Row>
+                <Row className="justify-content-md-center">                    
+                    <Col md={12}>
+                        <CardDeck>
+                             <Card>
                                 <center>
                                     <Card.Img variant="top" className="card-img" src={food} />
                                 </center>
@@ -114,13 +121,22 @@ class Home extends Component {
                                 <Card.Title>Food Allergy</Card.Title>
                                 <hr />
                                 <Card.Text>
-                                Food allergy, gluten sensitivity, nut allergy, aspirin allergy, vomiting and / or stomach cramps, diarrhea, hives, shortness of breath, wheezing,<span className="fillers">-</span>repetitive<span className="fillers">-</span>cough,<span className="fillers">-</span>shock or circu-latory collapse, tight, 
+                                Food allergy, gluten sensitivity, nut allergy, aspirin allergy, vomiting and/or stomach cramps, diarrhea, hives, shortness of breath, wheezing, repetitive cough, shock or circulatory collapse, tight, 
                                 
                                 hoarse throat, trouble swallowing, swelling of the tongue, affecting the ability to talk or breathe, weak pulse, pale or blue coloring of skin, dizziness or feeling faint, turning blue,drop in blood pressure (feeling faint, confused, weak, passing out), loss of consciousness, chest pain, a weak or “thready” pulse, sense of “impending doom”, itching or eczema and nasal congestion.
                                 </Card.Text>
                                 </Card.Body>
                                 
                             </Card>
+                            
+                        </CardDeck>
+                    </Col>
+                </Row>
+                <Row className="justify-content-md-center">
+                    <Col md={12}>
+                        <CardDeck>
+                        
+                            
                             <Card>
                                 <center>
                                     <Card.Img variant="top" className="card-img" src={gastro} />
@@ -129,10 +145,10 @@ class Home extends Component {
                                 <Card.Title >Gastro/Intestinal</Card.Title>
                                 <hr/>
                                 <Card.Text>
-                                Abdominal pain, diarrhea, nausea or vomit-ing,dizziness or lightheadedness, constrict-ion of airway, rapid pulse, low blood-pressure, food intolerance, stomach cramp, rectal bleeding(in children) colic,constipat-ion, bloating, abdominal cramps, gas-siness,difficulty swallowing       </Card.Text>
+                                Abdominal pain, diarrhea, nausea or vomiting,dizziness or lightheadedness, constriction of airway, rapid pulse, low blood pressure, food intolerance, stomach cramp, rectal bleeding(in children) colic,constipation, bloating, abdominal cramps, gassiness,difficulty swallowing       </Card.Text>
                                 </Card.Body>
                                 
-                            </Card>
+                            </Card> 
                         </CardDeck>
                     </Col>
                 </Row>
@@ -148,14 +164,21 @@ class Home extends Component {
                                 <Card.Title>Skin Allergy</Card.Title>
                                 <hr />
                                 <Card.Text>
-                                Eczema, Hives, Urticaria, Angioedema, Con-tact Dermatitis, Food reaction, Drug
-                                react-ion, Photosensitivity, itchy, scaly, red, dry rash, weeps clear fluid, raised bumps
+                                Eczema, Hives, Urticaria, Angioedema, Contact Dermatitis, Food reaction, Drug
+                                reaction, Photosensitivity, itchy, scaly, red, dry rash, weeps clear fluid, raised bumps
                                 and blisters, raised, flat, itchy bumps that may also be tender
-                                Skin allergy due to Latex, pet dander or poison ivy, Cold or hot tempe-ratures, Pollen,
-                                Sunlight, Water, Food, In-sects, Drugs                                </Card.Text>
+                                Skin allergy due to Latex, pet dander or poison ivy, Cold or hot temperatures, Pollen,
+                                Sunlight, Water, Food, Insects, Drugs                                </Card.Text>
                                 </Card.Body>
                                 
                             </Card>
+                      </CardDeck>  
+                      </Col>
+                </Row>
+                <Row className="justify-content-md-center">
+                    <Col md={12}>
+                        <CardDeck>
+                        
                             <Card>
                                 <center>
                                     <Card.Img variant="top" className="card-img" src={eyes} />
@@ -170,6 +193,13 @@ class Home extends Component {
                                 
                             </Card>
                             
+                          
+                        </CardDeck>
+                    </Col>
+                </Row>
+                <Row className="justify-content-md-center">
+                    <Col md={12}>
+                        <CardDeck>
                             <Card>
                                 <center>
                                     <Card.Img variant="top" className="card-img" src={generalsymptom} />
