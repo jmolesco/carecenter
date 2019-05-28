@@ -34,7 +34,7 @@ class Insurance extends Component {
 insurance plans.  <Link to={{
                                                     pathname:'/otherinsurance',
                                                 }} >
-                                                    Check our list of insurance here.
+                                                    <span style={{color:"red"}}><b>Check our list of insurance here.</b></span>
                                         </Link> </p>
                         </Alert>
                     </Col>
@@ -60,21 +60,7 @@ insurance plans.  <Link to={{
                                     
                                     </Card.Footer> */}
                             </Card>
-                            <Card>
-                                <center>
-                                    <Card.Img variant="top" className="card-img-insurance" src="https://www.bcbstx.com/images/logo_bcbstx.jpg"  />
-                                </center>
-                                {/* <Card.Body className="text-center">
-
-                                     <ListGroup variant="flush">
-                                     <ListGroup.Item></ListGroup.Item>
-                                        <ListGroup.Item><small className="text-center text-black" >Blue Advantage HMO</small></ListGroup.Item>
-                                    </ListGroup>
-                                </Card.Body>
-                                <Card.Footer>
-                                    
-                                    </Card.Footer> */}
-                            </Card>
+                            
                             <Card>
                                     <center>
                                         <Card.Img variant="top" className="card-img-insurance" src={ufc} />
@@ -88,6 +74,25 @@ insurance plans.  <Link to={{
                                     <Card.Footer>
                                                                            </Card.Footer> */}
                                 </Card>
+                                <Card>
+                                <center>
+                                    <Card.Img variant="top" className="card-img-insurance" src="http://www.hfnllc.com/assets/img/logo.png" />
+                                </center>
+                                {/* <Card.Body className="text-center">
+                                <ListGroup variant="flush">
+                                        <ListGroup.Item></ListGroup.Item>
+                                        <ListGroup.Item>HFN Platinum EPO</ListGroup.Item>
+                                       
+                                   </ListGroup>
+                                </Card.Body>
+                                <Card.Footer>
+                                <Link to={{
+                                                    pathname:'/otherinsurance',
+                                                    data:['HFN Platinum EPO', 'HFN PPO','HFN Total Care PPO'],
+                                                    logo:"http://www.hfnllc.com/assets/img/logo.png"
+                                                }}><small className="text-center"><center>Check More Insurance</center></small></Link>
+                                </Card.Footer> */}
+                            </Card>
                         </CardDeck>
              
                    </Col>
@@ -389,70 +394,7 @@ insurance plans.  <Link to={{
              
                    </Col>
                 </Row>
-                 <Row className="justify-content-md-center 2nd-col-BlueCross">
-                   <Col md={12}>
-                   <CardDeck>
-                   <Card>
-                                <center>
-                                    <Card.Img variant="top" className="card-img-insurance" src="http://www.hfnllc.com/assets/img/logo.png" />
-                                </center>
-                                {/* <Card.Body className="text-center">
-                                <ListGroup variant="flush">
-                                        <ListGroup.Item></ListGroup.Item>
-                                        <ListGroup.Item>HFN Platinum EPO</ListGroup.Item>
-                                       
-                                   </ListGroup>
-                                </Card.Body>
-                                <Card.Footer>
-                                <Link to={{
-                                                    pathname:'/otherinsurance',
-                                                    data:['HFN Platinum EPO', 'HFN PPO','HFN Total Care PPO'],
-                                                    logo:"http://www.hfnllc.com/assets/img/logo.png"
-                                                }}><small className="text-center"><center>Check More Insurance</center></small></Link>
-                                </Card.Footer> */}
-                            </Card>
-                            <Card>
-                                <center>
-                                    <Card.Img variant="top" className="card-img-insurance" src={adventist}/>
-                                </center>
-                                {/* <Card.Body className="text-center">
-                                     <ListGroup variant="flush">
-                                        <ListGroup.Item></ListGroup.Item>
-                                        <ListGroup.Item>LLH Adventist Silver PPO 3000</ListGroup.Item>
-                                        
-                                   </ListGroup>
-                                </Card.Body>
-                                <Card.Footer>
-                                <Link to={{
-                                                    pathname:'/otherinsurance',
-                                                    data:['LLH Adventist Silver PPO 3000', 'LLH Family Health Network Silver PPO 3100','LLH Swedish Covenant Silver PPO'],
-                                                    logo:adventist
-                                                }}><small className="text-center"><center>Check More Insurance</center></small></Link>
-                                </Card.Footer> */}
-                            </Card>
-                            <Card>
-                                <center>
-                                    <Card.Img variant="top" className="card-img-insurance" src={blueprecision} />
-                                </center>
-                                {/* <Card.Body className="text-center">
-
-                                     <ListGroup variant="flush">
-                                     <ListGroup.Item></ListGroup.Item>
-                                        <ListGroup.Item>Blue Precision Bronze HMO</ListGroup.Item>
-                                    </ListGroup>
-                                </Card.Body>
-                                <Card.Footer>
-                                <Link to={{
-                                                    pathname:'/otherinsurance',
-                                                    data:['Blue Precision Bronze HMO', 'Blue Precision Gold HMO','Blue Precision HMO','Blue Precision Silver HMO'],
-                                                    logo:blueprecision
-                                                }}><small className="text-center"><center>Check More Insurance</center></small></Link>
-                                </Card.Footer> */}
-                            </Card>
-                        </CardDeck>
-             
-                   </Col>
-                 </Row>
+                 
                  <Row className="justify-content-md-center 1st-col-AETNA-1">
                    <Col md={12}>
                    <CardDeck>
@@ -481,7 +423,7 @@ insurance plans.  <Link to={{
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance"  src={"https://www.bcbs.com/themes/custom/bcbs/img/full-logo.svg"}/>
+                                    <Card.Img variant="top" style={{padding:"17% 15% 8% 11%"}}  src={"https://www.bcbs.com/themes/custom/bcbs/img/full-logo.svg"}/>
                                 </center>
                                 {/* <Card.Body className="text-center">
                                     <ListGroup variant="flush">
@@ -553,20 +495,24 @@ insurance plans.  <Link to={{
                                                 }}><small className="text-center"><center>Check More Insurance</center></small></Link>
                                 </Card.Footer> */}
                             </Card>
-                            <Card style={{visibility:'hidden'}}>
+                            <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance"  src={cigna}/>
+                                    <Card.Img variant="top" src={adventist}/>
                                 </center>
                                 {/* <Card.Body className="text-center">
-                                    <ListGroup variant="flush">
+                                     <ListGroup variant="flush">
                                         <ListGroup.Item></ListGroup.Item>
-                                        <ListGroup.Item>Cigna C - 5 POS</ListGroup.Item>
-                                     
-                                </ListGroup>
-                                </Card.Body>       
+                                        <ListGroup.Item>LLH Adventist Silver PPO 3000</ListGroup.Item>
+                                        
+                                   </ListGroup>
+                                </Card.Body>
                                 <Card.Footer>
-                                            <Card.Link href="#" ><small className="text-center"><center>Check More Insurance</center></small></Card.Link>
-                                </Card.Footer>                        */}
+                                <Link to={{
+                                                    pathname:'/otherinsurance',
+                                                    data:['LLH Adventist Silver PPO 3000', 'LLH Family Health Network Silver PPO 3100','LLH Swedish Covenant Silver PPO'],
+                                                    logo:adventist
+                                                }}><small className="text-center"><center>Check More Insurance</center></small></Link>
+                                </Card.Footer> */}
                             </Card>
                             <Card style={{visibility:'hidden'}}>
                                 <center>
@@ -583,6 +529,7 @@ insurance plans.  <Link to={{
                                             <Card.Link href="#" ><small className="text-center"><center>Check More Insurance</center></small></Card.Link>
                                 </Card.Footer>                        */}
                             </Card>
+                           
                     </CardDeck>
              
                    </Col>
