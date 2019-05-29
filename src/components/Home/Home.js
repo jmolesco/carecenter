@@ -98,9 +98,9 @@ class Home extends Component {
                                 <Card.Title>Asthma/Chest & Lung Problem</Card.Title>
                                 <hr />
                                 <Card.Text>
-                                    Chronic bronchitis, wheezing, shortness of breath, difficulty breathing, hyperactive airways, nighttime cough, chest tightness,
-                                    exercise intolerance, chest pain or pressure, failure to take full breath, rapid breathing, bronchitis, productive cough,
-                                     cold air intolerance, exercise induced asthma, work related asthma, nighttime asthma, cough variant asthma, allergy induced asthma,
+                                    Chronic bronchitis, wheezing, shortness of breath, difficulty breathing, hyperactive air<span className="fillers">-</span>ways, nighttime cough, chest tightness,
+                                    exer<span className="fillers">-</span>cise intolerance, chest pain or pressure, failure to take full breath, rapid breathing, bronchitis, productive cough,
+                                     cold air intolerance, exer<span className="fillers">-</span>cise induced asthma, work related asthma, nighttime asthma, cough variant asthma, aller<span className="fillers">-</span>gy induced asthma,
                                      animal dander induced asthma, coughing when laughing or talking, frequent wet cough, blood tinged cough, chest discomfort,
                                     discolored mucus from nose or cough</Card.Text>
                                 </Card.Body>
@@ -121,7 +121,7 @@ class Home extends Component {
                                 <Card.Title>Food Allergy</Card.Title>
                                 <hr />
                                 <Card.Text>
-                                Food allergy, gluten sensitivity, nut allergy, aspirin allergy, vomiting and/or stomach cramps, diarrhea, hives, shortness of breath, wheezing, repetitive cough, shock or circulatory collapse, tight, 
+                                Food allergy, gluten sensitivity, nut allergy, aspirin allergy, vomiting and/or stomach cramps, diarrhea, hives, shortness of breath, wheezing, repetitive cough, shock or circu<span className="fillers">-</span>latory collapse, tight, 
                                 
                                 hoarse throat, trouble swallowing, swelling of the tongue, affecting the ability to talk or breathe, weak pulse, pale or blue coloring of skin, dizziness or feeling faint, turning blue,drop in blood pressure (feeling faint, confused, weak, passing out), loss of consciousness, chest pain, a weak or “thready” pulse, sense of “impending doom”, itching or eczema and nasal congestion.
                                 </Card.Text>
@@ -145,7 +145,7 @@ class Home extends Component {
                                 <Card.Title >Gastro/Intestinal</Card.Title>
                                 <hr/>
                                 <Card.Text>
-                                Abdominal pain, diarrhea, nausea or vomiting,dizziness or lightheadedness, constriction of airway, rapid pulse, low blood pressure, food intolerance, stomach cramp, rectal bleeding(in children) colic,constipation, bloating, abdominal cramps, gassiness,difficulty swallowing       </Card.Text>
+                                Abdominal pain, diarrhea, nausea or vomit<span className="fillers">-</span>ing,dizziness or lightheadedness, constriction of airway, rapid pulse, low blood pressure, food intolerance, stomach cramp, rectal bleeding(in children) colic,constipation, bloat<span className="fillers">-</span>ing, abdominal cramps, gassiness,difficulty swallowing       </Card.Text>
                                 </Card.Body>
                                 
                             </Card> 
@@ -165,7 +165,7 @@ class Home extends Component {
                                 <hr />
                                 <Card.Text>
                                 Eczema, Hives, Urticaria, Angioedema, Contact Dermatitis, Food reaction, Drug
-                                reaction, Photosensitivity, itchy, scaly, red, dry rash, weeps clear fluid, raised bumps
+                                reaction, Pho<span className="fillers">-</span>tosensitivity, itchy, scaly, red, dry rash, weeps clear fluid, raised bumps
                                 and blisters, raised, flat, itchy bumps that may also be tender
                                 Skin allergy due to Latex, pet dander or poison ivy, Cold or hot temperatures, Pollen,
                                 Sunlight, Water, Food, Insects, Drugs                                </Card.Text>
@@ -187,7 +187,7 @@ class Home extends Component {
                                 <Card.Title >Eyes Allergy</Card.Title>
                                 <hr />
                                 <Card.Text>
-                                Eyes sensitive to light, itchy eyes, red eyes, burning of eyes, blurring of eyes, crusting of eyes, pink eyes, under eye puffiness, dark circles under the eyes, swelling of the eyes, pain eye 
+                                Eyes sensitive to light, itchy eyes, red eyes, burning of eyes, blurring of eyes, crusting of eyes, pink eyes, under eye puffiness, dark cir<span className="fillers">-</span>cles under the eyes, swelling of the eyes, pain eye 
                                 </Card.Text>
                                 </Card.Body>
                                 

@@ -15,7 +15,7 @@ span.navbartext {
 } */
 .bg{
   min-height: 100%;
-  min-width: 1024px;
+  min-width: 100%;
   background-size: 100% 150px;
   top: 0;
   left: 0;
@@ -23,7 +23,7 @@ span.navbartext {
 } 
 .footer-bg{
   min-height: 100%;
-  min-width: 1024px;
+  min-width: 100%;
   background-size: 100% 100%;
   top: 0;
   left: 0;
@@ -93,9 +93,7 @@ div.card-title{
 .card-body {
   padding: .65rem;
 }
-span.filler{
-  color:white;
-}
+
 .remove-border{
   border-radius: 0rem;
   color: #6610f2;
@@ -105,9 +103,6 @@ span.filler{
 
 .carousel-caption {
   color: blue;
-}
-.fillers{
-  color:white;
 }
 
 /***** Insurance ******/
@@ -155,9 +150,33 @@ margin:4%;
 .footer-menu > .list-group-item > a > i{
   color: #6610f2;
 }
+span.fillers{
+  display: none;
+ }
+
+@media only screen and (max-width: 480px) {
+  .bg{
+    min-width: 100%;
+  } 
+  h4 {
+    font-size: .85rem;
+  }
+  h5 {
+    font-size: .75rem;
+  }
+  span.fillers{
+   display: inline;
+  }
+  .footer-bg {
+    min-width: 100%;
+  }
+
+}
 
 
 
+
+/* 
 
 .App {
   text-align: center;
@@ -191,4 +210,4 @@ margin:4%;
   to {
     transform: rotate(360deg);
   }
-}
+} */
