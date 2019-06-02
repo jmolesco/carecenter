@@ -153,6 +153,9 @@ margin:4%;
 span.fillers{
   display: none;
  }
+span.fillers1{
+  display: none;
+}
 
 @media only screen and (max-width: 480px) {
   .bg{
@@ -167,10 +170,23 @@ span.fillers{
   span.fillers{
    display: inline;
   }
+  span.fillers1{
+    display: none;
+  }
   .footer-bg {
     min-width: 100%;
   }
 
+}
+@media only screen and (max-width: 355px) {
+
+  span.fillers1{
+   display: inline;
+  }
+
+  span.fillers{
+    display: none;
+   }
 }
 
 
