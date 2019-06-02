@@ -98,11 +98,11 @@ class Home extends Component {
                                 <Card.Title>Asthma/Chest & Lung Problem</Card.Title>
                                 <hr />
                                 <Card.Text>
-                                    Chronic bronchitis, wheezing, short<span className="fillers1">-</span>ness of breath, difficulty breathing, hyperactive air<span className="fillers">-</span>ways, nighttime cough, chest tightness,
-                                    exer<span className="fillers">-</span>cise intolerance, chest pain or pressure, failure to take full breath, rapid breathing, bron<span className="fillers1">-</span>chitis, productive cough,
-                                     cold air in<span className="fillers1">-</span>tolerance, exer<span className="fillers">-</span>cise induced asthma, work related asthma, nighttime asth<span className="fillers1">-</span>ma, cough variant asthma, aller<span className="fillers">-</span>gy in<span className="fillers1">-</span>duced asthma,
-                                     animal dander induced asthma, coughing when laughing or talking, frequent wet cough, blood tinged cough, chest discomfort,
-                                    dis<span className="fillers1">-</span>colored mucus from nose or cough</Card.Text>
+                                    Chronic bronchitis, wheezing, short<span className="fillers1">-</span>ness of breath, difficulty breathing, hy<span className="fillers1">-</span>peractive air<span className="fillers">-</span>ways, nighttime cough, chest tightness,
+                                    exer<span className="fillers">-</span>cise intolerance, chest pain or pressure, failure to take full breath, rapid breathing, bron<span className="fillers">-</span>chitis, pro<span className="fillers1">-</span>ductive cough,
+                                     cold air in<span className="fillers">-</span>tolerance, exer<span className="fillers">-</span>cise induced asthma, work related asthma, nighttime asthma, cough va<span className="fillers1">-</span>riant asthma, aller<span className="fillers">-</span>gy induced asthma,
+                                     animal dander induced asthma, cough<span className="fillers1">-</span>ing when laughing or talking, frequent wet cough, blood tinged cough, chest discomfort,
+                                    discolored mucus from nose or cough</Card.Text>
                                 </Card.Body>
                                 
                             </Card>
@@ -121,9 +121,9 @@ class Home extends Component {
                                 <Card.Title>Food Allergy</Card.Title>
                                 <hr />
                                 <Card.Text>
-                                Food allergy, gluten sensitivity, nut al<span className="fillers1">-</span>lergy, aspirin allergy, vomiting and/or stomach cramps, diarrhea, hives, shortness of breath, wheezing, repe<span className="fillers1">-</span>titive cough, shock or circu<span className="fillers">-</span>latory col<span className="fillers1">-</span>lapse, tight, 
+                                Food allergy, gluten sensitivity, nut al<span className="fillers1">-</span>lergy, aspirin allergy, vomiting and/or stomach cramps, diarrhea, hives, short<span className="fillers1">-</span>ness of breath, wheezing, repetitive cough, shock or circu<span className="fillers">-</span>latory collapse, tight, 
                                 
-                                hoarse throat, trouble swallowing, swelling of the tongue, af<span className="fillers1">-</span>fecting the ability to talk or breathe, weak pulse, pale or blue coloring of skin, dizziness or feeling faint, turning blue,drop in blood pressure (feeling faint, confused, weak, passing out), loss of consciousness, chest pain, a weak or “thready” pulse, sense of “im<span className="fillers1">-</span>pending doom”, itching or eczema and nasal congestion.
+                                hoarse throat, trouble swallowing, swelling of the tongue, affecting the ability to talk or breathe, weak pulse, pale or blue coloring of skin, dizziness or feeling faint, turning blue,drop in blood pressure (feeling faint, confused, weak, passing out), loss of consciousness, chest pain, a weak or “thready” pulse, sense of “im<span className="fillers1">-</span>pending doom”, itching or eczema and nasal congestion.
                                 </Card.Text>
                                 </Card.Body>
                                 
@@ -145,7 +145,7 @@ class Home extends Component {
                                 <Card.Title >Gastro/Intestinal</Card.Title>
                                 <hr/>
                                 <Card.Text>
-                                Abdominal pain, diarrhea, nausea or vomit<span className="fillers">-</span>ing,dizziness or lightheaded<span className="fillers1">-</span>ness, constriction of airway, rapid pulse, low blood pressure, food into<span className="fillers1">-</span>lerance, stomach cramp, rectal bleed<span className="fillers1">-</span>ing(in children) colic, constipation, bloat<span className="fillers">-</span>ing, abdominal cramps, gas<span className="fillers1">-</span>siness,difficulty swallowing       </Card.Text>
+                                Abdominal pain, diarrhea, nausea or vomit<span className="fillers">-</span>ing,dizziness or lightheadedness, constriction of airway, rapid pulse, low blood pressure, food intolerance, sto<span className="fillers1">-</span>mach cramp, rectal bleeding(in children) colic, constipation, bloat<span className="fillers">-</span>ing, abdominal cramps, gassiness,difficulty swallowing       </Card.Text>
                                 </Card.Body>
                                 
                             </Card> 
@@ -167,7 +167,7 @@ class Home extends Component {
                                 Eczema, Hives, Urticaria, Angioedema, Contact Dermatitis, Food reaction, Drug
                                 reaction, Pho<span className="fillers">-</span>tosensitivity, itchy, scaly, red, dry rash, weeps clear fluid, raised bumps
                                 and blisters, raised, flat, itchy bumps that may also be tender
-                                Skin allergy due to Latex, pet dander or poison ivy, Cold or hot tempera<span className="fillers1">-</span>tures, Pollen,
+                                Skin allergy due to Latex, pet dander or poison ivy, Cold or hot temperatures, Pollen,
                                 Sunlight, Water, Food, Insects, Drugs                                </Card.Text>
                                 </Card.Body>
                                 
@@ -208,7 +208,7 @@ class Home extends Component {
                                 <Card.Title >General Symptoms</Card.Title>
                                 <hr/>
                                 <Card.Text>
-                                Malaise, flu like symptoms, fatigue, “mood in the cloud” feeling, sleepi<span className="fillers1">-</span>ness, not sleeping well, anaphylaxis, itching/swelling or tingling or itching of the mouth, swelling of the lips, face, tongue or other parts of the body
+                                Malaise, flu like symptoms, fatigue, “mood in the cloud” feeling, sleepiness, not sleeping well, anaphylaxis, itch<span className="fillers1">-</span>ing/swelling or tingling or itching of the mouth, swelling of the lips, face, tongue or other parts of the body
                                 </Card.Text>
                                 </Card.Body>
                                 
