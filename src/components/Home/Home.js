@@ -145,7 +145,7 @@ class Home extends Component {
                                 <Card.Title >Gastro/Intestinal</Card.Title>
                                 <hr/>
                                 <Card.Text>
-                                Abdominal pain, diarrhea, nausea or vomit<span className="fillers">-</span>ing,dizziness or lightheadedness, cons<span className="fillers2">-</span>triction of airway, rapid pulse, low blood pressure, food intolerance, sto<span className="fillers1">-</span>mach cramp, rectal bleeding(in children) colic, consti<span className="fillers2">-</span>pation, bloat<span className="fillers">-</span>ing, abdominal cramps, gassi<span className="fillers2">-</span>ness,difficulty swallowing       </Card.Text>
+                                Abdominal pain, diarrhea, nausea or vomit<span className="fillers">-</span><span className="fillers2">-</span>ing,dizziness or lightheadedness, constrict<span className="fillers2">-</span>ion of airway, rapid pulse, low blood pres<span className="fillers2">-</span>sure, food intolerance, sto<span className="fillers1">-</span>mach cramp, rectal bleeding(in children) colic, constipation, bloat<span className="fillers">-</span>ing, abdominal cramps, gassiness, diffi<span className="fillers2">-</span>culty swallowing       </Card.Text>
                                 </Card.Body>
                                 
                             </Card> 
