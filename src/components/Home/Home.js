@@ -121,7 +121,7 @@ class Home extends Component {
                                 <Card.Title>Food Allergy</Card.Title>
                                 <hr />
                                 <Card.Text>
-                                Food allergy, gluten sensitivity, nut al<span className="fillers1">-</span>lergy, aspirin allergy, vomiting and/or stomach cramps, diarrhea, hives, short<span className="fillers1">-</span>ness of breath, wheezing, repetitive cough, shock or circu<span className="fillers">-</span>latory collapse, tight, 
+                                Food allergy, gluten sensitivity, nut al<span className="fillers1">-</span>lergy, aspirin allergy, vomiting and/or stomach cramps, diarrhea, hives, shortness of breath, wheezing, repe<span className="fillers1">-</span>titive cough, shock or circu<span className="fillers">-</span>latory col<span className="fillers1">-</span>lapse, tight, 
                                 
                                 hoarse throat, trouble swallowing, swelling of the tongue, affecting the ability to talk or breathe, weak pulse, pale or blue coloring of skin, dizziness or feeling faint, turning blue,drop in blood pressure (feeling faint, confused, weak, passing out), loss of consciousness, chest pain, a weak or “thready” pulse, sense of “im<span className="fillers1">-</span>pending doom”, itching or eczema and nasal congestion.
                                 </Card.Text>
