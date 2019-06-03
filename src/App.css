@@ -173,10 +173,26 @@ span.fillers1{
   span.fillers1{
     display: none;
   }
+  span.fillers2{
+    display: none;
+  }
   .footer-bg {
     min-width: 100%;
   }
 
+}
+@media only screen and (max-width: 414px) {
+
+  span.fillers1{
+   display: none;
+  }
+
+  span.fillers{
+    display: none;
+  }
+  span.fillers2{
+    display: inline;
+  }
 }
 @media only screen and (max-width: 375px) {
 
@@ -187,6 +203,9 @@ span.fillers1{
   span.fillers{
     display: none;
    }
+   span.fillers2{
+    display: none;
+  }
 }
 
 
