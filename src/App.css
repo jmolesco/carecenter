@@ -178,47 +178,17 @@ span.fillers1{
   }
 
 }
+@media only screen and (max-width: 414px) {
+
+  span.fillers1{
+   display: inline;
+  }
+
+  span.fillers{
+    display: none;
+   }
+}
 @media only screen and (max-width: 375px) {
-
-  span.fillers1{
-   display: inline;
-  }
-
-  span.fillers{
-    display: none;
-   }
-}
-@media only screen and (max-width: 370px) {
-
-  span.fillers1{
-   display: inline;
-  }
-
-  span.fillers{
-    display: none;
-   }
-}
-@media only screen and (max-width: 365px) {
-
-  span.fillers1{
-   display: inline;
-  }
-
-  span.fillers{
-    display: none;
-   }
-}
-@media only screen and (max-width: 360px) {
-
-  span.fillers1{
-   display: inline;
-  }
-
-  span.fillers{
-    display: none;
-   }
-}
-@media only screen and (max-width: 350px) {
 
   span.fillers1{
    display: inline;
