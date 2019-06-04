@@ -19,8 +19,7 @@ class App extends Component {
     return (
       <Router>  
         <div>  
-          <Helmet>
-            <title>My seo app</title>
+          {/* <Helmet>
             <meta name="description" content="carecenter testing react helmet" />
             <meta name="keywords" content="react-care-center,care center seo-carecenter,helmet-carecenter" />
             <meta name="description" content="Care Center for Allergy and Asthma" />
@@ -35,7 +34,53 @@ class App extends Component {
                     Buffalo Grove,
                     Algonquin
                   " />
-          </Helmet>
+          </Helmet> */}
+            <Helmet
+                encodeSpecialCharacters={true}
+
+                titleTemplate="https://jmolesco.github.io/carecenter/"
+
+                defaultTitle="My Care Center Title"
+
+                onChangeClientState={(newState, addedTags, removedTags) => console.log(newState, addedTags, removedTags)}
+              >
+              <meta name="description" content="Care Center Application" />
+              <meta name="keywords" content="
+Care Center for Allergy and Asthma,
+Wheeling, IL
+Prospect Heights, IL
+Arlington Heights, IL
+Palatine, IL
+Vernon Hills, IL
+Rolling Meadows, IL
+Mount Prospect, IL
+Deerfield, IL
+Northbrook, IL
+Lake Zurich, IL
+Mundelein, IL
+Highland Park, IL
+Barrington, IL
+Des Plaines, IL
+Libertyville, IL
+Lake in the Hills, IL
+Carpentersville, IL
+Cary, IL
+Crystal Lake, IL
+Huntley, IL
+Barrington, IL
+Elgin, IL
+Wauconda, IL
+Lake Zurich, IL
+Streamwood, IL
+South Elgin, IL
+Woodstock, IL
+Bartlett, IL
+Hanover Park, IL
+Palatine, IL
+" />
+            </Helmet>
+
+
             <Header></Header>     
              {/* <Route path="/" component={Header}>              */}
               <Route exact={true} path="/home" component={Home}/>
