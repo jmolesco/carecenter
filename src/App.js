@@ -12,12 +12,30 @@ import Insurance1 from './components/Insurance/Insurance1';
 import Forms from './components/Forms/Forms';
 import Staff from './components/Staff/Staff';
 import Footer from './components/Footer/Footer';
+import { Helmet } from "react-helmet";
 //import Map from './components/MapSample/Map';
 class App extends Component {
   render() {
     return (
       <Router>  
         <div>  
+          <Helmet>
+            <title>My seo app</title>
+            <meta name="description" content="carecenter testing react helmet" />
+            <meta name="keywords" content="react-care-center,care center seo-carecenter,helmet-carecenter" />
+            <meta name="description" content="Care Center for Allergy and Asthma" />
+            <meta name="keywords" 
+                  content="
+                    Care,
+                    Caring,
+                    CareCenter,
+                    Allergy,
+                    Asthma,
+                    Dr. Cynthia Yango-Eugenio,
+                    Buffalo Grove,
+                    Algonquin
+                  " />
+          </Helmet>
             <Header></Header>     
              {/* <Route path="/" component={Header}>              */}
               <Route exact={true} path="/home" component={Home}/>
