@@ -44,6 +44,7 @@ class App extends Component {
 
                 onChangeClientState={(newState, addedTags, removedTags) => console.log(newState, addedTags, removedTags)}
               >
+              <meta name="google-site-verification" content="dHposX6tXZ0hCOcg4aM04RRJeIlEg56ki7hohBlaDTc" />
               <meta name="description" content="Care Center Application" />
               <meta name="keywords" content="
 Care Center for Allergy and Asthma,
