@@ -45,39 +45,51 @@ class App extends Component {
                 onChangeClientState={(newState, addedTags, removedTags) => console.log(newState, addedTags, removedTags)}
               >
               <meta name="google-site-verification" content="dHposX6tXZ0hCOcg4aM04RRJeIlEg56ki7hohBlaDTc" />
+              <meta name="description" content="Care Center for Allergy and Asthma" />
+              <meta name="keywords" 
+                  content="
+                    Care,
+                    Caring,
+                    CareCenter,
+                    Allergy,
+                    Asthma,
+                    Dr. Cynthia Yango-Eugenio,
+                    Buffalo Grove,
+                    Algonquin
+                  " />
               <meta name="description" content="Care Center Application" />
               <meta name="keywords" content="
-Care Center for Allergy and Asthma,
-Wheeling, IL
-Prospect Heights, IL
-Arlington Heights, IL
-Palatine, IL
-Vernon Hills, IL
-Rolling Meadows, IL
-Mount Prospect, IL
-Deerfield, IL
-Northbrook, IL
-Lake Zurich, IL
-Mundelein, IL
-Highland Park, IL
-Barrington, IL
-Des Plaines, IL
-Libertyville, IL
-Lake in the Hills, IL
-Carpentersville, IL
-Cary, IL
-Crystal Lake, IL
-Huntley, IL
-Barrington, IL
-Elgin, IL
-Wauconda, IL
-Lake Zurich, IL
-Streamwood, IL
-South Elgin, IL
-Woodstock, IL
-Bartlett, IL
-Hanover Park, IL
-Palatine, IL
+              Care Center for Allergy and Asthma,
+              Wheeling, IL
+              Prospect Heights, IL
+              Arlington Heights, IL
+              Palatine, IL
+              Vernon Hills, IL
+              Rolling Meadows, IL
+              Mount Prospect, IL
+              Deerfield, IL
+              Northbrook, IL
+              Lake Zurich, IL
+              Mundelein, IL
+              Highland Park, IL
+              Barrington, IL
+              Des Plaines, IL
+              Libertyville, IL
+              Lake in the Hills, IL
+              Carpentersville, IL
+              Cary, IL
+              Crystal Lake, IL
+              Huntley, IL
+              Barrington, IL
+              Elgin, IL
+              Wauconda, IL
+              Lake Zurich, IL
+              Streamwood, IL
+              South Elgin, IL
+              Woodstock, IL
+              Bartlett, IL
+              Hanover Park, IL
+              Palatine, IL
 " />
             </Helmet>
 
