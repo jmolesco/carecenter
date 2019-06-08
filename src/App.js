@@ -19,22 +19,6 @@ class App extends Component {
     return (
       <Router>  
         <div>  
-          {/* <Helmet>
-            <meta name="description" content="carecenter testing react helmet" />
-            <meta name="keywords" content="react-care-center,care center seo-carecenter,helmet-carecenter" />
-            <meta name="description" content="Care Center for Allergy and Asthma" />
-            <meta name="keywords" 
-                  content="
-                    Care,
-                    Caring,
-                    CareCenter,
-                    Allergy,
-                    Asthma,
-                    Dr. Cynthia Yango-Eugenio,
-                    Buffalo Grove,
-                    Algonquin
-                  " />
-          </Helmet> */}
             <Helmet
                 encodeSpecialCharacters={true}
 
@@ -95,7 +79,6 @@ class App extends Component {
 
 
             <Header></Header>     
-             {/* <Route path="/" component={Header}>              */}
               <Route exact={true} path="/home" component={Home}/>
               <Route path="/about" component={AboutUs}/>
               <Route path="/staff" component={Staff}/>
@@ -106,9 +89,6 @@ class App extends Component {
               <Route path="/insurance1" component={Insurance1}/>
               <Route path="/forms" component={Forms}/>
               <Footer></Footer> 
-              {/* <Route path="/map" component={Map}/> */}
-            {/* </Route> */}
-
         </div>
       </Router>
     );
