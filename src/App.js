@@ -24,12 +24,12 @@ class App extends Component {
 
                 titleTemplate="https://jmolesco.github.io/carecenter/"
 
-                defaultTitle="My Care Center Title"
+                defaultTitle="Care Center for Allergy and Asthma"
 
-                onChangeClientState={(newState, addedTags, removedTags) => console.log(newState, addedTags, removedTags)}
+                //onChangeClientState={(newState, addedTags, removedTags) => console.log(newState, addedTags, removedTags)}
               >
               <meta name="google-site-verification" content="dHposX6tXZ0hCOcg4aM04RRJeIlEg56ki7hohBlaDTc" />
-              <meta name="description" content="Care Center for Allergy and Asthma" />
+              <meta name="description" content="Care Center for Allergy and Asthma Test" />
               <meta name="keywords" 
                   content="
                     Care,
@@ -39,10 +39,7 @@ class App extends Component {
                     Asthma,
                     Dr. Cynthia Yango-Eugenio,
                     Buffalo Grove,
-                    Algonquin
-                  " />
-              <meta name="description" content="Care Center Application" />
-              <meta name="keywords" content="
+                    Algonquin,
               Care Center for Allergy and Asthma,
               Wheeling, IL
               Prospect Heights, IL
