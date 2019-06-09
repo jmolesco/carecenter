@@ -8,7 +8,7 @@ require("babel-register")({
   function generateSitemap() {
       return (
         new Sitemap(router)
-            .build("https://jmolesco.github.io/carecenter/")
+            .build("http://localhost:3000/")
             .save("./public/sitemap1.xml")
       );
   }

@@ -6,7 +6,7 @@ require("babel-register")({
   const Sitemap = require("react-router-sitemap").default;
   
   function generateSitemap() {
-    console.log('called');
+    
       return (
         new Sitemap(router)
             .build("http://localhost:3000")

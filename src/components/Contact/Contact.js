@@ -38,8 +38,7 @@ class Contact extends Component {
         });
     }
     validateEmailContent(){
-        //console.log('open');
-        let errors = {};
+         let errors = {};
         let validationClass ={}
         let formIsValid = true;
         var msg_input = 'Minimum of 3 symbols or characters';
