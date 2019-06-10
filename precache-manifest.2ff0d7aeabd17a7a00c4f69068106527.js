@@ -108,7 +108,7 @@ self.__precacheManifest = [
     "url": "/carecenter/static/media/blueprecision.d736f065.jpg"
   },
   {
-    "revision": "58273df9a13f9fb19000c4f7be301042",
+    "revision": "5b2d059c67c8be65a5cbc217d06f47f4",
     "url": "/carecenter/index.html"
   }
 ];
