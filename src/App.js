@@ -30,9 +30,21 @@ class App extends Component {
               >
 
               <meta name="google-site-verification" content="dHposX6tXZ0hCOcg4aM04RRJeEg56ki7hohBlaDTc" />
-              <meta name="description" content="Care Center for Allergy and Asthma" />
+              <meta name="description" content="Care Center for Allergy and Asthma,CareCenter,Dr. Cynthia Yango-Eugenio, Care,
+                    Caring,
+                    CareCenter,
+                    Allergy,
+                    Allergist,
+                    Asthma,
+                    carecenter md,
+                    Allergy & Asthma,
+                    Algonquin, Illinois
+                    " />
               <meta name="keywords" 
-                  content="Dr. Cynthia Yango-Eugenio,
+                  content="Care Center for Allergy and Asthma,
+                  Allergy & Asthma,
+                    Algonquin Illinois,
+                    Dr. Cynthia Yango-Eugenio,
                     Care Center for Allergy and Asthma Buffalo Grove,
                     CareCenter Buffalo Grove,
                     Care Center for Allergy and Asthma Algonquin,
