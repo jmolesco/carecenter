@@ -105,8 +105,7 @@ class App extends Component {
                     carecenter md
                     
                     "/>
-                   <title>Care Center for Allergy and Asthma</title>
-            
+               
             </Helmet>
             <Header></Header>     
               <Route exact={true} path="/home" component={Home}/>
