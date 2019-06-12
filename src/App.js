@@ -23,10 +23,7 @@ class App extends Component {
                 encodeSpecialCharacters={true}
 
                 titleTemplate="https://jmolesco.github.io/carecenter/#/home"
-
-                defaultTitle="Care Center for Allergy and Asthma"
-
-                //onChangeClientState={(newState, addedTags, removedTags) => console.log(newState, addedTags, removedTags)}
+              //onChangeClientState={(newState, addedTags, removedTags) => console.log(newState, addedTags, removedTags)}
               >
 
               <meta name="google-site-verification" content="dHposX6tXZ0hCOcg4aM04RRJeEg56ki7hohBlaDTc" />
