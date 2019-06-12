@@ -44,7 +44,7 @@ class AboutUs extends Component {
                                     was a fellow in Allergy, Asthma and Immunology at Cornell University. She
                                     finished her fellowship at Northwestern University-Feinberg Medical Center. She has done several researches as a fellow particularly on drug allergy.
                                    <br /> <br />
-                                   She was named one of the outstanding women of Style and Achievement (Prism
+                                    She was named one of the outstanding women of Style and Achievement (Prism
                                     Award) by the Philippine Times in 1997. She has been an active member of the
                                     Chicago-Northwestern Indiana chapter of the University of the Philippines
                                     Medical Alumni Society and Academic (UPMASA) for the past 24 years. She has

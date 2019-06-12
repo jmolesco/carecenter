@@ -41,7 +41,7 @@ class Service extends Component {
                    <CardDeck>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img" src={medical} />
+                                    <Card.Img variant="top" className="card-img" src={medical} alt="Medical"/>
                                 </center>
                                 <Card.Footer className="text-center">
                                     <small className="text-muted text-center">Medical</small>
