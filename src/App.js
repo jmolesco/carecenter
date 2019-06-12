@@ -22,59 +22,92 @@ class App extends Component {
             <Helmet
                 encodeSpecialCharacters={true}
 
-                titleTemplate="https://jmolesco.github.io/carecenter/"
+                titleTemplate="https://jmolesco.github.io/carecenter/#/home"
 
                 defaultTitle="Care Center for Allergy and Asthma"
 
                 //onChangeClientState={(newState, addedTags, removedTags) => console.log(newState, addedTags, removedTags)}
               >
-              <meta name="google-site-verification" content="dHposX6tXZ0hCOcg4aM04RRJeIlEg56ki7hohBlaDTc" />
+
+              <meta name="google-site-verification" content="dHposX6tXZ0hCOcg4aM04RRJeEg56ki7hohBlaDTc" />
               <meta name="description" content="Care Center for Allergy and Asthma" />
               <meta name="keywords" 
-                  content="
+                  content="Dr. Cynthia Yango-Eugenio,
+                    Care Center for Allergy and Asthma Buffalo Grove,
+                    CareCenter Buffalo Grove,
+                    Care Center for Allergy and Asthma Algonquin,
+                    CareCenter Algonquin,
+                    Care Center for Allergy and Asthma,
+                    Care Center for Allergy and Asthma Wheeling,
+                    CareCenter Wheeling,
+                    Care Center for Allergy and Asthma Prospect Heights,
+                    CareCenter Prospect Heights,
+                    Care Center for Allergy and Asthma Arlington Heights,
+                    CareCenter Arlington Heights,
+                    Care Center for Allergy and Asthma  Palatine,
+                    CareCenter Palatine,
+                    Care Center for Allergy and Asthma Vernon Hls,
+                    CareCenter Vernon Hls, 
+                    Care Center for Allergy and Asthma Rolling Meadows,
+                    CareCenter Rolling Meadows, 
+                    Care Center for Allergy and Asthma Mount Prospect,
+                    CareCenter Mount Prospect, 
+                    Care Center for Allergy and Asthma Deerfield,
+                    CareCenter Deerfield, 
+                    Care Center for Allergy and Asthma Northbrook,
+                    CareCenter Northbrook, 
+                    Care Center for Allergy and Asthma Lake Zurich,
+                    CareCenter Lake Zurich,
+                    Care Center for Allergy and Asthma Mundelein, 
+                    CareCenter Mundelein, 
+                    Care Center for Allergy and Asthma Highland Park, 
+                    CareCenter Highland Park, 
+                    Care Center for Allergy and Asthma Barrington,
+                    CareCenter Barrington, 
+                    Care Center for Allergy and Asthma Des Plaines, 
+                    CareCenter Des Plaines,
+                    Care Center for Allergy and Asthma Libertyvle, 
+                    CareCenter Libertyvle,  
+                    Care Center for Allergy and Asthma Lake in the Hls, 
+                    CareCenter Lake in the Hls, 
+                    Care Center for Allergy and Asthma Carpentersvle, 
+                    CareCenter Cary, 
+                    Care Center for Allergy and Asthma Crystal Lake,
+                    CareCenter Crystal Lake, 
+                    Care Center for Allergy and Asthma Huntley,
+                    CareCenter Huntley,
+                    Care Center for Allergy and Asthma Barrington,
+                    CareCenter Barrington,
+                    Care Center for Allergy and Asthma Elgin,
+                    CareCenter Elgin,
+                    Care Center for Allergy and Asthma Wauconda,
+                    CareCenter Wauconda,
+                    Care Center for Allergy and Asthma Lake Zurich,
+                    CareCenter Lake Zurich,
+                    Care Center for Allergy and Asthma Streamwood,
+                    CareCenter Streamwood,
+                    Care Center for Allergy and Asthma South Elgin,
+                    CareCenter South Elgin,
+                    Care Center for Allergy and Asthma Woodstock,
+                    CareCenter Woodstock,
+                    Care Center for Allergy and Asthma Bartlett,
+                    CareCenter Bartlett,
+                    Care Center for Allergy and Asthma Hanover Park,
+                    CareCenter Hanover Park,
+                    Care Center for Allergy and Asthma Hanover Park,
+                    CareCenter Hanover Park,
                     Care,
                     Caring,
                     CareCenter,
                     Allergy,
+                    Allergist,
                     Asthma,
-                    Dr. Cynthia Yango-Eugenio,
-                    Buffalo Grove,
-                    Algonquin,
-              Care Center for Allergy and Asthma,
-              Wheeling, IL
-              Prospect Heights, IL
-              Arlington Heights, IL
-              Palatine, IL
-              Vernon Hills, IL
-              Rolling Meadows, IL
-              Mount Prospect, IL
-              Deerfield, IL
-              Northbrook, IL
-              Lake Zurich, IL
-              Mundelein, IL
-              Highland Park, IL
-              Barrington, IL
-              Des Plaines, IL
-              Libertyville, IL
-              Lake in the Hills, IL
-              Carpentersville, IL
-              Cary, IL
-              Crystal Lake, IL
-              Huntley, IL
-              Barrington, IL
-              Elgin, IL
-              Wauconda, IL
-              Lake Zurich, IL
-              Streamwood, IL
-              South Elgin, IL
-              Woodstock, IL
-              Bartlett, IL
-              Hanover Park, IL
-              Palatine, IL
-" />
+                    carecenter md
+                    
+                    "/>
+                   <title>Care Center for Allergy and Asthma</title>
+            
             </Helmet>
-
-
             <Header></Header>     
               <Route exact={true} path="/home" component={Home}/>
               <Route path="/about" component={AboutUs}/>
