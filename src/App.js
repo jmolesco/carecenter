@@ -103,11 +103,43 @@ class App extends Component {
                     Allergist,
                     Asthma,
                     carecenter md
-                    
+                    difficulty breathing,
+                    exercise intolerance, 
+                    Persistent cough,
+                    work related asthma, 
+                    Animal/pollen/dust/mold allergy,
+                    Itchy and red eyes,
+                    eye puffiness,
+                    dark circles under the eyes,
+                    swelling of the eyes,
+                    food allergy, 
+                    gluten sensitivity, 
+                    nut allergy, 
+                    aspirin allergy 
+                    abdominal pain, 
+                    diarrhea, 
+                    nausea 
+                    vomiting 
+                    constipation, 
+                    bloating, 
+                    abdominal cramps,
+                    Malaise, 
+                    flu like symptoms, 
+                    fatigue, 
+                    anaphylaxis, 
+                    itching/swelling or tingling of the mouth, 
+                    swelling of the lips, face, tongue or other parts of the body,
+                    Eczema, 
+                    Hives/Urticaria/ Angioedema, 
+                    Contact Dermatitis/poison ivy
+                    Food reaction/Drug reaction, 
+                    Photosensitivity, 
+                    Skin allergy due to Latex, pet dander,  Sunlight, Insects, Drugs
                     "/>
                
             </Helmet>
             <Header></Header>     
+              <Route exact={true} path="/" component={Home}/>
               <Route exact={true} path="/home" component={Home}/>
               <Route path="/about" component={AboutUs}/>
               <Route path="/staff" component={Staff}/>

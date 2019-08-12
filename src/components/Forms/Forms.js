@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Form, Button, Image, Carousel, Alert, Card, ListGroup, CardColumns } from 'react-bootstrap';
+import { Container, Row, Col,  Button,  Alert, Card } from 'react-bootstrap';
 // import patient1 from '../../images/patient1.jpg';
 // import patient2 from '../../images/patient2.jpg';
 // import patient3 from '../../images/patient3.jpg';

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col,  Carousel, Alert,Card,CardDeck } from 'react-bootstrap';
+import { Container, Row, Col,  Carousel, Alert,Card,CardDeck,Image } from 'react-bootstrap';
 // import Marquee from 'react-text-marquee';
 import chest from '../../images/chest2.png';
 import eyes from '../../images/eye2.png';
@@ -21,7 +21,7 @@ class Home extends Component {
                     <Col sm="12">
                         <Carousel>
                             <Carousel.Item>
-                                <img
+                                <Image
                                     className="d-block w-100"
                                     src={A5}
                                     alt="First slide"
@@ -41,7 +41,7 @@ class Home extends Component {
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img
+                                <Image
                                     className="d-block w-100"
                                     src={A2}
                                     alt="Third slide"
@@ -50,14 +50,14 @@ class Home extends Component {
 
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img
+                                <Image
                                     className="d-block w-100"
                                     src={A3}
                                     
                                      />
                           </Carousel.Item>
                             <Carousel.Item>
-                                <img
+                                <Image
                                     className="d-block w-100"
                                     src={A4}
                                     
@@ -140,7 +140,7 @@ class Home extends Component {
                             
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img" src={gastro} />
+                                    <Card.Img variant="top" className="card-img" src={gastro} alt="Gastro/Intestinal"/>
                                 </center>
                                 <Card.Body>
                                 <Card.Title >Gastro/Intestinal</Card.Title>
@@ -159,7 +159,7 @@ class Home extends Component {
                         <CardDeck>
                         <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img" src={skin} />
+                                    <Card.Img variant="top" className="card-img" src={skin} alt="Skin Allergy" />
                                 </center>
                                 <Card.Body>
                                 <Card.Title>Skin Allergy</Card.Title>
@@ -182,7 +182,7 @@ class Home extends Component {
                         
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img" src={eyes} />
+                                    <Card.Img variant="top" className="card-img" src={eyes} alt="Eyes Allergy"/>
                                 </center>
                                 <Card.Body>
                                 <Card.Title >Eyes Allergy</Card.Title>
