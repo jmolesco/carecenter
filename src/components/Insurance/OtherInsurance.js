@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { Container, Row, Col,  Alert, Card, ListGroup } from 'react-bootstrap';
-import { isNullOrUndefined } from 'util';
-import { Redirect } from 'react-router-dom' 
 import {Link} from 'react-router-dom';
 
 class OtherInsurance extends Component {

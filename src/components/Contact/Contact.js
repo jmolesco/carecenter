@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, ListGroup, Card,Form,Button,Image,Alert } from 'react-bootstrap';
+import { Container, Row, Col, ListGroup, Card,Form,Button,Alert } from 'react-bootstrap';
 import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 import './Contact.css';
 import * as emailjs from 'emailjs-com';
@@ -11,10 +11,14 @@ class Contact extends Component {
             EmailAddress:'',
             Message:'',
             EmailSentSuccessful:true,
-            SenderEmail:'olescojohnmark@gmail.com',
-            TemplateID:'carecenterforallergy',
+            SenderEmail:'carecenterforallergy@gmail.com',
+            //TemplateID:'carecenterforallergy',
+            TemplateID:'template_1QsLlWfR',
             TemplateUserID:'usercarecenterforallergy',
-            UserID:'user_LECJPVdzpYOS1hL1S7P3p',
+            CarbonCopy1:'imheavenlee@gmail.com',
+            CarbonCopy2:'',
+            //UserID:'user_LECJPVdzpYOS1hL1S7P3p', get in account > api key 
+            UserID:'user_6QLG1b7xBJwuR7tx2FSde',
             ServiceID:'gmail',
             error:{
                 Name:'',
@@ -83,22 +87,20 @@ class Contact extends Component {
             return;
         }
 
-
+        //send to admin
         var template_params = {
             "Name": this.state.Name,
             "feedback": this.state.Message,
             "from_email":this.state.SenderEmail,
             "to_email":this.state.SenderEmail,
             "subject":'Email Inquiry',
-            "EmailAddress":this.state.EmailAddress
+            "EmailAddress":this.state.EmailAddress,
+            "from_email_cc":this.state.CarbonCopy1
         }; 
 
          emailjs.send(this.state.ServiceID, this.state.TemplateID, template_params,this.state.UserID).then(res => 
          {
             this.setState({
-                Name:'',
-                EmailAddress:'',
-                Message:'',
                 EmailSentSuccessful:false,
                 EmailMsgUponSending:'You have successfully sent an email.',
                 EmailTypeVariant:'success',
@@ -108,7 +110,8 @@ class Contact extends Component {
                 EmailTypeVariant:'danger',
                 Sent:false
         }));
-
+        
+        //Send to user 
         var template_user_params = {
                 "Name": this.state.Name,
                 "feedback": this.state.Message,
@@ -132,12 +135,6 @@ class Contact extends Component {
                    EmailTypeVariant:'danger',
                    Sent:false
            }));
-
-           this.setState({
-            Name:'',
-            EmailAddress:'',
-            Message:'',
-        });
     }
     render() 
     {
@@ -382,5 +379,6 @@ class Contact extends Component {
 }
 // export default Contact;
 export default GoogleApiWrapper({
-    apiKey: ('AIzaSyC3Is-W3lSolWDV8bwxtCMBfnYvREOEa3w')
+    //apiKey: ('AIzaSyC3Is-W3lSolWDV8bwxtCMBfnYvREOEa3w') api key for my site
+    apiKey: ('AIzaSyDm39gdDytTTfTjq0l4prdCQaxQJBYNJbM')
   })(Contact)
