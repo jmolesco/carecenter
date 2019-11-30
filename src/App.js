@@ -108,7 +108,8 @@ class App extends Component {
                
             </Helmet>
             <Header></Header>     
-              <Route exact={true} path="/home" component={Home}/>
+              <Route exact={true} path="/" component={Home}/>
+              <Route path="/home" component={Home}/>
               <Route path="/about" component={AboutUs}/>
               <Route path="/staff" component={Staff}/>
               <Route path="/service" component={Service}/>

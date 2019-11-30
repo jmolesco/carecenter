@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, ListGroup, Card,Form,Button,Image,Alert } from 'react-bootstrap';
+import { Container, Row, Col, ListGroup, Card,Form,Button,Alert } from 'react-bootstrap';
 import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 import './Contact.css';
 import * as emailjs from 'emailjs-com';
@@ -382,5 +382,6 @@ class Contact extends Component {
 }
 // export default Contact;
 export default GoogleApiWrapper({
-    apiKey: ('AIzaSyC3Is-W3lSolWDV8bwxtCMBfnYvREOEa3w')
-  })(Contact)
+    apiKey: ('AIzaSyDm39gdDytTTfTjq0l4prdCQaxQJBYNJbM')
+    //AIzaSyDm39gdDytTTfTjq0l4prdCQaxQJBYNJbM AIzaSyC3Is-W3lSolWDV8bwxtCMBfnYvREOEa3w
+  })(Contact) 

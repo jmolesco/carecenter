@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Card} from 'react-bootstrap';
-import doc from '../../images/doc.jpg'; 
 class Staff extends Component {
 
     render() 
