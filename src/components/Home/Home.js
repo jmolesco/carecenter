@@ -24,7 +24,9 @@ class Home extends Component {
                                 <img
                                     className="d-block w-100"
                                     src={A5}
-                                    alt="First slide"
+                                    alt="Dr. Cynthia Yango-Eugenio posing in her office.She is an allergist in Buffalo Grove, Algonquin Illinois
+                                        Arlington Heights and Wheeling
+                                    "
                                     
                                 />
                                 <Carousel.Caption>
@@ -44,7 +46,8 @@ class Home extends Component {
                                 <img
                                     className="d-block w-100"
                                     src={A2}
-                                    alt="Third slide"
+                                    alt="The looks of Allergist Cynthia Yango-Eugenio office in Buffalo Grove, Algonquin Illinois
+                                    Arlington Heights and Wheeling"
                                     
                                 />
 
@@ -53,21 +56,25 @@ class Home extends Component {
                                 <img
                                     className="d-block w-100"
                                     src={A3}
-                                    
+                                    alt="Office in Buffalo Grove, Algonquin Illinois
+                                    Arlington Heights and Wheeling"
                                      />
                           </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
                                     src={A4}
-                                    
+                                    alt="Allergist in Buffalo Grove,Allergist in Algonquin Illinois
+                                    Allergist in Arlington Heights and Allergist in Wheeling"
                                      />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
                                     src={A1}
-                                    
+                                    alt="Allergist in Buffalo Grove,Allergist in Algonquin Illinois
+                                    Allergist in Arlington Heights and Allergist in Wheeling"
+                                     />
                                      />
                             </Carousel.Item>
                         </Carousel>

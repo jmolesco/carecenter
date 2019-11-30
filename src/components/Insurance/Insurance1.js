@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, CardDeck, Button, Image,  Carousel, Alert,Card,ListGroup,CardColumns } from 'react-bootstrap';
+import { Container, Row, Col, CardDeck, Alert, Card, ListGroup} from 'react-bootstrap';
 import cigna from  '../../images/cigna.PNG';
-import coresource from  '../../images/coresource.png';
 import cc from  '../../images/cc.png';
 import multiplan from '../../images/mutltiplan.png';
 import beech from '../../images/beech.png';

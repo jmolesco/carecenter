@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, Container, Row, Col, CardDeck,  ListGroup,   Card,Image } from 'react-bootstrap';
+import { Navbar,  Container, Row, Col,   ListGroup } from 'react-bootstrap';
 import {Link} from 'react-router-dom';
-import followus from  '../../images/followus1.png';
-import fb from  '../../images/fb.png';
-import ig from  '../../images/ig.png';
 class Header extends Component {
   constructor(props) {
     super(props);
@@ -64,13 +61,13 @@ class Header extends Component {
                                     <ListGroup variant="flush footer-menu2">
                                         <ListGroup.Item className="text-center"> Follow Us</ListGroup.Item>
                                         <ListGroup.Item>
-                                           <a target="_blank" href="https://www.facebook.com/DrCynthiaYangoEugenio/" style={{color:'#6610f2'}}><i className="fa fa-facebook-square"></i> Facebook</a>                                   
+                                           <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/DrCynthiaYangoEugenio/" style={{color:'#6610f2'}}><i className="fa fa-facebook-square"></i> Facebook</a>                                   
                                          </ListGroup.Item>
                                         <ListGroup.Item>
-                                            <a target="_blank" href="https://www.instagram.com/carecenter4allergyandasthma/" style={{color:'#6610f2'}}><i className="fa fa-instagram"></i> Instagram</a>
+                                            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/carecenter4allergyandasthma/" style={{color:'#6610f2'}}><i className="fa fa-instagram"></i> Instagram</a>
                                          </ListGroup.Item>
                                          <ListGroup.Item>
-                                            <a target="_blank" href="https://twitter.com/@DrYangoEugenio?fbclid=IwAR1jLhwWGKH_UEcxpshPFm8sBVEDKIodtuJrC0Jei_SgV_jzJBCpS-oclZ4" style={{color:'#6610f2'}}><i className="fa fa-twitter"></i> Twitter</a>
+                                            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/@DrYangoEugenio?fbclid=IwAR1jLhwWGKH_UEcxpshPFm8sBVEDKIodtuJrC0Jei_SgV_jzJBCpS-oclZ4" style={{color:'#6610f2'}}><i className="fa fa-twitter"></i> Twitter</a>
                                          </ListGroup.Item>
                                     </ListGroup>
                     </Col>

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, CardDeck, Button, Image,  Carousel, Alert,Card,ListGroup,CardColumns } from 'react-bootstrap';
+import { Container, Row, Col, CardDeck,  Alert,Card } from 'react-bootstrap';
 import cigna from  '../../images/cigna.PNG';
-import coresource from  '../../images/coresource.png';
 import cc from  '../../images/cc.png';
 import multiplan from '../../images/mutltiplan.png';
 import beech from '../../images/beech.png';
@@ -10,7 +9,6 @@ import first from '../../images/first.png';
 import aarp from '../../images/aarp.jpg';
 import adventist from '../../images/adventist.jpg';
 import phcs from '../../images/phcs.jpg';
-import blueprecision from '../../images/blueprecision.jpg';
 import greatwest from '../../images/greatwest.png';
 import coventry from '../../images/coventry.png';
 import meridian from '../../images/meridian.png';
