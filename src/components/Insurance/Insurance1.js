@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, CardDeck, Alert, Card, ListGroup} from 'react-bootstrap';
-import cigna from  '../../images/cigna.PNG';
-import cc from  '../../images/cc.png';
+import { Container, Row, Col, CardDeck, Alert, Card, ListGroup } from 'react-bootstrap';
+import cigna from '../../images/cigna.PNG';
+import cc from '../../images/cc.png';
 import multiplan from '../../images/mutltiplan.png';
 import beech from '../../images/beech.png';
 import ufc from '../../images/ufc.png';
@@ -10,35 +10,111 @@ import first from '../../images/first.png';
 
 class Insurance extends Component {
 
-    render() 
-    {
+    render() {
         return (
             <Container>
-                    <Row className="justify-content-md-center">
-                        <Col md={12}>
-                        <Alert  variant={"primary"} className={"remove-border"} >
+                <Row className="justify-content-md-center">
+                    <Col md={12}>
+                        <Alert variant={"primary"} className={"remove-border"} >
                             <hr></hr>
-                                <h4>  
-                                    <marquee> Network Insurance Plans </marquee>
+                            <h4>
+                                <marquee> Network Insurance Plans </marquee>
+                            </h4>
+                            <hr></hr>
+                            <p>
+                            <div style={{visibility:"hidden", height:".05px"}}>
+                                <h1>
+                                allergist in Buffalo Grove Illinois
+                                </h1>
+                                <h1>
+                                allergist Algonquin Illinois
+                                </h1>
+                                <h1>
+                                allergist Wheeling Illinois 
+                                </h1>
+                                <h1>
+                                allergist Arlington Heights
+                                </h1>
+                                <h2>
+                                allergist in Buffalo Grove Illinois
+                                </h2>
+                                <h2>
+                                allergist Algonquin Illinois
+                                </h2>
+                                <h2>
+                                allergist Wheeling Illinois 
+                                </h2>
+                                <h2>
+                                allergist Arlington Heights
+                                </h2>
+                                <h3>
+                                allergist in Buffalo Grove Illinois
+                                </h3>
+                                <h3>
+                                allergist Algonquin Illinois
+                                </h3>
+                                <h3>
+                                allergist Wheeling Illinois 
+                                </h3>
+                                <h3>
+                                allergist Arlington Heights
+                                </h3>
+                                <h4>
+                                allergist in Buffalo Grove Illinois
                                 </h4>
-                            <hr></hr>
+                                <h4>
+                                allergist Algonquin Illinois
+                                </h4>
+                                <h4>
+                                allergist Wheeling Illinois 
+                                </h4>
+                                <h4>
+                                allergist Arlington Heights
+                                </h4>
+                                <h5>
+                                allergist in Buffalo Grove Illinois
+                                </h5>
+                                <h5>
+                                allergist Algonquin Illinois
+                                </h5>
+                                <h5>
+                                allergist Wheeling Illinois 
+                                </h5>
+                                <h5>
+                                allergist Arlington Heights
+                                </h5>
+                                </div>
+                            </p>
                             <p>This list is not inclusive of all insurance plans. Our practice accepts almost all major
-insurance plans. </p>
+insurance plans.
+<h1 visible={false}>
+                                    allergist in Buffalo Grove Illinois
+                                </h1>
+                                <h1 visible={false}>
+                                    allergist Algonquin Illinois
+                                </h1>
+                                <h1 visible={false}>
+                                    allergist Wheeling Illinois
+                                </h1>
+                                <h1 visible={false}>
+                                    allergist Arlington Heights
+                                </h1>
+                            </p>
                         </Alert>
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center 2nd-col-BlueCross">
-                   <Col md={12}>
-                   <CardDeck>
-                             <Card>
+                    <Col md={12}>
+                        <CardDeck>
+                            <Card>
                                 <center>
                                     <Card.Img variant="top" className="card-img-insurance" />
                                 </center>
                                 <Card.Body className="text-center">
-                                <ListGroup variant="flush">
+                                    <ListGroup variant="flush">
                                         <ListGroup.Item></ListGroup.Item>
                                         <ListGroup.Item>AARP MedicareComplete Plus HMO-POS</ListGroup.Item>
-                                   </ListGroup>
+                                    </ListGroup>
                                 </Card.Body>
                             </Card>
                             <Card>
@@ -46,41 +122,41 @@ insurance plans. </p>
                                     <Card.Img variant="top" className="card-img-insurance" src={beech} />
                                 </center>
                                 <Card.Body className="text-center">
-                                     <ListGroup variant="flush">
+                                    <ListGroup variant="flush">
                                         <ListGroup.Item></ListGroup.Item>
                                         <ListGroup.Item>Beech Street Network PPO</ListGroup.Item>
-                                   </ListGroup>
+                                    </ListGroup>
                                 </Card.Body>
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance" src="https://www.bcbstx.com/images/logo_bcbstx.jpg"  />
+                                    <Card.Img variant="top" className="card-img-insurance" src="https://www.bcbstx.com/images/logo_bcbstx.jpg" />
                                 </center>
                                 <Card.Body className="text-center">
 
-                                     <ListGroup variant="flush">
-                                     <ListGroup.Item></ListGroup.Item>
+                                    <ListGroup variant="flush">
+                                        <ListGroup.Item></ListGroup.Item>
                                         <ListGroup.Item>Blue Advantage HMO</ListGroup.Item>
                                     </ListGroup>
                                 </Card.Body>
                             </Card>
                         </CardDeck>
-             
-                   </Col>
+
+                    </Col>
                 </Row>
                 <Row className="justify-content-md-center 2nd-col-BlueCross">
-                   <Col md={12}>
-                   <CardDeck>
-                          
+                    <Col md={12}>
+                        <CardDeck>
+
                             <Card>
                                 <center>
                                     <Card.Img variant="top" className="card-img-insurance" src="http://www.ilhealthagents.com/wp-content/uploads/2015/02/slogo.png" />
                                 </center>
                                 <Card.Body className="text-center">
-                                <ListGroup variant="flush">
+                                    <ListGroup variant="flush">
                                         <ListGroup.Item></ListGroup.Item>
                                         <ListGroup.Item>BlueCare Direct</ListGroup.Item>
-                                   </ListGroup>
+                                    </ListGroup>
                                 </Card.Body>
                             </Card>
                             <Card>
@@ -88,41 +164,41 @@ insurance plans. </p>
                                     <Card.Img variant="top" className="card-img-insurance" src="https://www.cofinity.net/Cofinity/Images/Logo/CofinityLogo.gif" />
                                 </center>
                                 <Card.Body className="text-center">
-                                     <ListGroup variant="flush">
+                                    <ListGroup variant="flush">
                                         <ListGroup.Item></ListGroup.Item>
                                         <ListGroup.Item>Cofinity PPO</ListGroup.Item>
-                                   </ListGroup>
+                                    </ListGroup>
                                 </Card.Body>
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance"  src="https://www.healthlink.com/assets/images/header_logo.png" />
+                                    <Card.Img variant="top" className="card-img-insurance" src="https://www.healthlink.com/assets/images/header_logo.png" />
                                 </center>
                                 <Card.Body className="text-center">
 
-                                     <ListGroup variant="flush">
-                                     <ListGroup.Item></ListGroup.Item>
-                                        <ListGroup.Item>Healthlink PPO</ListGroup.Item>                                      
+                                    <ListGroup variant="flush">
+                                        <ListGroup.Item></ListGroup.Item>
+                                        <ListGroup.Item>Healthlink PPO</ListGroup.Item>
                                     </ListGroup>
                                 </Card.Body>
                             </Card>
                         </CardDeck>
-             
-                   </Col>
-                </Row>             
+
+                    </Col>
+                </Row>
                 <Row className="justify-content-md-center 2nd-col-BlueCross">
-                   <Col md={12}>
-                   <CardDeck>
-                          
+                    <Col md={12}>
+                        <CardDeck>
+
                             <Card>
                                 <center>
                                     <Card.Img variant="top" className="card-img-insurance" src={cc} />
                                 </center>
                                 <Card.Body className="text-center">
-                                <ListGroup variant="flush">
+                                    <ListGroup variant="flush">
                                         <ListGroup.Item></ListGroup.Item>
                                         <ListGroup.Item>HST Care Connect HMO</ListGroup.Item>
-                                   </ListGroup>
+                                    </ListGroup>
                                 </Card.Body>
                             </Card>
                             <Card>
@@ -130,127 +206,83 @@ insurance plans. </p>
                                     <Card.Img variant="top" className="card-img-insurance" />
                                 </center>
                                 <Card.Body className="text-center">
-                                     <ListGroup variant="flush">
+                                    <ListGroup variant="flush">
                                         <ListGroup.Item></ListGroup.Item>
                                         <ListGroup.Item>Meridian</ListGroup.Item>
-                                   </ListGroup>
+                                    </ListGroup>
                                 </Card.Body>
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance"  src="https://www.meritain.com/Media/Default/images/logo.png" />
+                                    <Card.Img variant="top" className="card-img-insurance" src="https://www.meritain.com/Media/Default/images/logo.png" />
                                 </center>
                                 <Card.Body className="text-center">
 
-                                     <ListGroup variant="flush">
-                                     <ListGroup.Item></ListGroup.Item>
-                                        <ListGroup.Item>Meritain Health PPO</ListGroup.Item>                                      
+                                    <ListGroup variant="flush">
+                                        <ListGroup.Item></ListGroup.Item>
+                                        <ListGroup.Item>Meritain Health PPO</ListGroup.Item>
                                     </ListGroup>
                                 </Card.Body>
                             </Card>
                         </CardDeck>
-             
-                   </Col>
-                </Row>             
+
+                    </Col>
+                </Row>
                 <Row className="justify-content-md-center 2nd-col-BlueCross">
                     <Col md={12}>
-                    <CardDeck>
-                            
-                                <Card>
-                                    <center>
-                                        <Card.Img variant="top" className="card-img-insurance" src={multiplan} />
-                                    </center>
-                                    <Card.Body className="text-center">
-                                    <ListGroup variant="flush">
-                                            <ListGroup.Item></ListGroup.Item>
-                                            <ListGroup.Item>MultiPlan PPO</ListGroup.Item>
-                                    </ListGroup>
-                                    </Card.Body>
-                                </Card>
-                                <Card>
-                                    <center>
-                                        <Card.Img variant="top" className="card-img-insurance" src="https://www.nalchbp.org/theme/img/logo.png" />
-                                    </center>
-                                    <Card.Body className="text-center">
-                                        <ListGroup variant="flush">
-                                            <ListGroup.Item></ListGroup.Item>
-                                            <ListGroup.Item>NALC (Natl Assn of Letter Carriers) Health Benefit</ListGroup.Item>
-                                    </ListGroup>
-                                    </Card.Body>
-                                </Card>
-                                <Card>
-                                    <center>
-                                        <Card.Img variant="top" className="card-img-insurance" src="http://www.seiuhcilin.org/files/2011/05/locals2011_01.jpg" />
-                                    </center>
-                                    <Card.Body className="text-center">
+                        <CardDeck>
 
-                                        <ListGroup variant="flush">
-                                        <ListGroup.Item></ListGroup.Item>
-                                            <ListGroup.Item>SEIU HCII</ListGroup.Item>                                      
-                                        </ListGroup>
-                                    </Card.Body>
-                                </Card>
-                            </CardDeck>
-                
-                    </Col>
-                    </Row>             
-                    <Row className="justify-content-md-center 2nd-col-BlueCross">
-                    <Col md={12}>
-                    <CardDeck>
-                            
-                                <Card>
-                                    <center>
-                                        <Card.Img variant="top" className="card-img-insurance" src={ufc} />
-                                    </center>
-                                    <Card.Body className="text-center">
-                                    <ListGroup variant="flush">
-                                            <ListGroup.Item></ListGroup.Item>
-                                            <ListGroup.Item>UFCW Local 1546 Health and Welfare Fund (UMC)</ListGroup.Item>
-                                    </ListGroup>
-                                    </Card.Body>
-                                </Card>
-                                <Card>
-                                    <center>
-                                        <Card.Img variant="top" className="card-img-insurance" />
-                                    </center>
-                                    <Card.Body className="text-center">
-                                        <ListGroup variant="flush">
-                                            <ListGroup.Item></ListGroup.Item>
-                                            <ListGroup.Item>PHCS PPO</ListGroup.Item>
-                                            <ListGroup.Item>PHCS Savility PPO</ListGroup.Item>
-                                    </ListGroup>
-                                    </Card.Body>
-                                </Card>
-                                <Card>
-                                    <center>
-                                        <Card.Img variant="top" className="card-img-insurance"  />
-                                    </center>
-                                    <Card.Body className="text-center">
-
-                                        <ListGroup variant="flush">
-                                        <ListGroup.Item></ListGroup.Item>
-                                            <ListGroup.Item>UHC / AARP MedicareComplete (Secure Horizons) HMO</ListGroup.Item>
-                                            <ListGroup.Item>UHC / AARP MedicareComplete Focus HMO</ListGroup.Item>                                        
-                                        </ListGroup>
-                                    </Card.Body>
-                                </Card>
-                            </CardDeck>
-                
-                    </Col>
-                    </Row>             
-                 <Row className="justify-content-md-center 2nd-col-BlueCross">
-                   <Col md={12}>
-                   <CardDeck>
-                   <Card>
+                            <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance" src={first}/>
+                                    <Card.Img variant="top" className="card-img-insurance" src={multiplan} />
                                 </center>
                                 <Card.Body className="text-center">
-                                <ListGroup variant="flush">
+                                    <ListGroup variant="flush">
                                         <ListGroup.Item></ListGroup.Item>
-                                        <ListGroup.Item>First Health Network EPO</ListGroup.Item>
-                                        <ListGroup.Item>First Health Network PPO</ListGroup.Item>
-                                   </ListGroup>
+                                        <ListGroup.Item>MultiPlan PPO</ListGroup.Item>
+                                    </ListGroup>
+                                </Card.Body>
+                            </Card>
+                            <Card>
+                                <center>
+                                    <Card.Img variant="top" className="card-img-insurance" src="https://www.nalchbp.org/theme/img/logo.png" />
+                                </center>
+                                <Card.Body className="text-center">
+                                    <ListGroup variant="flush">
+                                        <ListGroup.Item></ListGroup.Item>
+                                        <ListGroup.Item>NALC (Natl Assn of Letter Carriers) Health Benefit</ListGroup.Item>
+                                    </ListGroup>
+                                </Card.Body>
+                            </Card>
+                            <Card>
+                                <center>
+                                    <Card.Img variant="top" className="card-img-insurance" src="http://www.seiuhcilin.org/files/2011/05/locals2011_01.jpg" />
+                                </center>
+                                <Card.Body className="text-center">
+
+                                    <ListGroup variant="flush">
+                                        <ListGroup.Item></ListGroup.Item>
+                                        <ListGroup.Item>SEIU HCII</ListGroup.Item>
+                                    </ListGroup>
+                                </Card.Body>
+                            </Card>
+                        </CardDeck>
+
+                    </Col>
+                </Row>
+                <Row className="justify-content-md-center 2nd-col-BlueCross">
+                    <Col md={12}>
+                        <CardDeck>
+
+                            <Card>
+                                <center>
+                                    <Card.Img variant="top" className="card-img-insurance" src={ufc} />
+                                </center>
+                                <Card.Body className="text-center">
+                                    <ListGroup variant="flush">
+                                        <ListGroup.Item></ListGroup.Item>
+                                        <ListGroup.Item>UFCW Local 1546 Health and Welfare Fund (UMC)</ListGroup.Item>
+                                    </ListGroup>
                                 </Card.Body>
                             </Card>
                             <Card>
@@ -258,22 +290,66 @@ insurance plans. </p>
                                     <Card.Img variant="top" className="card-img-insurance" />
                                 </center>
                                 <Card.Body className="text-center">
-                                     <ListGroup variant="flush">
+                                    <ListGroup variant="flush">
                                         <ListGroup.Item></ListGroup.Item>
-                                        <ListGroup.Item>Great West Healthcare - Cigna HMO</ListGroup.Item>
-                                        <ListGroup.Item>Great West Healthcare - Cigna Open Access Plus HMO</ListGroup.Item>
-                                        <ListGroup.Item>Great West Healthcare - Cigna PPO</ListGroup.Item>
-                                   </ListGroup>
+                                        <ListGroup.Item>PHCS PPO</ListGroup.Item>
+                                        <ListGroup.Item>PHCS Savility PPO</ListGroup.Item>
+                                    </ListGroup>
                                 </Card.Body>
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance"  />
+                                    <Card.Img variant="top" className="card-img-insurance" />
                                 </center>
                                 <Card.Body className="text-center">
 
-                                     <ListGroup variant="flush">
-                                     <ListGroup.Item></ListGroup.Item>
+                                    <ListGroup variant="flush">
+                                        <ListGroup.Item></ListGroup.Item>
+                                        <ListGroup.Item>UHC / AARP MedicareComplete (Secure Horizons) HMO</ListGroup.Item>
+                                        <ListGroup.Item>UHC / AARP MedicareComplete Focus HMO</ListGroup.Item>
+                                    </ListGroup>
+                                </Card.Body>
+                            </Card>
+                        </CardDeck>
+
+                    </Col>
+                </Row>
+                <Row className="justify-content-md-center 2nd-col-BlueCross">
+                    <Col md={12}>
+                        <CardDeck>
+                            <Card>
+                                <center>
+                                    <Card.Img variant="top" className="card-img-insurance" src={first} />
+                                </center>
+                                <Card.Body className="text-center">
+                                    <ListGroup variant="flush">
+                                        <ListGroup.Item></ListGroup.Item>
+                                        <ListGroup.Item>First Health Network EPO</ListGroup.Item>
+                                        <ListGroup.Item>First Health Network PPO</ListGroup.Item>
+                                    </ListGroup>
+                                </Card.Body>
+                            </Card>
+                            <Card>
+                                <center>
+                                    <Card.Img variant="top" className="card-img-insurance" />
+                                </center>
+                                <Card.Body className="text-center">
+                                    <ListGroup variant="flush">
+                                        <ListGroup.Item></ListGroup.Item>
+                                        <ListGroup.Item>Great West Healthcare - Cigna HMO</ListGroup.Item>
+                                        <ListGroup.Item>Great West Healthcare - Cigna Open Access Plus HMO</ListGroup.Item>
+                                        <ListGroup.Item>Great West Healthcare - Cigna PPO</ListGroup.Item>
+                                    </ListGroup>
+                                </Card.Body>
+                            </Card>
+                            <Card>
+                                <center>
+                                    <Card.Img variant="top" className="card-img-insurance" />
+                                </center>
+                                <Card.Body className="text-center">
+
+                                    <ListGroup variant="flush">
+                                        <ListGroup.Item></ListGroup.Item>
                                         <ListGroup.Item>Coventry HMO</ListGroup.Item>
                                         <ListGroup.Item>Coventry One Select PPO</ListGroup.Item>
                                         <ListGroup.Item>Coventry PPO</ListGroup.Item>
@@ -281,23 +357,23 @@ insurance plans. </p>
                                 </Card.Body>
                             </Card>
                         </CardDeck>
-             
-                   </Col>
+
+                    </Col>
                 </Row>
-                 <Row className="justify-content-md-center 2nd-col-BlueCross">
-                   <Col md={12}>
-                   <CardDeck>
-                   <Card>
+                <Row className="justify-content-md-center 2nd-col-BlueCross">
+                    <Col md={12}>
+                        <CardDeck>
+                            <Card>
                                 <center>
                                     <Card.Img variant="top" className="card-img-insurance" src="http://www.hfnllc.com/assets/img/logo.png" />
                                 </center>
                                 <Card.Body className="text-center">
-                                <ListGroup variant="flush">
+                                    <ListGroup variant="flush">
                                         <ListGroup.Item></ListGroup.Item>
                                         <ListGroup.Item>HFN Platinum EPO</ListGroup.Item>
                                         <ListGroup.Item>HFN PPO</ListGroup.Item>
                                         <ListGroup.Item>HFN Total Care PPO</ListGroup.Item>
-                                   </ListGroup>
+                                    </ListGroup>
                                 </Card.Body>
                             </Card>
                             <Card>
@@ -305,22 +381,22 @@ insurance plans. </p>
                                     <Card.Img variant="top" className="card-img-insurance" />
                                 </center>
                                 <Card.Body className="text-center">
-                                     <ListGroup variant="flush">
+                                    <ListGroup variant="flush">
                                         <ListGroup.Item></ListGroup.Item>
                                         <ListGroup.Item>LLH Adventist Silver PPO 3000</ListGroup.Item>
                                         <ListGroup.Item>LLH Family Health Network Silver PPO 3100</ListGroup.Item>
                                         <ListGroup.Item>LLH Swedish Covenant Silver PPO</ListGroup.Item>
-                                   </ListGroup>
+                                    </ListGroup>
                                 </Card.Body>
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance"  />
+                                    <Card.Img variant="top" className="card-img-insurance" />
                                 </center>
                                 <Card.Body className="text-center">
 
-                                     <ListGroup variant="flush">
-                                     <ListGroup.Item></ListGroup.Item>
+                                    <ListGroup variant="flush">
+                                        <ListGroup.Item></ListGroup.Item>
                                         <ListGroup.Item>Blue Precision Bronze HMO</ListGroup.Item>
                                         <ListGroup.Item>Blue Precision Gold HMO</ListGroup.Item>
                                         <ListGroup.Item>Blue Precision HMO</ListGroup.Item>
@@ -330,13 +406,13 @@ insurance plans. </p>
                                 </Card.Body>
                             </Card>
                         </CardDeck>
-             
-                   </Col>
-                 </Row>
-                 <Row className="justify-content-md-center 1st-col-AETNA-1">
-                   <Col md={12}>
-                   <CardDeck>
-                            
+
+                    </Col>
+                </Row>
+                <Row className="justify-content-md-center 1st-col-AETNA-1">
+                    <Col md={12}>
+                        <CardDeck>
+
                             <Card>
                                 <center>
                                     <Card.Img variant="top" className="card-img-insurance" src={"https://www.aetna.com/content/dam/aetna/images/logos/1_Heart_Aetna_logo_sm_rgb_violet.png"} />
@@ -355,32 +431,32 @@ insurance plans. </p>
                                         <ListGroup.Item>Aetna Select Choice EPO</ListGroup.Item>
                                         <ListGroup.Item>Aetna Select POS</ListGroup.Item>
                                         <ListGroup.Item>Aetna Signature Administrators PPO</ListGroup.Item>
-                                   </ListGroup>
+                                    </ListGroup>
                                 </Card.Body>
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance"  src={"https://www.bcbs.com/themes/custom/bcbs/img/full-logo.svg"}/>
+                                    <Card.Img variant="top" className="card-img-insurance" src={"https://www.bcbs.com/themes/custom/bcbs/img/full-logo.svg"} />
                                 </center>
                                 <Card.Body className="text-center">
                                     <ListGroup variant="flush">
-                                    <ListGroup.Item></ListGroup.Item>
+                                        <ListGroup.Item></ListGroup.Item>
                                         <ListGroup.Item>Blue Cross HMO Illinois</ListGroup.Item>
                                         <ListGroup.Item>Blue Cross Medicare Advantage HMO</ListGroup.Item>
                                         <ListGroup.Item>Blue Cross Medicare Advantage HMO - POS</ListGroup.Item>
                                         <ListGroup.Item>Blue Cross Medicare Advantage PPO</ListGroup.Item>
                                         <ListGroup.Item>Blue Cross PPO</ListGroup.Item>
                                         <ListGroup.Item>Blue Cross PPO - Advocate Associate Medical Plan</ListGroup.Item>
-                                   </ListGroup>
+                                    </ListGroup>
                                 </Card.Body>
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance"  src={cigna}/>
+                                    <Card.Img variant="top" className="card-img-insurance" src={cigna} />
                                 </center>
                                 <Card.Body className="text-center">
                                     <ListGroup variant="flush">
-                                    <ListGroup.Item></ListGroup.Item>
+                                        <ListGroup.Item></ListGroup.Item>
                                         <ListGroup.Item>Cigna C - 5 POS</ListGroup.Item>
                                         <ListGroup.Item>Cigna Health Partners POS</ListGroup.Item>
                                         <ListGroup.Item>Cigna Health Partners PPO</ListGroup.Item>
@@ -389,20 +465,20 @@ insurance plans. </p>
                                         <ListGroup.Item>CIGNA Open Access POS</ListGroup.Item>
                                         <ListGroup.Item>Cigna POS</ListGroup.Item>
                                         <ListGroup.Item>Cigna PPO</ListGroup.Item>
-                                </ListGroup>
-                                </Card.Body>                              
+                                    </ListGroup>
+                                </Card.Body>
                             </Card>
-                    </CardDeck>
-             
-                   </Col>
+                        </CardDeck>
+
+                    </Col>
                 </Row>
                 <Row className="justify-content-md-center 1st-col-AETNA-1">
-                   <Col md={12}>
-                   <CardDeck>
-                            
+                    <Col md={12}>
+                        <CardDeck>
+
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance" src={"https://www.humana.com/dist/hcom/static/icons/humana-logo.svg"}  />
+                                    <Card.Img variant="top" className="card-img-insurance" src={"https://www.humana.com/dist/hcom/static/icons/humana-logo.svg"} />
                                 </center>
                                 <Card.Body>
                                     <ListGroup variant="flush">
@@ -424,16 +500,16 @@ insurance plans. </p>
                                         <ListGroup.Item>Humana POS</ListGroup.Item>
                                         <ListGroup.Item>Humana PPO</ListGroup.Item>
                                         <ListGroup.Item>Humana PPO - Advocate Associate Medical Plan</ListGroup.Item>
-                                   </ListGroup>
+                                    </ListGroup>
                                 </Card.Body>
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance"  src={"https://www.uhc.com/content/dam/uhcdotcom/en/responsive/header-logo.png"}/>
+                                    <Card.Img variant="top" className="card-img-insurance" src={"https://www.uhc.com/content/dam/uhcdotcom/en/responsive/header-logo.png"} />
                                 </center>
                                 <Card.Body className="text-center">
                                     <ListGroup variant="flush">
-                                    <ListGroup.Item></ListGroup.Item>
+                                        <ListGroup.Item></ListGroup.Item>
                                         <ListGroup.Item>United Healthcare Charter</ListGroup.Item>
                                         <ListGroup.Item>United Healthcare Choice HMO</ListGroup.Item>
                                         <ListGroup.Item>United Healthcare Choice Plus POS</ListGroup.Item>
@@ -449,12 +525,12 @@ insurance plans. </p>
                                         <ListGroup.Item>United Healthcare Select EPO</ListGroup.Item>
                                         <ListGroup.Item>United Healthcare Select HMO</ListGroup.Item>
                                         <ListGroup.Item>United Healthcare Select Plus POS</ListGroup.Item>
-                                   </ListGroup>
+                                    </ListGroup>
                                 </Card.Body>
                             </Card>
-                            <Card style={{visibility:'hidden'}}>
+                            <Card style={{ visibility: 'hidden' }}>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance"  src={cigna}/>
+                                    <Card.Img variant="top" className="card-img-insurance" src={cigna} />
                                 </center>
                                 <Card.Body className="text-center">
                                     <ListGroup variant="flush">
@@ -467,15 +543,15 @@ insurance plans. </p>
                                         <ListGroup.Item>CIGNA Open Access POS</ListGroup.Item>
                                         <ListGroup.Item>Cigna POS</ListGroup.Item>
                                         <ListGroup.Item>Cigna PPO</ListGroup.Item>
-                                </ListGroup>
-                                </Card.Body>                              
+                                    </ListGroup>
+                                </Card.Body>
                             </Card>
-                    </CardDeck>
-             
-                   </Col>
+                        </CardDeck>
+
+                    </Col>
                 </Row>
-                
- 
+
+
                 {/* <Row className="justify-content-md-center 2nd-col-BlueCross">
                    <Col md={12}>
                    <CardDeck>
@@ -667,7 +743,7 @@ insurance plans. </p>
                    </Col>
                 </Row>
  */}
-         </Container>
+            </Container>
         );
     }
 }

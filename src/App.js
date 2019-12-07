@@ -21,18 +21,83 @@ class App extends Component {
         <div>  
             <Helmet
                 encodeSpecialCharacters={true}
+                titleTemplate="http://carecenterforallergy.com/"
+               >
 
-                titleTemplate="https://jmolesco.github.io/carecenter/#/home"
-              //onChangeClientState={(newState, addedTags, removedTags) => console.log(newState, addedTags, removedTags)}
-              >
-
-              <meta name="google-site-verification" content="dHposX6tXZ0hCOcg4aM04RRJeEg56ki7hohBlaDTc" />
-              <meta name="description" content="Care Center for Allergy and Asthma,Dr. Cynthia Yango-Eugenio,CareCenter,Allergy,Asthma,Allergy & Asthma,Algonquin Illinois" />
-              <meta name="keywords" 
+              <meta name="google-site-verification" content="JYnTJH5iValo1JnZw8OFGJ26BTWFcsOFC0UvzpJ_X3Q" />
+              <meta 
+                 content="Dr. Cynthia Yango Eugenio is an allergist in Buffalo Grove Illinois,allergist Algonquin Illinois,allergist Wheeling Illinois and allergist Arlington Heights. 
+                 She's been allergist in Buffalo Grove Illinois,allergist Algonquin Illinois,allergist Wheeling Illinois and allergist Arlington Heights for many years."
+                  name="description" />
+                  <meta name="keywords" 
                   content="Care Center for Allergy and Asthma,
-                  Allergy & Asthma,
+                  Allergist in Buffalo Grove Allergist in Algonquin Allergist in Wheeling  Allergist in Prospect Heights Allergist in Arlington Heights Allergist in  Palatine Allergist in Vernon Hls Allergist in Rolling Meadows Allergist in Mount Prospect Allergist in Deerfield Allergist in Northbrook Allergist in Lake Zurich Allergist in Mundelein Allergist in Highland Park Allergist in Barrington Allergist in Des Plaines Allergist in Libertyvle Allergist in Lake in the Hls Allergist in Carpentersvle Allergist in Crystal Lake Allergist in Huntley Allergist in Barrington Allergist in Elgin Allergist in Wauconda Allergist in Lake Zurich Allergist in Streamwood Allergist in South Elgin Allergist in Woodstock Allergist in Bartlett Allergist in Hanover Park Allergist in Hanover Park
+                    Allergy & Asthma,
                     Algonquin Illinois,
                     Dr. Cynthia Yango-Eugenio,
+                    Allergy doctor in Buffalo Grove,
+                    CareCenter Buffalo Grove,
+                    Allergy doctor in Algonquin,
+                    CareCenter Algonquin,
+                    Allergy doctor in,
+                    Allergy doctor in Wheeling,
+                    CareCenter Wheeling,
+                    Allergy doctor in Prospect Heights,
+                    CareCenter Prospect Heights,
+                    Allergy doctor in Arlington Heights,
+                    CareCenter Arlington Heights,
+                    Allergy doctor in  Palatine,
+                    CareCenter Palatine,
+                    Allergy doctor in Vernon Hls,
+                    CareCenter Vernon Hls, 
+                    Allergy doctor in Rolling Meadows,
+                    CareCenter Rolling Meadows, 
+                    Allergy doctor in Mount Prospect,
+                    CareCenter Mount Prospect, 
+                    Allergy doctor in Deerfield,
+                    CareCenter Deerfield, 
+                    Allergy doctor in Northbrook,
+                    CareCenter Northbrook, 
+                    Allergy doctor in Lake Zurich,
+                    CareCenter Lake Zurich,
+                    Allergy doctor in Mundelein, 
+                    CareCenter Mundelein, 
+                    Allergy doctor in Highland Park, 
+                    CareCenter Highland Park, 
+                    Allergy doctor in Barrington,
+                    CareCenter Barrington, 
+                    Allergy doctor in Des Plaines, 
+                    CareCenter Des Plaines,
+                    Allergy doctor in Libertyvle, 
+                    CareCenter Libertyvle,  
+                    Allergy doctor in Lake in the Hls, 
+                    CareCenter Lake in the Hls, 
+                    Allergy doctor in Carpentersvle, 
+                    CareCenter Cary, 
+                    Allergy doctor in Crystal Lake,
+                    CareCenter Crystal Lake, 
+                    Allergy doctor in Huntley,
+                    CareCenter Huntley,
+                    Allergy doctor in Barrington,
+                    CareCenter Barrington,
+                    Allergy doctor in Elgin,
+                    CareCenter Elgin,
+                    Allergy doctor in Wauconda,
+                    CareCenter Wauconda,
+                    Allergy doctor in Lake Zurich,
+                    CareCenter Lake Zurich,
+                    Allergy doctor in Streamwood,
+                    CareCenter Streamwood,
+                    Allergy doctor in South Elgin,
+                    CareCenter South Elgin,
+                    Allergy doctor in Woodstock,
+                    CareCenter Woodstock,
+                    Allergy doctor in Bartlett,
+                    CareCenter Bartlett,
+                    Allergy doctor in Hanover Park,
+                    CareCenter Hanover Park,
+                    Allergy doctor in Hanover Park,
+                    CareCenter Hanover Park,
                     Care Center for Allergy and Asthma Buffalo Grove,
                     CareCenter Buffalo Grove,
                     Care Center for Allergy and Asthma Algonquin,
@@ -102,9 +167,43 @@ class App extends Component {
                     Allergy,
                     Allergist,
                     Asthma,
-                    carecenter md
-                    
-                    "/>
+                    carecenter md,
+                    Care Center,
+                    care center,
+                    Buffalo Grove,
+                    Algonquin
+                    difficulty breathing,
+                    exercise intolerance, 
+                    Persistent cough,
+                    work related asthma, 
+                    Animal/pollen/dust/mold allergy,
+                    Itchy and red eyes,
+                    eye puffiness,
+                    dark circles under the eyes,
+                    swelling of the eyes,
+                    food allergy, 
+                    gluten sensitivity, 
+                    nut allergy, 
+                    aspirin allergy 
+                    abdominal pain, 
+                    diarrhea, 
+                    nausea 
+                    vomiting 
+                    constipation, 
+                    bloating, 
+                    abdominal cramps,
+                    Malaise, 
+                    flu like symptoms, 
+                    fatigue, 
+                    anaphylaxis, 
+                    itching/swelling or tingling of the mouth, 
+                    swelling of the lips, face, tongue or other parts of the body,
+                    Eczema, 
+                    Hives/Urticaria/ Angioedema, 
+                    Contact Dermatitis/poison ivy
+                    Food reaction/Drug reaction, 
+                    Photosensitivity, 
+                    Skin allergy due to Latex, pet dander,  Sunlight, Insects, Drugs " />
                
             </Helmet>
             <Header></Header>     
