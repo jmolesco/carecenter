@@ -11,10 +11,12 @@ class Contact extends Component {
             EmailAddress:'',
             Message:'',
             EmailSentSuccessful:true,
-            SenderEmail:'olescojohnmark@gmail.com',
+            //SenderEmail:'olescojohnmark@gmail.com',
+            SenderEmail:"carecenterforallergy@gmail.com",
             TemplateID:'carecenterforallergy',
             TemplateUserID:'usercarecenterforallergy',
-            UserID:'user_LECJPVdzpYOS1hL1S7P3p',
+            //UserID:'user_LECJPVdzpYOS1hL1S7P3p',
+            UserID:"user_En82gdAiJrloQhHB1GfRA",
             ServiceID:'gmail',
             error:{
                 Name:'',
@@ -116,6 +118,8 @@ class Contact extends Component {
                 "from_email_user":this.state.SenderEmail,
                 "subject_user":'Email Receipt',
                 "EmailAddress":this.state.EmailAddress,
+                "from_email_cc":"myljily@aol.com",
+                "from_email_cc1":"imheavenlee@gmail.com"
         };
         emailjs.send(this.state.ServiceID, this.state.TemplateUserID, template_user_params,this.state.UserID).then(res => 
             {
