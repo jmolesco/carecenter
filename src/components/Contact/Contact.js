@@ -118,7 +118,7 @@ class Contact extends Component {
                 "from_email_user":this.state.SenderEmail,
                 "subject_user":'Email Receipt',
                 "EmailAddress":this.state.EmailAddress,
-                "from_email_cc":"myljily@aol.com",
+                "from_email_cc":"jmolesco@yahoo.com",
                 "from_email_cc1":"imheavenlee@gmail.com"
         };
         emailjs.send(this.state.ServiceID, this.state.TemplateUserID, template_user_params,this.state.UserID).then(res => 
