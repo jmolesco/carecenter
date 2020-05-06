@@ -29,69 +29,68 @@ class Insurance extends Component {
                                 </h4>
                             <hr></hr>
                             <p>
-                            <div style={{visibility:"hidden", height:".05px"}}>
-                                <h1>
-                                allergist in Buffalo Grove Illinois
+                            <div style={{ color: 'transparent', height: ".05px" }}>
+                                    <h1>
+                                        allergist in Buffalo Grove Illinois
                                 </h1>
-                                <h1>
-                                allergist Algonquin Illinois
+                                    <h1>
+                                        allergist Algonquin Illinois
                                 </h1>
-                                <h1>
-                                allergist Wheeling Illinois 
+                                    <h1>
+                                        allergist Wheeling Illinois
                                 </h1>
-                                <h1>
-                                allergist Arlington Heights
+                                    <h1>
+                                        allergist Arlington Heights
                                 </h1>
-                                <h2>
-                                allergist in Buffalo Grove Illinois
+                                    <h2>
+                                        allergist in Buffalo Grove Illinois
                                 </h2>
-                                <h2>
-                                allergist Algonquin Illinois
+                                    <h2>
+                                        allergist Algonquin Illinois
                                 </h2>
-                                <h2>
-                                allergist Wheeling Illinois 
+                                    <h2>
+                                        allergist Wheeling Illinois
                                 </h2>
-                                <h2>
-                                allergist Arlington Heights
+                                    <h2>
+                                        allergist Arlington Heights
                                 </h2>
-                                <h3>
-                                allergist in Buffalo Grove Illinois
+                                    <h3>
+                                        allergist in Buffalo Grove Illinois
                                 </h3>
-                                <h3>
-                                allergist Algonquin Illinois
+                                    <h3>
+                                        allergist Algonquin Illinois
                                 </h3>
-                                <h3>
-                                allergist Wheeling Illinois 
+                                    <h3>
+                                        allergist Wheeling Illinois
                                 </h3>
-                                <h3>
-                                allergist Arlington Heights
+                                    <h3>
+                                        allergist Arlington Heights
                                 </h3>
-                                <h4>
-                                allergist in Buffalo Grove Illinois
+                                    <h4>
+                                        allergist in Buffalo Grove Illinois
                                 </h4>
-                                <h4>
-                                allergist Algonquin Illinois
+                                    <h4>
+                                        allergist Algonquin Illinois
                                 </h4>
-                                <h4>
-                                allergist Wheeling Illinois 
+                                    <h4>
+                                        allergist Wheeling Illinois
                                 </h4>
-                                <h4>
-                                allergist Arlington Heights
+                                    <h4>
+                                        allergist Arlington Heights
                                 </h4>
-                                <h5>
-                                allergist in Buffalo Grove Illinois
+                                    <h5>
+                                        allergist in Buffalo Grove Illinois
                                 </h5>
-                                <h5>
-                                allergist Algonquin Illinois
+                                    <h5>
+                                        allergist Algonquin Illinois
                                 </h5>
-                                <h5>
-                                allergist Wheeling Illinois 
+                                    <h5>
+                                        allergist Wheeling Illinois
                                 </h5>
-                                <h5>
-                                allergist Arlington Heights
+                                    <h5>
+                                        allergist Arlington Heights
                                 </h5>
-                                </div>
-                            </p>
+                                </div>                       </p>
                             <p>This list is not inclusive of all insurance plans. Our practice accepts almost all major
 insurance plans. 
  <Link to={{
@@ -108,25 +107,14 @@ insurance plans.
                  
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance" src={beech} />
+                                    <a href="https://www.beechstreet.com/Beechstreet/"  target="_blank" rel="noopener noreferrer">
+                                        <Card.Img variant="top" className="card-img-insurance" src={beech} /></a>
                                 </center>
-                                {/* <Card.Body className="text-center">
-                                     <ListGroup variant="flush">
-                                        <ListGroup.Item></ListGroup.Item>
-                                        <ListGroup.Item>
-                                            
-                                            <small className="text-center text-black" >Beech Street Network PPO</small>
-                                        </ListGroup.Item>
-                                   </ListGroup>
-                                </Card.Body>
-                                <Card.Footer>
-                                    
-                                    </Card.Footer> */}
-                            </Card>
+                                                           </Card>
                             
                             <Card>
                                     <center>
-                                        <Card.Img variant="top" className="card-img-insurance" src={ufc} />
+                                        <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src={ufc} />
                                     </center>
                                     {/* <Card.Body className="text-center">
                                     <ListGroup variant="flush">
@@ -139,7 +127,7 @@ insurance plans.
                                 </Card>
                                 <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance" src="http://www.hfnllc.com/assets/img/logo.png" />
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src="http://www.hfnllc.com/assets/img/logo.png" />
                                 </center>
                                 {/* <Card.Body className="text-center">
                                 <ListGroup variant="flush">
@@ -166,7 +154,7 @@ insurance plans.
                           
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance" src="http://www.ilhealthagents.com/wp-content/uploads/2015/02/slogo.png" />
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src="http://www.ilhealthagents.com/wp-content/uploads/2015/02/slogo.png" />
                                 </center>
                                 {/* <Card.Body className="text-center">
                                 <ListGroup variant="flush">
@@ -180,7 +168,7 @@ insurance plans.
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance" src="https://www.cofinity.net/Cofinity/Images/Logo/CofinityLogo.gif" />
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src="https://www.cofinity.net/Cofinity/Images/Logo/CofinityLogo.gif" />
                                 </center>
                                 {/* <Card.Body className="text-center">
                                      <ListGroup variant="flush">
@@ -194,7 +182,7 @@ insurance plans.
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance"  src="https://www.healthlink.com/assets/images/header_logo.png" />
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois"  src="https://www.healthlink.com/assets/images/header_logo.png" />
                                 </center>
                                 {/* <Card.Body className="text-center">
 
@@ -217,7 +205,7 @@ insurance plans.
                           
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance" src={cc} />
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src={cc} />
                                 </center>
                                 {/* <Card.Body className="text-center">
                                 <ListGroup variant="flush">
@@ -231,7 +219,7 @@ insurance plans.
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance" src={meridian} />
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src={meridian} />
                                 </center>
                                 {/* <Card.Body className="text-center">
                                      <ListGroup variant="flush">
@@ -245,7 +233,7 @@ insurance plans.
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance"  src="https://www.meritain.com/Media/Default/images/logo.png" />
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois"  src="https://www.meritain.com/Media/Default/images/logo.png" />
                                 </center>
                                 {/* <Card.Body className="text-center">
 
@@ -268,7 +256,7 @@ insurance plans.
                             
                                 <Card>
                                     <center>
-                                        <Card.Img variant="top" className="card-img-insurance" src={multiplan} />
+                                        <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src={multiplan} />
                                     </center>
                                     {/* <Card.Body className="text-center">
                                     <ListGroup variant="flush">
@@ -282,7 +270,7 @@ insurance plans.
                                 </Card>
                                 <Card>
                                     <center>
-                                        <Card.Img variant="top" className="card-img-insurance" src="https://www.nalchbp.org/theme/img/logo.png" />
+                                        <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src="https://www.nalchbp.org/theme/img/logo.png" />
                                     </center>
                                     {/* <Card.Body className="text-center">
                                         <ListGroup variant="flush">
@@ -296,7 +284,7 @@ insurance plans.
                                 </Card>
                                 <Card>
                                     <center>
-                                        <Card.Img variant="top" className="card-img-insurance" src="http://www.seiuhcilin.org/files/2011/05/locals2011_01.jpg" />
+                                        <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src="http://www.seiuhcilin.org/files/2011/05/locals2011_01.jpg" />
                                     </center>
                                     {/* <Card.Body className="text-center">
 
@@ -318,7 +306,7 @@ insurance plans.
                     <CardDeck>
                     <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance" src={"https://www.humana.com/dist/hcom/static/icons/humana-logo.svg"}  />
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src={"https://www.humana.com/dist/hcom/static/icons/humana-logo.svg"}  />
                                 </center>
                                 {/* <Card.Body>
                                     <ListGroup variant="flush">
@@ -342,7 +330,7 @@ insurance plans.
                                 
                                 <Card>
                                     <center>
-                                        <Card.Img variant="top" className="card-img-insurance" src={phcs} />
+                                        <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src={phcs} />
                                     </center>
                                     {/* <Card.Body className="text-center">
                                         <ListGroup variant="flush">
@@ -365,7 +353,7 @@ insurance plans.
                                 </Card>
                                 <Card>
                                     <center>
-                                        <Card.Img variant="top" className="card-img-insurance" src={aarp}  />
+                                        <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src={aarp}  />
                                     </center>
                                     {/* <Card.Body className="text-center">
 
@@ -393,7 +381,7 @@ insurance plans.
                    <CardDeck>
                    <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance" src={first}/>
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src={first}/>
                                 </center>
                                 {/* <Card.Body className="text-center">
                                 <ListGroup variant="flush">
@@ -414,7 +402,7 @@ insurance plans.
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance" src={greatwest} />
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src={greatwest} />
                                 </center>
                                 {/* <Card.Body className="text-center">
                                      <ListGroup variant="flush">
@@ -435,7 +423,7 @@ insurance plans.
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance" src={coventry}  />
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src={coventry}  />
                                 </center>
                                 {/* <Card.Body className="text-center">
 
@@ -464,7 +452,7 @@ insurance plans.
                             
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance" src={"https://www.aetna.com/content/dam/aetna/images/logos/1_Heart_Aetna_logo_sm_rgb_violet.png"} />
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src={"https://www.aetna.com/content/dam/aetna/images/logos/1_Heart_Aetna_logo_sm_rgb_violet.png"} />
                                 </center>
                                 {/* <Card.Body>
                                     <ListGroup variant="flush">
@@ -507,7 +495,7 @@ insurance plans.
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance"  src={cigna}/>
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois"  src={cigna}/>
                                 </center>
                                 {/* <Card.Body className="text-center">
                                     <ListGroup variant="flush">
@@ -536,7 +524,7 @@ insurance plans.
                  
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance"  src={"https://www.uhc.com/content/dam/uhcdotcom/en/responsive/header-logo.png"}/>
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois"  src={"https://www.uhc.com/content/dam/uhcdotcom/en/responsive/header-logo.png"}/>
                                 </center>
                                 {/* <Card.Body className="text-center">
                                     <ListGroup variant="flush">
@@ -579,7 +567,7 @@ insurance plans.
                             </Card>
                             <Card style={{visibility:'hidden'}}>
                                 <center>
-                                    <Card.Img variant="top" className="card-img-insurance"  src={cigna}/>
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois"  src={cigna}/>
                                 </center>
                                 {/* <Card.Body className="text-center">
                                     <ListGroup variant="flush">

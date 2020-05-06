@@ -11,7 +11,7 @@ class AboutUs extends Component {
                     <Col md={4}>
                         <Card className="text-left">
                             <center>
-                                <Card.Img variant="top" src={doc} />
+                                <Card.Img variant="top" src={doc} alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" />
                             </center>
                             <Card.Footer className="text-center">
                                 <small className="text-muted text-center">Dr. Cynthia Yango-Eugenio, MD</small>
@@ -24,69 +24,69 @@ class AboutUs extends Component {
                             <Card.Body>
                                 <Card.Text>
                                 <p>
-                            <div style={{visibility:"hidden", height:".05px"}}>
-                                <h1>
-                                allergist in Buffalo Grove Illinois
+                                <div style={{ color: 'transparent', height: ".05px" }}>
+                                    <h1>
+                                        allergist in Buffalo Grove Illinois
                                 </h1>
-                                <h1>
-                                allergist Algonquin Illinois
+                                    <h1>
+                                        allergist Algonquin Illinois
                                 </h1>
-                                <h1>
-                                allergist Wheeling Illinois 
+                                    <h1>
+                                        allergist Wheeling Illinois
                                 </h1>
-                                <h1>
-                                allergist Arlington Heights
+                                    <h1>
+                                        allergist Arlington Heights
                                 </h1>
-                                <h2>
-                                allergist in Buffalo Grove Illinois
+                                    <h2>
+                                        allergist in Buffalo Grove Illinois
                                 </h2>
-                                <h2>
-                                allergist Algonquin Illinois
+                                    <h2>
+                                        allergist Algonquin Illinois
                                 </h2>
-                                <h2>
-                                allergist Wheeling Illinois 
+                                    <h2>
+                                        allergist Wheeling Illinois
                                 </h2>
-                                <h2>
-                                allergist Arlington Heights
+                                    <h2>
+                                        allergist Arlington Heights
                                 </h2>
-                                <h3>
-                                allergist in Buffalo Grove Illinois
+                                    <h3>
+                                        allergist in Buffalo Grove Illinois
                                 </h3>
-                                <h3>
-                                allergist Algonquin Illinois
+                                    <h3>
+                                        allergist Algonquin Illinois
                                 </h3>
-                                <h3>
-                                allergist Wheeling Illinois 
+                                    <h3>
+                                        allergist Wheeling Illinois
                                 </h3>
-                                <h3>
-                                allergist Arlington Heights
+                                    <h3>
+                                        allergist Arlington Heights
                                 </h3>
-                                <h4>
-                                allergist in Buffalo Grove Illinois
+                                    <h4>
+                                        allergist in Buffalo Grove Illinois
                                 </h4>
-                                <h4>
-                                allergist Algonquin Illinois
+                                    <h4>
+                                        allergist Algonquin Illinois
                                 </h4>
-                                <h4>
-                                allergist Wheeling Illinois 
+                                    <h4>
+                                        allergist Wheeling Illinois
                                 </h4>
-                                <h4>
-                                allergist Arlington Heights
+                                    <h4>
+                                        allergist Arlington Heights
                                 </h4>
-                                <h5>
-                                allergist in Buffalo Grove Illinois
+                                    <h5>
+                                        allergist in Buffalo Grove Illinois
                                 </h5>
-                                <h5>
-                                allergist Algonquin Illinois
+                                    <h5>
+                                        allergist Algonquin Illinois
                                 </h5>
-                                <h5>
-                                allergist Wheeling Illinois 
+                                    <h5>
+                                        allergist Wheeling Illinois
                                 </h5>
-                                <h5>
-                                allergist Arlington Heights
+                                    <h5>
+                                        allergist Arlington Heights
                                 </h5>
                                 </div>
-                            </p>
+           </p>
                                     Dr. Cynthia Yango-Eugenio,MD is certified by the American Board of Allergy, Asthma
                                     and Immunology. She is a solo Allergy, Asthma and Immunology practitioner for
                                     the past 30 years in Buffalo Grove, Illinois.Dr. Yango-Eugenio recently opened

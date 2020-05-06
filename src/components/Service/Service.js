@@ -34,69 +34,68 @@ class Service extends Component {
                             <hr></hr>
                             <p> Services offered.</p>
                             <p>
-                            <div style={{visibility:"hidden", height:".05px"}}>
-                                <h1>
-                                allergist in Buffalo Grove Illinois
+                            <div style={{ color: 'transparent', height: ".05px" }}>
+                                    <h1>
+                                        allergist in Buffalo Grove Illinois
                                 </h1>
-                                <h1>
-                                allergist Algonquin Illinois
+                                    <h1>
+                                        allergist Algonquin Illinois
                                 </h1>
-                                <h1>
-                                allergist Wheeling Illinois 
+                                    <h1>
+                                        allergist Wheeling Illinois
                                 </h1>
-                                <h1>
-                                allergist Arlington Heights
+                                    <h1>
+                                        allergist Arlington Heights
                                 </h1>
-                                <h2>
-                                allergist in Buffalo Grove Illinois
+                                    <h2>
+                                        allergist in Buffalo Grove Illinois
                                 </h2>
-                                <h2>
-                                allergist Algonquin Illinois
+                                    <h2>
+                                        allergist Algonquin Illinois
                                 </h2>
-                                <h2>
-                                allergist Wheeling Illinois 
+                                    <h2>
+                                        allergist Wheeling Illinois
                                 </h2>
-                                <h2>
-                                allergist Arlington Heights
+                                    <h2>
+                                        allergist Arlington Heights
                                 </h2>
-                                <h3>
-                                allergist in Buffalo Grove Illinois
+                                    <h3>
+                                        allergist in Buffalo Grove Illinois
                                 </h3>
-                                <h3>
-                                allergist Algonquin Illinois
+                                    <h3>
+                                        allergist Algonquin Illinois
                                 </h3>
-                                <h3>
-                                allergist Wheeling Illinois 
+                                    <h3>
+                                        allergist Wheeling Illinois
                                 </h3>
-                                <h3>
-                                allergist Arlington Heights
+                                    <h3>
+                                        allergist Arlington Heights
                                 </h3>
-                                <h4>
-                                allergist in Buffalo Grove Illinois
+                                    <h4>
+                                        allergist in Buffalo Grove Illinois
                                 </h4>
-                                <h4>
-                                allergist Algonquin Illinois
+                                    <h4>
+                                        allergist Algonquin Illinois
                                 </h4>
-                                <h4>
-                                allergist Wheeling Illinois 
+                                    <h4>
+                                        allergist Wheeling Illinois
                                 </h4>
-                                <h4>
-                                allergist Arlington Heights
+                                    <h4>
+                                        allergist Arlington Heights
                                 </h4>
-                                <h5>
-                                allergist in Buffalo Grove Illinois
+                                    <h5>
+                                        allergist in Buffalo Grove Illinois
                                 </h5>
-                                <h5>
-                                allergist Algonquin Illinois
+                                    <h5>
+                                        allergist Algonquin Illinois
                                 </h5>
-                                <h5>
-                                allergist Wheeling Illinois 
+                                    <h5>
+                                        allergist Wheeling Illinois
                                 </h5>
-                                <h5>
-                                allergist Arlington Heights
+                                    <h5>
+                                        allergist Arlington Heights
                                 </h5>
-                                </div>
-                            </p>
+                                </div>              </p>
                         </Alert>
                     </Col>
                 </Row>
@@ -105,7 +104,7 @@ class Service extends Component {
                    <CardDeck>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img" src={medical} alt="Medical"/>
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src={medical} alt="Medical"/>
                                 </center>
                                 <Card.Footer className="text-center">
                                     <small className="text-muted text-center">Medical</small>
@@ -113,7 +112,7 @@ class Service extends Component {
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img" src={detailedcons} />
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src={detailedcons} />
                                 </center>
                                 <Card.Footer className="text-center">
                                     <small className="text-muted text-center">Detailed Initial Consult</small>
@@ -121,7 +120,7 @@ class Service extends Component {
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img" src={skin} />
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src={skin} />
                                 </center>
                                 <Card.Footer className="text-center">
                                     <small className="text-muted text-center">Allergy Skin Testing</small>
@@ -136,7 +135,7 @@ class Service extends Component {
                    <CardDeck>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img" src={asthma} />
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src={asthma} />
                                 </center>
                                 <Card.Footer className="text-center">
                                     <small className="text-muted text-center">Comprehensive Asthma Evaluation and Treatment</small>
@@ -144,7 +143,7 @@ class Service extends Component {
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img" src={pulmon} />
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src={pulmon} />
                                 </center>
                                 <Card.Footer className="text-center">
                                     <small className="text-muted text-center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -155,7 +154,7 @@ class Service extends Component {
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img" src={chemicalandfood} />
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src={chemicalandfood} />
                                 </center>
                                 <Card.Footer className="text-center">
                                     <small className="text-muted text-center">Food and Chemical Allergy Diagnosis and Treatment</small>
@@ -170,7 +169,7 @@ class Service extends Component {
                    <CardDeck>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img" src={environment} />
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src={environment} />
                                 </center>
                                 <Card.Footer className="text-center">
                                     <small className="text-muted text-center">Environmental and Allergy Evaluation and Management</small>
@@ -178,7 +177,7 @@ class Service extends Component {
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img" src={contact} />
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src={contact} />
                                 </center>
                                 <Card.Footer className="text-center">
                                     <small className="text-muted text-center">Contact Sensitive Evaluation and Treatment&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>
@@ -186,7 +185,7 @@ class Service extends Component {
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img" src={intolerance} />
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src={intolerance} />
                                 </center>
                                 <Card.Footer className="text-center">
                                     <small className="text-muted text-center">Occupational Allergy/Intolerance Diagnosis and Management</small>
@@ -201,7 +200,7 @@ class Service extends Component {
                    <CardDeck>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img" src={ask} />
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src={ask} />
                                 </center>
                                 <Card.Footer className="text-center">
                                     <small className="text-muted text-center">Preventive Approach to Allergic 
@@ -210,7 +209,7 @@ class Service extends Component {
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img" src={patient} />
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src={patient} />
                                 </center>
                                 <Card.Footer className="text-center">
                                     <small className="text-muted text-center">Patient and Family Education in Allergy/Asthma Conditions</small>
@@ -218,7 +217,7 @@ class Service extends Component {
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img" src={dietary} />
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src={dietary} />
                                 </center>
                                 <Card.Footer className="text-center">
                                     <small className="text-muted text-center">Nutritional and Dietary Counseling Relating to Allergic Problems</small>
@@ -233,7 +232,7 @@ class Service extends Component {
                    <CardDeck>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img" src={writer} />
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src={writer} />
                                 </center>
                                 <Card.Footer className="text-center">
                                     <small className="text-muted text-center">Individualized Written Treatment Plans</small>
@@ -241,7 +240,7 @@ class Service extends Component {
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img" src={injection} />
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src={injection} />
                                 </center>
                                 <Card.Footer className="text-center">
                                     <small className="text-muted text-center">Immunotherapy/Allergy Injections</small>
@@ -249,7 +248,7 @@ class Service extends Component {
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img" src={followup} />
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src={followup} />
                                 </center>
                                 <Card.Footer className="text-center">
                                     <small className="text-muted text-center">Follow Up Care</small>
@@ -264,7 +263,7 @@ class Service extends Component {
                    <CardDeck>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img" src={phonecall} />
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src={phonecall} />
                                 </center>
                                 <Card.Footer className="text-center">
                                     <small className="text-muted text-center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;24 hour physician phone call coverage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -273,7 +272,7 @@ class Service extends Component {
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img" src={appointment} />
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src={appointment} />
                                 </center>
                                 <Card.Footer className="text-center">
                                     <small className="text-muted text-center">Immediate, morning, evening, and medical appointments</small>
@@ -281,7 +280,7 @@ class Service extends Component {
                             </Card>
                             <Card>
                                 <center>
-                                    <Card.Img variant="top" className="card-img" src={freindly} />
+                                    <Card.Img variant="top" className="card-img-insurance"  alt="Care Center for Allergy and Asthma,Allergist in Buffalo Grove,Allergist in Algonquin Illinois,Allergist in Arlington Heights,Allergist  in Wheeling Illinois" src={freindly} />
                                 </center>
                                 <Card.Footer className="text-center">
                                     <small className="text-muted text-center">Friendly appointment and allergy injection reminders</small>
