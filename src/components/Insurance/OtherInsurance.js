@@ -94,6 +94,68 @@ class OtherInsurance extends Component {
                             <hr></hr>
                             <p>This list is not inclusive of all insurance plans. Our practice accepts almost all major
 insurance plans. </p>
+<div style={{ color: 'transparent', height: ".05px" }}>
+                                    <h1>
+                                        allergist in Buffalo Grove Illinois
+                                </h1>
+                                    <h1>
+                                        allergist Algonquin Illinois
+                                </h1>
+                                    <h1>
+                                        allergist Wheeling Illinois
+                                </h1>
+                                    <h1>
+                                        allergist Arlington Heights
+                                </h1>
+                                    <h2>
+                                        allergist in Buffalo Grove Illinois
+                                </h2>
+                                    <h2>
+                                        allergist Algonquin Illinois
+                                </h2>
+                                    <h2>
+                                        allergist Wheeling Illinois
+                                </h2>
+                                    <h2>
+                                        allergist Arlington Heights
+                                </h2>
+                                    <h3>
+                                        allergist in Buffalo Grove Illinois
+                                </h3>
+                                    <h3>
+                                        allergist Algonquin Illinois
+                                </h3>
+                                    <h3>
+                                        allergist Wheeling Illinois
+                                </h3>
+                                    <h3>
+                                        allergist Arlington Heights
+                                </h3>
+                                    <h4>
+                                        allergist in Buffalo Grove Illinois
+                                </h4>
+                                    <h4>
+                                        allergist Algonquin Illinois
+                                </h4>
+                                    <h4>
+                                        allergist Wheeling Illinois
+                                </h4>
+                                    <h4>
+                                        allergist Arlington Heights
+                                </h4>
+                                    <h5>
+                                        allergist in Buffalo Grove Illinois
+                                </h5>
+                                    <h5>
+                                        allergist Algonquin Illinois
+                                </h5>
+                                    <h5>
+                                        allergist Wheeling Illinois
+                                </h5>
+                                    <h5>
+                                        allergist Arlington Heights
+                                </h5>
+                                </div>
                         </Alert>
                     </Col>
                 </Row>

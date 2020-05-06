@@ -12,14 +12,14 @@ import Insurance1 from './components/Insurance/Insurance1';
 import Forms from './components/Forms/Forms';
 import Staff from './components/Staff/Staff';
 import Footer from './components/Footer/Footer';
-import { Helmet } from "react-helmet";
+// import { Helmet } from "react-helmet";
 //import Map from './components/MapSample/Map';
 class App extends Component {
   render() {
     return (
       <Router>  
         <div>  
-            <Helmet
+            {/* <Helmet
                 encodeSpecialCharacters={true}
                 titleTemplate="http://carecenterforallergy.com/"
                >
@@ -205,7 +205,7 @@ class App extends Component {
                     Photosensitivity, 
                     Skin allergy due to Latex, pet dander,  Sunlight, Insects, Drugs " />
                
-            </Helmet>
+            </Helmet> */}
             <Header></Header>     
               <Route exact={true} path="/" component={Home}/>
               <Route path="/home" component={Home}/>

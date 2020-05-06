@@ -2,8 +2,8 @@
   "name": "carecenter",
   "version": "0.1.0",
   "private": true,
-  "homepage":".",
-  "proxy":"http://carecenterforallergy.com/",
+  "homepage": ".",
+  "proxy": "http://carecenterforallergy.com/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "emailjs-com": "^2.3.2",
@@ -15,7 +15,8 @@
     "react-router-dom": "^5.0.0",
     "react-router-sitemap": "^1.2.0",
     "react-scripts": "2.1.8",
-    "react-text-marquee": "^1.0.1"
+    "react-text-marquee": "^1.0.1",
+    "react-twitter-embed": "^3.0.3"
   },
   "scripts": {
     "predeploy": "npm run build",
