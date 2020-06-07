@@ -14,8 +14,8 @@ import A5 from '../../images/5.png';
 import skin from '../../images/skin.png';
 import announcement from '../../images/bullhorn.png';
 import { TwitterTimelineEmbed } from "react-twitter-embed";
+import Blink from 'react-blink-text';
 class Home extends Component {
-
 
     
     render() {
@@ -96,7 +96,7 @@ class Home extends Component {
                             <p>
                                 We provide high quality, compassionate, and competent care to all patients, aimed at awareness, prevention and management of allergic, asthmatic and immunologic diseases for all ages. Check them out below!
                             </p>
-                            <p>
+                   
                                 <div style={{ color: 'transparent', height: ".05px" }}>
                                     <h1>
                                         allergist in Buffalo Grove Illinois
@@ -159,12 +159,25 @@ class Home extends Component {
                                         allergist Arlington Heights
                                 </h5>
                                 </div>
-                            </p>
+                          
                         </Alert>
                     </Col>
 
                 </Row>
-              
+                <Row className="justify-content-md-center hidden" hidden={this.isClose}>
+                    <Col md={12}>
+                        <Alert variant={"primary"} className={"text-center remove-border"} >
+                            <hr></hr>
+                            <h5>
+                                <Blink color='#e83e8c' text='We are now accepting Telemedicine! Book your appointment now!' fontSize='20'>
+                                     We are now accepting Telemedicine! Book your appointment now!
+                                </Blink>                                 
+                            </h5>
+                            <hr></hr>
+                        </Alert>
+                    </Col>
+
+                </Row>
                 <Row className="justify-content-md-center" >
                     <Col md={7}>
                         <CardDeck>
